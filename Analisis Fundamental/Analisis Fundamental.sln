@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7698C37D-209B-4943-A587-508347B73845}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{BFA8D2EC-841C-48C0-999F-F5429F0763A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{7BF6C801-ED8C-4F16-A49F-EB630EB573E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF", "WPF\WPF.csproj", "{7082948F-BA08-4487-B2FB-533B1A03F989}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmFramework", "..\MvvmFramework\MvvmFramework\MvvmFramework.csproj", "{40E053D8-5893-4B12-98D7-2D93EF37B9C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimulateMouseKeyboard", "..\SimulateMouseKeyboard\SimulateMouseKeyboard.csproj", "{DE50272D-A8E7-4280-B088-0676B12E87BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockFromYahoo", "..\StockFromYahoo\StockFromYahoo.csproj", "{C9810BE8-CBD1-4765-91B5-88614C61CC2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7698C37D-209B-4943-A587-508347B73845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7698C37D-209B-4943-A587-508347B73845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7698C37D-209B-4943-A587-508347B73845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7698C37D-209B-4943-A587-508347B73845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA8D2EC-841C-48C0-999F-F5429F0763A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA8D2EC-841C-48C0-999F-F5429F0763A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA8D2EC-841C-48C0-999F-F5429F0763A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA8D2EC-841C-48C0-999F-F5429F0763A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF6C801-ED8C-4F16-A49F-EB630EB573E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF6C801-ED8C-4F16-A49F-EB630EB573E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF6C801-ED8C-4F16-A49F-EB630EB573E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF6C801-ED8C-4F16-A49F-EB630EB573E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7082948F-BA08-4487-B2FB-533B1A03F989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7082948F-BA08-4487-B2FB-533B1A03F989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7082948F-BA08-4487-B2FB-533B1A03F989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7082948F-BA08-4487-B2FB-533B1A03F989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E053D8-5893-4B12-98D7-2D93EF37B9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E053D8-5893-4B12-98D7-2D93EF37B9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E053D8-5893-4B12-98D7-2D93EF37B9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E053D8-5893-4B12-98D7-2D93EF37B9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE50272D-A8E7-4280-B088-0676B12E87BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE50272D-A8E7-4280-B088-0676B12E87BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE50272D-A8E7-4280-B088-0676B12E87BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE50272D-A8E7-4280-B088-0676B12E87BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9810BE8-CBD1-4765-91B5-88614C61CC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9810BE8-CBD1-4765-91B5-88614C61CC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9810BE8-CBD1-4765-91B5-88614C61CC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9810BE8-CBD1-4765-91B5-88614C61CC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D566ED76-DD20-467A-9765-29E8B81DFE36}
+	EndGlobalSection
+EndGlobal

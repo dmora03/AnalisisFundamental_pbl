@@ -1,0 +1,15 @@
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\bin\Release\net5.0-windows\Models.deps.json
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\bin\Release\net5.0-windows\Models.dll
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\bin\Release\net5.0-windows\ref\Models.dll
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\bin\Release\net5.0-windows\Models.pdb
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\bin\Release\net5.0-windows\MvvmFramework.dll
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\bin\Release\net5.0-windows\MvvmFramework.pdb
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.csproj.AssemblyReference.cache
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.AssemblyInfoInputs.cache
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.AssemblyInfo.cs
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.csproj.CoreCompileInputs.cache
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.csproj.CopyComplete
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.dll
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\ref\Models.dll
+C:\Users\uid86857\source\repos\Analisis Fundamental\Models\obj\Release\net5.0-windows\Models.pdb
