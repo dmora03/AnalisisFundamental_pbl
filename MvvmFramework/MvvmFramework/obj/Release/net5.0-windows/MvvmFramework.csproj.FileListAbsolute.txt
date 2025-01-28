@@ -1,0 +1,12 @@
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\bin\Release\net5.0-windows\MvvmFramework.deps.json
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\bin\Release\net5.0-windows\MvvmFramework.dll
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\bin\Release\net5.0-windows\ref\MvvmFramework.dll
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\bin\Release\net5.0-windows\MvvmFramework.pdb
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.csproj.AssemblyReference.cache
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.AssemblyInfoInputs.cache
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.AssemblyInfo.cs
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.csproj.CoreCompileInputs.cache
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.dll
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\ref\MvvmFramework.dll
+C:\Users\uid86857\source\repos\MvvmFramework\MvvmFramework\obj\Release\net5.0-windows\MvvmFramework.pdb
