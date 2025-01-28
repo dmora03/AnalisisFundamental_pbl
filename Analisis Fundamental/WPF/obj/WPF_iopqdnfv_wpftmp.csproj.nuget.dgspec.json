@@ -1,0 +1,381 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\WPF\\WPF.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\MvvmFramework\\MvvmFramework\\MvvmFramework.csproj": {
+                "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\MvvmFramework\\MvvmFramework\\MvvmFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\WPF\\WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\WPF\\WPF.csproj",
+        "projectName": "WPF",
+        "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\WPF\\WPF.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\Analisis Fundamental\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\SimulateMouseKeyboard\\SimulateMouseKeyboard.csproj": {
+                "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\SimulateMouseKeyboard\\SimulateMouseKeyboard.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Castle.Windsor": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.39, )"
+            },
+            "WpfAnimatedGif": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\MvvmFramework\\MvvmFramework\\MvvmFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\MvvmFramework\\MvvmFramework\\MvvmFramework.csproj",
+        "projectName": "MvvmFramework",
+        "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\MvvmFramework\\MvvmFramework\\MvvmFramework.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\MvvmFramework\\MvvmFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\SimulateMouseKeyboard\\SimulateMouseKeyboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\SimulateMouseKeyboard\\SimulateMouseKeyboard.csproj",
+        "projectName": "SimulateMouseKeyboard",
+        "projectPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\SimulateMouseKeyboard\\SimulateMouseKeyboard.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Dropbox\\Inversiones\\Programa\\SimulateMouseKeyboard\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
