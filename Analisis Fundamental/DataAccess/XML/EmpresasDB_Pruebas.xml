@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Empresas>
+	<Empresa ID="AMZN" Nombre="Amazon" Moneda="USD">
+		<Comentarios>Esta empresa se dedica al comercio electronico y bases de datos en la nube</Comentarios>
+		<Referencias>
+			<Referencia ID="Ref1">
+				<NumeroDeUnidades>1RefUnidades</NumeroDeUnidades>
+				<Ingresos>1RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>0</CostoDeVentasAutocalculado>
+				<UtilidadBruta>1Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>1</GastosOperativosAutocalculado>
+				<UtilidadOperativa>1Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>1</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>1Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>1Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>1Ref Efectivo</Efectivo>
+				<Deuda>1Ref Deuda</Deuda>
+				<ActivosCirculantes>1Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>1Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>1Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>1Ref Pasiv Totales</PasivosTotales>
+				<Capital>1Ref Capital</Capital>
+				<FlujoDeOperaciones>1Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>1Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>1Ref Dividendo</Dividendo>
+			</Referencia>
+			<Referencia ID="Ref2">
+				<NumeroDeUnidades>2RefUnidades</NumeroDeUnidades>
+				<Ingresos>2RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>1</CostoDeVentasAutocalculado>
+				<UtilidadBruta>2Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>0</GastosOperativosAutocalculado>
+				<UtilidadOperativa>2Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>0</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>2Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>2Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>2Ref Efectivo</Efectivo>
+				<Deuda>2Ref Deuda</Deuda>
+				<ActivosCirculantes>2Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>2Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>2Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>2Ref Pasiv Totales</PasivosTotales>
+				<Capital>2Ref Capital</Capital>
+				<FlujoDeOperaciones>2Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>2Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>2Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>2Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>2Ref Dividendo</Dividendo>
+			</Referencia>
+			<Referencia ID="Ref3">
+				<NumeroDeUnidades>3RefUnidades</NumeroDeUnidades>
+				<Ingresos>3RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>0</CostoDeVentasAutocalculado>
+				<UtilidadBruta>3Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>0</GastosOperativosAutocalculado>
+				<UtilidadOperativa>3Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>0</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>3Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>3Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>3Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>3Ref Efectivo</Efectivo>
+				<Deuda>3Ref Deuda</Deuda>
+				<ActivosCirculantes>3Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>3Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>3Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>3Ref Pasiv Totales</PasivosTotales>
+				<Capital>3Ref Capital</Capital>
+				<FlujoDeOperaciones>3Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>3Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>3Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>3Ref Dividendo</Dividendo>
+			</Referencia>
+		</Referencias>
+		<Reportes>
+			<Reporte ID="2020_1" TrimestreNatural="1" TrimestreReporte="3" Dia="5" Mes="3" Ano="2020">
+				<NumeroDeUnidades Ref="1RefUnidades">10001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10002</NumeroDeUnidadesAA>
+				<Ingresos Ref="1RefIngreso">10003</Ingresos>
+				<IngresosAA>10004</IngresosAA>
+				<UtilidadBruta Ref="1Ref UBruta" Directo="1">10005</UtilidadBruta>
+				<UtilidadOperativa Ref="1Ref UOperativa" Directo="0">10006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="1Ref Impuesto" Directo="0">10007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="1Ref Utilidad Neta">10008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="1Ref Utilidad Accionistas">10009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>10010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="1Ref Efectivo">10011</Efectivo>
+				<Deuda Ref="1Ref Deuda">10012</Deuda>
+				<ActivosCirculantes Ref="1Ref Activ Circ">10013</ActivosCirculantes>
+				<PasivosCirculantes Ref="1Ref Pasiv Circ">10014</PasivosCirculantes>
+				<ActivosTotales Ref="1Ref Activ Totales">10015</ActivosTotales>
+				<PasivosTotales Ref="1Ref Pasiv Totales">10016</PasivosTotales>
+				<Capital Ref="1Ref Capital">10017</Capital>
+				<CapitalAA>10018</CapitalAA>
+				<FlujoDeOperaciones Ref="1Ref F. de Operaciones">10019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="1Ref F. de Inversiones">10020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="1Ref F. de Financiamiento">10021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="1Ref Efectivo Inicial">10022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="1Ref Efectivo Final">10023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="1Ref Acc en Circulación">10024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="1Ref PrecioAcc">10025</PrecioPorAccion>
+				<Dividendo Ref="1Ref Dividendo">10026</Dividendo>
+			</Reporte>
+			<Reporte ID="2020_2" TrimestreNatural="2" TrimestreReporte="4" Dia="5" Mes="6" Ano="2020">
+				<NumeroDeUnidades Ref="2RefUnidades">20001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>20002</NumeroDeUnidadesAA>
+				<Ingresos Ref="2RefIngreso">20003</Ingresos>
+				<IngresosAA>20004</IngresosAA>
+				<UtilidadBruta Ref="2Ref UBruta" Directo="1">20005</UtilidadBruta>
+				<UtilidadOperativa Ref="2Ref UOperativa" Directo="0">20006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="2Ref Impuesto" Directo="0">20007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="2Ref Utilidad Neta">20008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="2Ref Utilidad Accionistas">20009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>20010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="2Ref Efectivo">20011</Efectivo>
+				<Deuda Ref="2Ref Deuda">20012</Deuda>
+				<ActivosCirculantes Ref="2Ref Activ Circ">20013</ActivosCirculantes>
+				<PasivosCirculantes Ref="2Ref Pasiv Circ">20014</PasivosCirculantes>
+				<ActivosTotales Ref="2Ref Activ Totales">20015</ActivosTotales>
+				<PasivosTotales Ref="2Ref Pasiv Totales">20016</PasivosTotales>
+				<Capital Ref="2Ref Capital">20017</Capital>
+				<CapitalAA>20018</CapitalAA>
+				<FlujoDeOperaciones Ref="2Ref F. de Operaciones">20019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="2Ref F. de Inversiones">20020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="2Ref F. de Financiamiento">20021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="2Ref Efectivo Inicial">20022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="2Ref Efectivo Final">20023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="2Ref Acc en Circulación">20024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="2Ref PrecioAcc">20025</PrecioPorAccion>
+				<Dividendo Ref="2Ref Dividendo">20026</Dividendo>
+			</Reporte>
+			<Reporte ID="2020_3" TrimestreNatural="3" TrimestreReporte="1" Dia="5" Mes="9" Ano="2020">
+				<NumeroDeUnidades Ref="3RefUnidades">30001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>30002</NumeroDeUnidadesAA>
+				<Ingresos Ref="3RefIngreso">30003</Ingresos>
+				<IngresosAA>30004</IngresosAA>
+				<UtilidadBruta Ref="3Ref UBruta" Directo="1">30005</UtilidadBruta>
+				<UtilidadOperativa Ref="3Ref UOperativa" Directo="0">30006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="3Ref Impuesto" Directo="0">30007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="3Ref Utilidad Neta">30008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="3Ref Utilidad Accionistas">30009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>30010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="3Ref Efectivo">30011</Efectivo>
+				<Deuda Ref="3Ref Deuda">30012</Deuda>
+				<ActivosCirculantes Ref="3Ref Activ Circ">30013</ActivosCirculantes>
+				<PasivosCirculantes Ref="3Ref Pasiv Circ">30014</PasivosCirculantes>
+				<ActivosTotales Ref="3Ref Activ Totales">30015</ActivosTotales>
+				<PasivosTotales Ref="3Ref Pasiv Totales">30016</PasivosTotales>
+				<Capital Ref="3Ref Capital">30017</Capital>
+				<CapitalAA>30018</CapitalAA>
+				<FlujoDeOperaciones Ref="3Ref F. de Operaciones">30019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="3Ref F. de Inversiones">30020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="3Ref F. de Financiamiento">30021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="3Ref Efectivo Inicial">30022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="3Ref Efectivo Final">30023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="3Ref Acc en Circulación">30024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="3Ref PrecioAcc">30025</PrecioPorAccion>
+				<Dividendo Ref="3Ref Dividendo">30026</Dividendo>
+			</Reporte>
+			<Reporte ID="2020_4" TrimestreNatural="4" TrimestreReporte="2" Dia="5" Mes="12" Ano="2020">
+				<NumeroDeUnidades Ref="4RefUnidades">40001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>40002</NumeroDeUnidadesAA>
+				<Ingresos Ref="4RefIngreso">40003</Ingresos>
+				<IngresosAA>40004</IngresosAA>
+				<UtilidadBruta Ref="4Ref UBruta" Directo="1">40005</UtilidadBruta>
+				<UtilidadOperativa Ref="4Ref UOperativa" Directo="0">40006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="4Ref Impuesto" Directo="0">40007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="4Ref Utilidad Neta">40008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="4Ref Utilidad Accionistas">40009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>40010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="4Ref Efectivo">40011</Efectivo>
+				<Deuda Ref="4Ref Deuda">40012</Deuda>
+				<ActivosCirculantes Ref="4Ref Activ Circ">40013</ActivosCirculantes>
+				<PasivosCirculantes Ref="4Ref Pasiv Circ">40014</PasivosCirculantes>
+				<ActivosTotales Ref="4Ref Activ Totales">40015</ActivosTotales>
+				<PasivosTotales Ref="4Ref Pasiv Totales">40016</PasivosTotales>
+				<Capital Ref="4Ref Capital">40017</Capital>
+				<CapitalAA>40018</CapitalAA>
+				<FlujoDeOperaciones Ref="4Ref F. de Operaciones">40019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="4Ref F. de Inversiones">40020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="4Ref F. de Financiamiento">40021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="4Ref Efectivo Inicial">40022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="4Ref Efectivo Final">40023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="4Ref Acc en Circulación">40024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="4Ref PrecioAcc">40025</PrecioPorAccion>
+				<Dividendo Ref="4Ref Dividendo">40026</Dividendo>
+			</Reporte>
+			<Reporte ID="2021_1" TrimestreNatural="1" TrimestreReporte="3" Dia="5" Mes="3" Ano="2021">
+				<NumeroDeUnidades Ref="5RefUnidades">50001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>50002</NumeroDeUnidadesAA>
+				<Ingresos Ref="5RefIngreso">50003</Ingresos>
+				<IngresosAA>50004</IngresosAA>
+				<UtilidadBruta Ref="5Ref UBruta" Directo="1">50005</UtilidadBruta>
+				<UtilidadOperativa Ref="5Ref UOperativa" Directo="0">50006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="5Ref Impuesto" Directo="0">50007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="5Ref Utilidad Neta">50008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="5Ref Utilidad Accionistas">50009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>50010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="5Ref Efectivo">50011</Efectivo>
+				<Deuda Ref="5Ref Deuda">50012</Deuda>
+				<ActivosCirculantes Ref="5Ref Activ Circ">50013</ActivosCirculantes>
+				<PasivosCirculantes Ref="5Ref Pasiv Circ">50014</PasivosCirculantes>
+				<ActivosTotales Ref="5Ref Activ Totales">50015</ActivosTotales>
+				<PasivosTotales Ref="5Ref Pasiv Totales">50016</PasivosTotales>
+				<Capital Ref="5Ref Capital">50017</Capital>
+				<CapitalAA>50018</CapitalAA>
+				<FlujoDeOperaciones Ref="5Ref F. de Operaciones">50019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="5Ref F. de Inversiones">50020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="5Ref F. de Financiamiento">50021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="5Ref Efectivo Inicial">50022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="5Ref Efectivo Final">50023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="5Ref Acc en Circulación">50024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="5Ref PrecioAcc">50025</PrecioPorAccion>
+				<Dividendo Ref="5Ref Dividendo">50026</Dividendo>
+			</Reporte>
+			<Reporte ID="2021_4" TrimestreNatural="4" TrimestreReporte="2" Dia="5" Mes="12" Ano="2021">
+				<NumeroDeUnidades Ref="4RefUnidades">40001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>40002</NumeroDeUnidadesAA>
+				<Ingresos Ref="4RefIngreso">40003</Ingresos>
+				<IngresosAA>40004</IngresosAA>
+				<UtilidadBruta Ref="4Ref UBruta" Directo="1">40005</UtilidadBruta>
+				<UtilidadOperativa Ref="4Ref UOperativa" Directo="0">40006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="4Ref Impuesto" Directo="0">40007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="4Ref Utilidad Neta">40008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="4Ref Utilidad Accionistas">40009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>40010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="4Ref Efectivo">40011</Efectivo>
+				<Deuda Ref="4Ref Deuda">40012</Deuda>
+				<ActivosCirculantes Ref="4Ref Activ Circ">40013</ActivosCirculantes>
+				<PasivosCirculantes Ref="4Ref Pasiv Circ">40014</PasivosCirculantes>
+				<ActivosTotales Ref="4Ref Activ Totales">40015</ActivosTotales>
+				<PasivosTotales Ref="4Ref Pasiv Totales">40016</PasivosTotales>
+				<Capital Ref="4Ref Capital">40017</Capital>
+				<CapitalAA>40018</CapitalAA>
+				<FlujoDeOperaciones Ref="4Ref F. de Operaciones">40019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="4Ref F. de Inversiones">40020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="4Ref F. de Financiamiento">40021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="4Ref Efectivo Inicial">40022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="4Ref Efectivo Final">40023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="4Ref Acc en Circulación">40024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="4Ref PrecioAcc">40025</PrecioPorAccion>
+				<Dividendo Ref="4Ref Dividendo">40026</Dividendo>
+			</Reporte>
+		</Reportes>
+	</Empresa>
+	<Empresa ID="AAPL" Nombre="Appl" Moneda="USD">
+		<Comentarios>Esta empresa se dedica a vender elementos electronicos</Comentarios>
+		<Referencias>
+			<Referencia ID="PrimerTrimestre">
+				<NumeroDeUnidades>1RefUnidades</NumeroDeUnidades>
+				<Ingresos>1RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>0</CostoDeVentasAutocalculado>
+				<UtilidadBruta>1Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>1</GastosOperativosAutocalculado>
+				<UtilidadOperativa>1Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>1</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>1Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>1Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>1Ref Efectivo</Efectivo>
+				<Deuda>1Ref Deuda</Deuda>
+				<ActivosCirculantes>1Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>1Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>1Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>1Ref Pasiv Totales</PasivosTotales>
+				<Capital>1Ref Capital</Capital>
+				<FlujoDeOperaciones>1Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>1Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>1Ref Dividendo</Dividendo>
+			</Referencia>
+			<Referencia ID="PrimerTrimestre">
+				<NumeroDeUnidades>2RefUnidades</NumeroDeUnidades>
+				<Ingresos>2RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>0</CostoDeVentasAutocalculado>
+				<UtilidadBruta>2Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>1</GastosOperativosAutocalculado>
+				<UtilidadOperativa>2Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>1</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>2Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>2Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>2Ref Efectivo</Efectivo>
+				<Deuda>2Ref Deuda</Deuda>
+				<ActivosCirculantes>2Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>2Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>2Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>2Ref Pasiv Totales</PasivosTotales>
+				<Capital>2Ref Capital</Capital>
+				<FlujoDeOperaciones>2Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>2Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>2Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>2Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>2Ref Dividendo</Dividendo>
+			</Referencia>
+			<Referencia ID="PrimerTrimestre">
+				<NumeroDeUnidades>3RefUnidades</NumeroDeUnidades>
+				<Ingresos>3RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>0</CostoDeVentasAutocalculado>
+				<UtilidadBruta>3Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>1</GastosOperativosAutocalculado>
+				<UtilidadOperativa>3Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>1</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>3Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>3Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>3Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>3Ref Efectivo</Efectivo>
+				<Deuda>3Ref Deuda</Deuda>
+				<ActivosCirculantes>3Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>3Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>3Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>3Ref Pasiv Totales</PasivosTotales>
+				<Capital>3Ref Capital</Capital>
+				<FlujoDeOperaciones>3Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>3Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>3Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>3Ref Dividendo</Dividendo>
+			</Referencia>
+		</Referencias>
+		<Reportes>
+			<Reporte ID="2020_1" TrimestreNatural="1" TrimestreReporte="3" Dia="5" Mes="3" Ano="2020">
+				<NumeroDeUnidades Ref="1RefUnidades">10001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10002</NumeroDeUnidadesAA>
+				<Ingresos Ref="1RefIngreso">10003</Ingresos>
+				<IngresosAA>10004</IngresosAA>
+				<UtilidadBruta Ref="1Ref UBruta" Directo="1">10005</UtilidadBruta>
+				<UtilidadOperativa Ref="1Ref UOperativa" Directo="0">10006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="1Ref Impuesto" Directo="0">10007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="1Ref Utilidad Neta">10008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="1Ref Utilidad Accionistas">10009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>10010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="1Ref Efectivo">10011</Efectivo>
+				<Deuda Ref="1Ref Deuda">10012</Deuda>
+				<ActivosCirculantes Ref="1Ref Activ Circ">10013</ActivosCirculantes>
+				<PasivosCirculantes Ref="1Ref Pasiv Circ">10014</PasivosCirculantes>
+				<ActivosTotales Ref="1Ref Activ Totales">10015</ActivosTotales>
+				<PasivosTotales Ref="1Ref Pasiv Totales">10016</PasivosTotales>
+				<Capital Ref="1Ref Capital">10017</Capital>
+				<CapitalAA>10018</CapitalAA>
+				<FlujoDeOperaciones Ref="1Ref F. de Operaciones">10019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="1Ref F. de Inversiones">10020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="1Ref F. de Financiamiento">10021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="1Ref Efectivo Inicial">10022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="1Ref Efectivo Final">10023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="1Ref Acc en Circulación">10024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="1Ref PrecioAcc">10025</PrecioPorAccion>
+				<Dividendo Ref="1Ref Dividendo">10026</Dividendo>
+			</Reporte>
+			<Reporte ID="2020_2" TrimestreNatural="2" TrimestreReporte="4" Dia="5" Mes="6" Ano="2020">
+				<NumeroDeUnidades Ref="2RefUnidades">20001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>20002</NumeroDeUnidadesAA>
+				<Ingresos Ref="2RefIngreso">20003</Ingresos>
+				<IngresosAA>20004</IngresosAA>
+				<UtilidadBruta Ref="2Ref UBruta" Directo="1">20005</UtilidadBruta>
+				<UtilidadOperativa Ref="2Ref UOperativa" Directo="0">20006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="2Ref Impuesto" Directo="0">20007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="2Ref Utilidad Neta">20008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="2Ref Utilidad Accionistas">20009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>20010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="2Ref Efectivo">20011</Efectivo>
+				<Deuda Ref="2Ref Deuda">20012</Deuda>
+				<ActivosCirculantes Ref="2Ref Activ Circ">20013</ActivosCirculantes>
+				<PasivosCirculantes Ref="2Ref Pasiv Circ">20014</PasivosCirculantes>
+				<ActivosTotales Ref="2Ref Activ Totales">20015</ActivosTotales>
+				<PasivosTotales Ref="2Ref Pasiv Totales">20016</PasivosTotales>
+				<Capital Ref="2Ref Capital">20017</Capital>
+				<CapitalAA>20018</CapitalAA>
+				<FlujoDeOperaciones Ref="2Ref F. de Operaciones">20019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="2Ref F. de Inversiones">20020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="2Ref F. de Financiamiento">20021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="2Ref Efectivo Inicial">20022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="2Ref Efectivo Final">20023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="2Ref Acc en Circulación">20024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="2Ref PrecioAcc">20025</PrecioPorAccion>
+				<Dividendo Ref="2Ref Dividendo">20026</Dividendo>
+			</Reporte>
+			<Reporte ID="2020_3" TrimestreNatural="3" TrimestreReporte="1" Dia="5" Mes="9" Ano="2020">
+				<NumeroDeUnidades Ref="3RefUnidades">30001</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>30002</NumeroDeUnidadesAA>
+				<Ingresos Ref="3RefIngreso">30003</Ingresos>
+				<IngresosAA>30004</IngresosAA>
+				<UtilidadBruta Ref="3Ref UBruta" Directo="1">30005</UtilidadBruta>
+				<UtilidadOperativa Ref="3Ref UOperativa" Directo="0">30006</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="3Ref Impuesto" Directo="0">30007</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="3Ref Utilidad Neta">30008</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="3Ref Utilidad Accionistas">30009</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>30010</UtilidadParaAccionistasAA>
+				<Efectivo Ref="3Ref Efectivo">30011</Efectivo>
+				<Deuda Ref="3Ref Deuda">30012</Deuda>
+				<ActivosCirculantes Ref="3Ref Activ Circ">30013</ActivosCirculantes>
+				<PasivosCirculantes Ref="3Ref Pasiv Circ">30014</PasivosCirculantes>
+				<ActivosTotales Ref="3Ref Activ Totales">30015</ActivosTotales>
+				<PasivosTotales Ref="3Ref Pasiv Totales">30016</PasivosTotales>
+				<Capital Ref="3Ref Capital">30017</Capital>
+				<CapitalAA>30018</CapitalAA>
+				<FlujoDeOperaciones Ref="3Ref F. de Operaciones">30019</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="3Ref F. de Inversiones">30020</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="3Ref F. de Financiamiento">30021</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="3Ref Efectivo Inicial">30022</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="3Ref Efectivo Final">30023</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="3Ref Acc en Circulación">30024</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="3Ref PrecioAcc">30025</PrecioPorAccion>
+				<Dividendo Ref="3Ref Dividendo">30026</Dividendo>
+			</Reporte>
+			<Reporte TrimestreNatural="4" TrimestreReporte="2" ID="2020_4" Dia="31" Mes="12" Ano="2020">
+				<NumeroDeUnidades Ref="1">1</NumeroDeUnidades>
+				<NumeroDeUnidadesAA Ref="">1</NumeroDeUnidadesAA>
+				<Ingresos Ref="1">1</Ingresos>
+				<IngresosAA Ref="">1</IngresosAA>
+				<UtilidadBruta Ref="1" Directo="true">1</UtilidadBruta>
+				<UtilidadOperativa Ref="1" Directo="false">1</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="1" Directo="false">1</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="1">1</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="1">1</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA Ref="">1</UtilidadParaAccionistasAA>
+				<Efectivo Ref="1">1</Efectivo>
+				<Deuda Ref="1">1</Deuda>
+				<ActivosCirculantes Ref="1">1</ActivosCirculantes>
+				<PasivosCirculantes Ref="1">1</PasivosCirculantes>
+				<ActivosTotales Ref="1">1</ActivosTotales>
+				<PasivosTotales Ref="1">1</PasivosTotales>
+				<Capital Ref="4Ref Capital">1</Capital>
+				<CapitalAA Ref="">1</CapitalAA>
+				<EfectivoAlInicioDelAno Ref="1">1</EfectivoAlInicioDelAno>
+				<FlujoDeOperaciones Ref="1">1</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="1">1</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="1">1</FlujoDeFinanciamiento>
+				<EfectivoAlFinalDelAno Ref="1">1</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="1">1</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="1">1</PrecioPorAccion>
+				<Dividendo Ref="1">1</Dividendo>
+			</Reporte>
+			<Reporte TrimestreNatural="1" TrimestreReporte="2" ID="2021_1" Dia="22" Mes="1" Ano="2021">
+				<NumeroDeUnidades Ref="1">1</NumeroDeUnidades>
+				<NumeroDeUnidadesAA Ref="">1</NumeroDeUnidadesAA>
+				<Ingresos Ref="1">1</Ingresos>
+				<IngresosAA Ref="">1</IngresosAA>
+				<UtilidadBruta Ref="1" Directo="true">1</UtilidadBruta>
+				<UtilidadOperativa Ref="1" Directo="false">1</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="1" Directo="false">1</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="1">1</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="1">1</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA Ref="">1</UtilidadParaAccionistasAA>
+				<Efectivo Ref="1">1</Efectivo>
+				<Deuda Ref="1">1</Deuda>
+				<ActivosCirculantes Ref="1">1</ActivosCirculantes>
+				<PasivosCirculantes Ref="1">1</PasivosCirculantes>
+				<ActivosTotales Ref="1">1</ActivosTotales>
+				<PasivosTotales Ref="1">1</PasivosTotales>
+				<Capital Ref="4Ref Capital">1</Capital>
+				<CapitalAA Ref="">1</CapitalAA>
+				<EfectivoAlInicioDelAno Ref="1">1</EfectivoAlInicioDelAno>
+				<FlujoDeOperaciones Ref="1">1</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="1">1</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="1">1</FlujoDeFinanciamiento>
+				<EfectivoAlFinalDelAno Ref="1">1</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="1">1</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="1">1</PrecioPorAccion>
+				<Dividendo Ref="1">1</Dividendo>
+			</Reporte>
+			<Reporte TrimestreNatural="2" TrimestreReporte="2" ID="2021_2" Dia="1" Mes="4" Ano="2021">
+				<NumeroDeUnidades Ref="1">1</NumeroDeUnidades>
+				<NumeroDeUnidadesAA Ref="">1</NumeroDeUnidadesAA>
+				<Ingresos Ref="1">1</Ingresos>
+				<IngresosAA Ref="">1</IngresosAA>
+				<UtilidadBruta Ref="1" Directo="true">1</UtilidadBruta>
+				<UtilidadOperativa Ref="1" Directo="false">1</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="1" Directo="false">1</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="1">1</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="1">1</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA Ref="">1</UtilidadParaAccionistasAA>
+				<Efectivo Ref="1">1</Efectivo>
+				<Deuda Ref="1">1</Deuda>
+				<ActivosCirculantes Ref="1">1</ActivosCirculantes>
+				<PasivosCirculantes Ref="1">1</PasivosCirculantes>
+				<ActivosTotales Ref="1">1</ActivosTotales>
+				<PasivosTotales Ref="1">1</PasivosTotales>
+				<Capital Ref="4Ref Capital">1</Capital>
+				<CapitalAA Ref="">1</CapitalAA>
+				<EfectivoAlInicioDelAno Ref="1">1</EfectivoAlInicioDelAno>
+				<FlujoDeOperaciones Ref="1">1</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="1">1</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="1">1</FlujoDeFinanciamiento>
+				<EfectivoAlFinalDelAno Ref="1">1</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="1">1</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="1">1</PrecioPorAccion>
+				<Dividendo Ref="1">1</Dividendo>
+			</Reporte>
+			<Reporte TrimestreNatural="3" TrimestreReporte="1" ID="2021_3" Dia="21" Mes="9" Ano="2021">
+				<NumeroDeUnidades Ref="1">0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA Ref="">1</NumeroDeUnidadesAA>
+				<Ingresos Ref="1">0</Ingresos>
+				<IngresosAA Ref="">0</IngresosAA>
+				<UtilidadBruta Ref="1" Directo="true">0</UtilidadBruta>
+				<UtilidadOperativa Ref="1" Directo="false">0</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="1" Directo="false">0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="1">0</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="1">0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA Ref="">1</UtilidadParaAccionistasAA>
+				<Efectivo Ref="1">0</Efectivo>
+				<Deuda Ref="1">0</Deuda>
+				<ActivosCirculantes Ref="1">0</ActivosCirculantes>
+				<PasivosCirculantes Ref="1">0</PasivosCirculantes>
+				<ActivosTotales Ref="1">0</ActivosTotales>
+				<PasivosTotales Ref="1">0</PasivosTotales>
+				<Capital Ref="4Ref Capital">0</Capital>
+				<CapitalAA Ref="">1</CapitalAA>
+				<EfectivoAlInicioDelAno Ref="1">0</EfectivoAlInicioDelAno>
+				<FlujoDeOperaciones Ref="1">0</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="1">0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="1">0</FlujoDeFinanciamiento>
+				<EfectivoAlFinalDelAno Ref="1">0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion Ref="1">0</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="1">0</PrecioPorAccion>
+				<Dividendo Ref="1">0</Dividendo>
+			</Reporte>
+		</Reportes>
+	</Empresa>
+	<Empresa ID="SinResultados" Nombre="Beyond Meat" Moneda="USD">
+		<Comentarios>Esta empresa se dedica a vender comida vegana</Comentarios>
+	</Empresa>
+	<Empresa ID="Vacio" Nombre="" Moneda=""></Empresa>
+</Empresas>

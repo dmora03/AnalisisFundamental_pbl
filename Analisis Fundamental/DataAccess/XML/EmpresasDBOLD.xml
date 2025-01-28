@@ -1,0 +1,3304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Empresas>
+	<Empresa ID="DIS" YahooID="DIS" Nombre="The Walt Disney Company" Moneda="USD">
+		<Comentarios></Comentarios>
+		<Reportes>
+			<Reporte ID="2020_4" TrimestreReporte="1" TrimestreNatural="4" Dia="31" Mes="12" Ano="2020">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>16249000000</Ingresos>
+				<IngresosAA>20877000000</IngresosAA>
+				<UtilidadBruta>4474000000</UtilidadBruta>
+				<UtilidadOperativa>259000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>46000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>18000000</UtilidadNeta>
+				<UtilidadParaAccionistas>17000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>2107000000</UtilidadParaAccionistasAA>
+				<Efectivo>17068000000</Efectivo>
+				<Deuda>58275000000</Deuda>
+				<ActivosCirculantes>34874000000</ActivosCirculantes>
+				<PasivosCirculantes>26546000000</PasivosCirculantes>
+				<ActivosTotales>201888000000</ActivosTotales>
+				<PasivosTotales>117817000000</PasivosTotales>
+				<Capital>84071000000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>75000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-732000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-333000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>17954000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>17112000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1812000000</AccionesEnCirculacion>
+				<PrecioPorAccion>181.18</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_1" TrimestreReporte="2" TrimestreNatural="1" Dia="31" Mes="3" Ano="2021">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>15613000000</Ingresos>
+				<IngresosAA>18025000000</IngresosAA>
+				<UtilidadBruta>5831000000</UtilidadBruta>
+				<UtilidadOperativa>1446000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1230000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1111000000</UtilidadNeta>
+				<UtilidadParaAccionistas>901000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>460000000</UtilidadParaAccionistasAA>
+				<Efectivo>15890000000</Efectivo>
+				<Deuda>56146000000</Deuda>
+				<ActivosCirculantes>32877000000</ActivosCirculantes>
+				<PasivosCirculantes>26642000000</PasivosCirculantes>
+				<ActivosTotales>200250000000</ActivosTotales>
+				<PasivosTotales>114710000000</PasivosTotales>
+				<Capital>85540000000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>1468000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-1327000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2241000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>17954000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>15932000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1817000000</AccionesEnCirculacion>
+				<PrecioPorAccion>184.52</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_2" TrimestreReporte="3" TrimestreNatural="2" Dia="30" Mes="6" Ano="2021">
+				<NumeroDeUnidades>1</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>17022000000</Ingresos>
+				<IngresosAA>11779000000</IngresosAA>
+				<UtilidadBruta>5789000000</UtilidadBruta>
+				<UtilidadOperativa>1355000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>995000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1123000000</UtilidadNeta>
+				<UtilidadParaAccionistas>918000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>-4721000000</UtilidadParaAccionistasAA>
+				<Efectivo>16070000000</Efectivo>
+				<Deuda>55838000000</Deuda>
+				<ActivosCirculantes>33966000000</ActivosCirculantes>
+				<PasivosCirculantes>27413000000</PasivosCirculantes>
+				<ActivosTotales>202221000000</ActivosTotales>
+				<PasivosTotales>115480000000</PasivosTotales>
+				<Capital>86741000000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>2934000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-2085000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2771000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>17954000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>16115000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1818000000</AccionesEnCirculacion>
+				<PrecioPorAccion>175.77</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_3" TrimestreReporte="4" TrimestreNatural="3" Dia="30" Mes="9" Ano="2021">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>18534000000</Ingresos>
+				<IngresosAA>14707000000</IngresosAA>
+				<UtilidadBruta>6193000000</UtilidadBruta>
+				<UtilidadOperativa>599000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>290000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>255000000</UtilidadNeta>
+				<UtilidadParaAccionistas>159000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>-710000000</UtilidadParaAccionistasAA>
+				<Efectivo>15959000000</Efectivo>
+				<Deuda>54406000000</Deuda>
+				<ActivosCirculantes>33657000000</ActivosCirculantes>
+				<PasivosCirculantes>31077000000</PasivosCirculantes>
+				<ActivosTotales>203609000000</ActivosTotales>
+				<PasivosTotales>115056000000</PasivosTotales>
+				<Capital>88553000000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>5566000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-3171000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-4385000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>17954000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>16003000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1816000000</AccionesEnCirculacion>
+				<PrecioPorAccion>169.17</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>67418000000</IngresosAcumulados>
+				<IngresosAAAcumulados>65388000000</IngresosAAAcumulados>
+				<UBrutaAcumulados>22287000000</UBrutaAcumulados>
+				<UOperativaAcumulados>3659000000</UOperativaAcumulados>
+				<UAccionistasAcumulados>1995000000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>-2864000000</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_4" TrimestreReporte="1" TrimestreNatural="4" Dia="31" Mes="12" Ano="2021">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>21819000000</Ingresos>
+				<IngresosAA>16249000000</IngresosAA>
+				<UtilidadBruta>7252000000</UtilidadBruta>
+				<UtilidadOperativa>2196000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1688000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1152000000</UtilidadNeta>
+				<UtilidadParaAccionistas>1104000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>17000000</UtilidadParaAccionistasAA>
+				<Efectivo>14444000000</Efectivo>
+				<Deuda>54132000000</Deuda>
+				<ActivosCirculantes>32913000000</ActivosCirculantes>
+				<PasivosCirculantes>30037000000</PasivosCirculantes>
+				<ActivosTotales>203311000000</ActivosTotales>
+				<PasivosTotales>113447000000</PasivosTotales>
+				<Capital>89864000000</Capital>
+				<CapitalAA>84071000000</CapitalAA>
+				<FlujoDeOperaciones>-209000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-987000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-280000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>16003000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>14488000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1819000000</AccionesEnCirculacion>
+				<PrecioPorAccion>154.89</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>72988000000</IngresosAcumulados>
+				<IngresosAAAcumulados>60760000000</IngresosAAAcumulados>
+				<UBrutaAcumulados>25065000000</UBrutaAcumulados>
+				<UOperativaAcumulados>5596000000</UOperativaAcumulados>
+				<UAccionistasAcumulados>3082000000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>-4954000000</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2022_1" TrimestreReporte="2" TrimestreNatural="1" Dia="31" Mes="3" Ano="2022">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>19249000000</Ingresos>
+				<IngresosAA>15613000000</IngresosAA>
+				<UtilidadBruta>6655000000</UtilidadBruta>
+				<UtilidadOperativa>1600000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1102000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>597000000</UtilidadNeta>
+				<UtilidadParaAccionistas>470000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>901000000</UtilidadParaAccionistasAA>
+				<Efectivo>13272000000</Efectivo>
+				<Deuda>52023000000</Deuda>
+				<ActivosCirculantes>31427000000</ActivosCirculantes>
+				<PasivosCirculantes>29601000000</PasivosCirculantes>
+				<ActivosTotales>202453000000</ActivosTotales>
+				<PasivosTotales>111817000000</PasivosTotales>
+				<Capital>90636000000</Capital>
+				<CapitalAA>85540000000</CapitalAA>
+				<FlujoDeOperaciones>1556000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-2024000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2097000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>16003000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>13318000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1822000000</AccionesEnCirculacion>
+				<PrecioPorAccion>137.16</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>76624000000</IngresosAcumulados>
+				<IngresosAAAcumulados>58348000000</IngresosAAAcumulados>
+				<UBrutaAcumulados>25889000000</UBrutaAcumulados>
+				<UOperativaAcumulados>5750000000</UOperativaAcumulados>
+				<UAccionistasAcumulados>2651000000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>-4513000000</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2022_2" TrimestreReporte="3" TrimestreNatural="2" Dia="30" Mes="6" Ano="2022">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>21504000000</Ingresos>
+				<IngresosAA>17022000000</IngresosAA>
+				<UtilidadBruta>7822000000</UtilidadBruta>
+				<UtilidadOperativa>2432000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2119000000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1502000000</UtilidadNeta>
+				<UtilidadParaAccionistas>1409000000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>918000000</UtilidadParaAccionistasAA>
+				<Efectivo>12959000000</Efectivo>
+				<Deuda>51602000000</Deuda>
+				<ActivosCirculantes>31422000000</ActivosCirculantes>
+				<PasivosCirculantes>30704000000</PasivosCirculantes>
+				<ActivosTotales>204074000000</ActivosTotales>
+				<PasivosTotales>111574000000</PasivosTotales>
+				<Capital>92500000000</Capital>
+				<CapitalAA>86741000000</CapitalAA>
+				<FlujoDeOperaciones>3478000000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-3872000000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2247000000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>16003000000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>13004000000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1823000000</AccionesEnCirculacion>
+				<PrecioPorAccion>94.4</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>81106000000</IngresosAcumulados>
+				<IngresosAAAcumulados>63591000000</IngresosAAAcumulados>
+				<UBrutaAcumulados>27922000000</UBrutaAcumulados>
+				<UOperativaAcumulados>6827000000</UOperativaAcumulados>
+				<UAccionistasAcumulados>3142000000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>1126000000</UAccionistasAAAcumulados>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="Regex">
+				<Ingresos>*revenue*</Ingresos>
+				<CostoDeVentasAutocalculado>false</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Costs and expenses*,Restructuring and impairment charges*</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>*taxes*</UtilidadAntesDeImpuestos>
+				<UtilidadParaAccionistas>Net*attributable to*</UtilidadParaAccionistas>
+				<Efectivo>Cash and cash equivalents*</Efectivo>
+				<ActivosCirculantes>Total current assets*</ActivosCirculantes>
+				<ActivosTotales>TOTAL ASSETS*</ActivosTotales>
+				<Deuda>*Borrowing*</Deuda>
+				<PasivosCirculantes>Total current liabilities*</PasivosCirculantes>
+				<Capital>Total*s*equity*</Capital>
+				<AccionesEnCirculacion>Basic*</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="10-Q">
+				<NumeroDeUnidades>~ NO APLICA ~</NumeroDeUnidades>
+				<Ingresos>Total revenues</Ingresos>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>(Cost of services + Cost of products) * (-1)</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>(Selling, general, administrative and other + Depreciation and amortization) * (-1)</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Income from continuing operations before income taxes</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net income</UtilidadNeta>
+				<UtilidadParaAccionistas>Net income attributable to The Walt Disney Company (Disney)</UtilidadParaAccionistas>
+				<Efectivo>Cash and cash equivalents</Efectivo>
+				<ActivosCirculantes>Total current assets</ActivosCirculantes>
+				<ActivosTotales>Total assets </ActivosTotales>
+				<Deuda>Current portion of borrowings + Borrowings</Deuda>
+				<PasivosCirculantes>Total current liabilities</PasivosCirculantes>
+				<PasivosTotales>~ Calcularlo Manualmente (ActTotales-CapContable) ~</PasivosTotales>
+				<Capital>Total Disney Shareholders’ equity</Capital>
+				<FlujoDeOperaciones>Cash provided by operations</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash used in investing activities</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash provided by (used in) financing activities</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>Cash, cash equivalents and restricted cash, beginning of period</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>Cash, cash equivalents and restricted cash, end of period</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Weighted average number of common and common equivalent shares outstanding: Basic</AccionesEnCirculacion>
+				<Dividendo>~ NO REPARTE ~</Dividendo>
+			</Referencia>
+			<Referencia ID="Yahoo">
+				<Ingresos>Total Revenue</Ingresos>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Cost of Revenue</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Expense</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Pretax Income</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income Including Non-Controlling Interests </UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income Common Stockholders </UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Ω Ayuda">
+				<Ingresos />
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Costo de venta: Son todos los gastos asociados a la producción, distribución y difusión de un producto o servicio. En otras palabras, todo el dinero gastado en las operaciones de una empresa.</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Gastos Operativos: Son los gastos en el que incurre una empresa para el desarrollo normal de sus actividades diarias, por ejemplo: arriendo, salarios, marketing, costos de inventario, compra de suministros, investigación y desarrollo, etc.</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos Financieros: Son intereses de obligaciones y bonos, intereses de deudas, intereses por descuento de efectos, diferencias de cambio de moneda, y TAMBIEN los gastos generados por las pérdidas de valor de activos financieros.</UtilidadAntesDeImpuestos>
+				<UtilidadNeta />
+				<UtilidadParaAccionistas>No siempre es igual a la UTILIDAD NETA porque a veces existen OPERACIONES DISCONTINUAS, estas existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades, por lo que se toman en cuenta en la utilidad neta.</UtilidadParaAccionistas>
+				<Efectivo>Es el efectivo del que se puede disponer de forma inmediata</Efectivo>
+				<Deuda>Es la suma de todos los prestamos por instituciones financieras de Pasivos Circulantes y Pasivos No Circulantes.</Deuda>
+				<ActivosCirculantes>Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año)</ActivosCirculantes>
+				<PasivosCirculantes>Indica la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año)</PasivosCirculantes>
+				<ActivosTotales>Indica lo que la empresa Tiene</ActivosTotales>
+				<PasivosTotales>Indica lo que la empresa Debe</PasivosTotales>
+				<Capital>Indica el valor de la empresa (Lo que tienes menos lo que debes, Activos - Pasivos). Aveces la formula no aplica porque la empresa tiene acciones 'privadas' que NO cotizan en la bolsa y forman parte del capital privado (Algunas empresas no están 100 % bursatilizadas).</Capital>
+				<FlujoDeOperaciones />
+				<FlujoDeInversiones />
+				<FlujoDeFinanciamiento />
+				<EfectivoAlInicioDelAno />
+				<EfectivoAlFinalDelAno />
+				<AccionesEnCirculacion>-Se puede encontrar en la página de la empresa o en www.bmv.com.mx [Empresas Listadas-&gt;Buscar-&gt;Seleccionas la Empresa-&gt;Estadísticas de Operación-&gt;Acciones en Circulación]. - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim [Pestaña de Trade-&gt;All Productos-&gt;Simbolo de la Accion-&gt;Underlying(Expandir esa Area)-&gt;Shares]. - Tambien se puede encontrar en Yahoo Finance [Buscas la Empresa-&gt;Pestaña Statistics-&gt;Share Statistics-&gt;Shares Outstanding].</AccionesEnCirculacion>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+	<Empresa ID="DMB" YahooID="DMB" Nombre="David Mora Barreto" Moneda="MXN">
+		<Comentarios>Empresa inventada para hacer purebas</Comentarios>
+		<Reportes>
+			<Reporte ID="2019_4" TrimestreReporte="4" TrimestreNatural="4" Dia="31" Mes="12" Ano="2019">
+				<NumeroDeUnidades>2</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>-1</NumeroDeUnidadesAA>
+				<Ingresos>11</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>11</UtilidadBruta>
+				<UtilidadOperativa>11</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>222</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>-1111</PasivosTotales>
+				<Capital>2222</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>11111</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_1" TrimestreReporte="1" TrimestreNatural="1" Dia="31" Mes="3" Ano="2020">
+				<NumeroDeUnidades>2</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>1000000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>1000000</UtilidadBruta>
+				<UtilidadOperativa>1000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>1000000</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>100</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2020">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>3000000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>3000000</UtilidadBruta>
+				<UtilidadOperativa>3000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>3000000</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>100</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>6000011</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>6000011</UBrutaAcumulados>
+				<UOperativaAcumulados>6000011</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>222</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2020">
+				<NumeroDeUnidades>1</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>2000000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>2000000</UtilidadBruta>
+				<UtilidadOperativa>2000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>2000000</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>100</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="1" ID="2021_1" TrimestreReporte="1" Dia="30" Mes="3" Ano="2021">
+				<NumeroDeUnidades>1</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>2</NumeroDeUnidadesAA>
+				<Ingresos>0</Ingresos>
+				<IngresosAA>1000000</IngresosAA>
+				<UtilidadBruta>0</UtilidadBruta>
+				<UtilidadOperativa>0</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>0</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>9000000</IngresosAcumulados>
+				<IngresosAAAcumulados>1000011</IngresosAAAcumulados>
+				<UBrutaAcumulados>9000000</UBrutaAcumulados>
+				<UOperativaAcumulados>9000000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>222</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>9000000</IngresosPropAcumulados>
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="2" ID="2021_2" TrimestreReporte="2" Dia="30" Mes="6" Ano="2021">
+				<NumeroDeUnidades>2</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>1</NumeroDeUnidadesAA>
+				<Ingresos>0</Ingresos>
+				<IngresosAA>2000000</IngresosAA>
+				<UtilidadBruta>0</UtilidadBruta>
+				<UtilidadOperativa>0</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>0</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>7000000</IngresosAcumulados>
+				<IngresosAAAcumulados>3000011</IngresosAAAcumulados>
+				<UBrutaAcumulados>7000000</UBrutaAcumulados>
+				<UOperativaAcumulados>7000000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>222</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>7000000</IngresosPropAcumulados>
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="3" ID="2021_3" TrimestreReporte="3" Dia="30" Mes="9" Ano="2021">
+				<NumeroDeUnidades>3</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>0</Ingresos>
+				<IngresosAA>3000000</IngresosAA>
+				<UtilidadBruta>0</UtilidadBruta>
+				<UtilidadOperativa>0</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>0</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>4000000</IngresosAcumulados>
+				<IngresosAAAcumulados>6000011</IngresosAAAcumulados>
+				<UBrutaAcumulados>4000000</UBrutaAcumulados>
+				<UOperativaAcumulados>4000000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>222</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>4000000</IngresosPropAcumulados>
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="4" ID="2020_4" TrimestreReporte="4" Dia="30" Mes="12" Ano="2020">
+				<NumeroDeUnidades d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NumeroDeUnidadesAA>2</NumeroDeUnidadesAA>
+				<Ingresos>4000000</Ingresos>
+				<IngresosAA>11</IngresosAA>
+				<UtilidadBruta>4000000</UtilidadBruta>
+				<UtilidadOperativa>4000000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>0</UtilidadNeta>
+				<UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>222</UtilidadParaAccionistasAA>
+				<IngresoProp>4000000</IngresoProp>
+				<NOI d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>0</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>0</ActivosCirculantes>
+				<PasivosCirculantes>0</PasivosCirculantes>
+				<ActivosTotales>0</ActivosTotales>
+				<PasivosTotales>0</PasivosTotales>
+				<Capital>0</Capital>
+				<CapitalAA>2222</CapitalAA>
+				<FlujoDeOperaciones>0</FlujoDeOperaciones>
+				<FlujoDeInversiones>0</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>100</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>0</AccionesEnCirculacion>
+				<PrecioPorAccion>0</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>10000000</IngresosAcumulados>
+				<IngresosAAAcumulados>11</IngresosAAAcumulados>
+				<UBrutaAcumulados>10000000</UBrutaAcumulados>
+				<UOperativaAcumulados>10000000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>222</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>10000000</IngresosPropAcumulados>
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="Ω Ayuda">
+				<Ingresos />
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Costo de venta: Son todos los gastos asociados a la producción, distribución y difusión de un producto o servicio. En otras palabras, todo el dinero gastado en las operaciones de una empresa.</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Gastos Operativos: Son los gastos en el que incurre una empresa para el desarrollo normal de sus actividades diarias, por ejemplo: arriendo, salarios, marketing, costos de inventario, compra de suministros, investigación y desarrollo, etc.</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos Financieros: Son intereses de obligaciones y bonos, intereses de deudas, intereses por descuento de efectos, diferencias de cambio de moneda, y TAMBIEN los gastos generados por las pérdidas de valor de activos financieros.</UtilidadAntesDeImpuestos>
+				<UtilidadNeta />
+				<UtilidadParaAccionistas>No siempre es igual a la UTILIDAD NETA porque a veces existen OPERACIONES DISCONTINUAS, estas existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades, por lo que se toman en cuenta en la utilidad neta.</UtilidadParaAccionistas>
+				<Efectivo>Es el efectivo del que se puede disponer de forma inmediata</Efectivo>
+				<Deuda>Es la suma de todos los prestamos por instituciones financieras de Pasivos Circulantes y Pasivos No Circulantes.</Deuda>
+				<ActivosCirculantes>Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año)</ActivosCirculantes>
+				<PasivosCirculantes>Indica la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año)</PasivosCirculantes>
+				<ActivosTotales>Indica lo que la empresa Tiene</ActivosTotales>
+				<PasivosTotales>Indica lo que la empresa Debe</PasivosTotales>
+				<Capital>Indica el valor de la empresa (Lo que tienes menos lo que debes, Activos - Pasivos). Aveces la formula no aplica porque la empresa tiene acciones 'privadas' que NO cotizan en la bolsa y forman parte del capital privado (Algunas empresas no están 100 % bursatilizadas).</Capital>
+				<FlujoDeOperaciones />
+				<FlujoDeInversiones />
+				<FlujoDeFinanciamiento />
+				<EfectivoAlInicioDelAno />
+				<EfectivoAlFinalDelAno />
+				<AccionesEnCirculacion>-Se puede encontrar en la página de la empresa o en www.bmv.com.mx [Empresas Listadas-&gt;Buscar-&gt;Seleccionas la Empresa-&gt;Estadísticas de Operación-&gt;Acciones en Circulación]. - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim [Pestaña de Trade-&gt;All Productos-&gt;Simbolo de la Accion-&gt;Underlying(Expandir esa Area)-&gt;Shares]. - Tambien se puede encontrar en Yahoo Finance [Buscas la Empresa-&gt;Pestaña Statistics-&gt;Share Statistics-&gt;Shares Outstanding].</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Yahoo">
+				<Ingresos>Total Revenue</Ingresos>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Cost of Revenue</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Expense</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Pretax Income</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income Including Non-Controlling Interests</UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income Common Stockholders</UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<Deuda>Total Debt</Deuda>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<PasivosTotales />
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Reuters">
+				<Ingresos>Total Revenue</Ingresos>
+				<UtilidadBruta>Cost of Revenue, Total</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Income + Unusual Expense (Income)</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Net Income Before Taxes</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income After Taxes</UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income</UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<PasivosTotales />
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+	<Empresa ID="BYND" YahooID="BYND" Nombre="Beyond Meat" Moneda="USD">
+		<Comentarios></Comentarios>
+		<Reportes>
+			<Reporte ID="2021_1" TrimestreReporte="1" TrimestreNatural="1" Dia="31" Mes="3" Ano="2021">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>108164000</Ingresos>
+				<IngresosAA>97074000</IngresosAA>
+				<UtilidadBruta>32708000</UtilidadBruta>
+				<UtilidadOperativa>-24645000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>-26844000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>-27266000</UtilidadNeta>
+				<UtilidadParaAccionistas>-27266000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1815000</UtilidadParaAccionistasAA>
+				<Efectivo>1125017000</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>1324982000</ActivosCirculantes>
+				<PasivosCirculantes>73109000</PasivosCirculantes>
+				<ActivosTotales>1475519000</ActivosTotales>
+				<PasivosTotales>1211472000</PasivosTotales>
+				<Capital>264047000</Capital>
+				<CapitalAA>367097000</CapitalAA>
+				<FlujoDeOperaciones>-30657000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-23381000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1019913000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>159127000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1125017000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>63540000</AccionesEnCirculacion>
+				<PrecioPorAccion>130.12</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2021">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>149426000</Ingresos>
+				<IngresosAA>113338000</IngresosAA>
+				<UtilidadBruta>47352000</UtilidadBruta>
+				<UtilidadOperativa>-18601000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>-38044000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>-19652000</UtilidadNeta>
+				<UtilidadParaAccionistas>-310</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>-160</UtilidadParaAccionistasAA>
+				<Efectivo>1009337000</Efectivo>
+				<Deuda>184000</Deuda>
+				<ActivosCirculantes>1264082000</ActivosCirculantes>
+				<PasivosCirculantes>71499000</PasivosCirculantes>
+				<ActivosTotales>1466520000</ActivosTotales>
+				<PasivosTotales>1211039000</PasivosTotales>
+				<Capital>255481000</Capital>
+				<CapitalAA>367097000</CapitalAA>
+				<FlujoDeOperaciones>-120445000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-51565000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1022074000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>159127000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1009337000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>63540000</AccionesEnCirculacion>
+				<PrecioPorAccion>157.49</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2021">
+				<NumeroDeUnidades>0</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>106432000</Ingresos>
+				<IngresosAA>94436000</IngresosAA>
+				<UtilidadBruta>22976000</UtilidadBruta>
+				<UtilidadOperativa>-53998000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>-108242000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>-54816000</UtilidadNeta>
+				<UtilidadParaAccionistas>-870</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>-310</UtilidadParaAccionistasAA>
+				<Efectivo>886442000</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>1153122000</ActivosCirculantes>
+				<PasivosCirculantes>74292000</PasivosCirculantes>
+				<ActivosTotales>1432374000</ActivosTotales>
+				<PasivosTotales>1225269000</PasivosTotales>
+				<Capital>207105000</Capital>
+				<CapitalAA>367090000</CapitalAA>
+				<FlujoDeOperaciones>-191047000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-104433000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1022120000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>159127000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>886442000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>63540000</AccionesEnCirculacion>
+				<PrecioPorAccion>105.26</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="10-Q">
+				<NumeroDeUnidades>~ No Aplica ~</NumeroDeUnidades>
+				<Ingresos>Net revenues </Ingresos>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Cost of goods sold </UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Total operating expenses</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>(Loss) income before taxes </UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net (loss) income</UtilidadNeta>
+				<UtilidadParaAccionistas>Net (loss) income</UtilidadParaAccionistas>
+				<Efectivo>Cash and cash equivalents</Efectivo>
+				<Deuda>lease obligations*+Current portion of finance lease liabilities*+Revolving credit facility*</Deuda>
+				<ActivosCirculantes>Total current assets </ActivosCirculantes>
+				<PasivosCirculantes>Total current liabilities </PasivosCirculantes>
+				<ActivosTotales>Total assets </ActivosTotales>
+				<PasivosTotales>~ Calcularlo Manualmente (ActTotales-CapContable) ~</PasivosTotales>
+				<Capital>Total stockholders’ equity </Capital>
+				<FlujoDeOperaciones>Net cash used in operating activities </FlujoDeOperaciones>
+				<FlujoDeInversiones>Net cash used in investing activities </FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Net cash provided by financing activities</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>Cash and cash equivalents at the beginning of the period </EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>Cash and cash equivalents at the end of the period</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Weighted average common shares outstanding—basic</AccionesEnCirculacion>
+				<Dividendo>~ No Reparte ~</Dividendo>
+			</Referencia>
+			<Referencia ID="Yahoo">
+				<Ingresos>Total Revenue</Ingresos>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Cost of Revenue</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Expense</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Pretax Income</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income Including Non-Controlling Interests </UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income Common Stockholders </UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Ω Ayuda">
+				<Ingresos />
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Costo de venta: Son todos los gastos asociados a la producción, distribución y difusión de un producto o servicio. En otras palabras, todo el dinero gastado en las operaciones de una empresa.</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Gastos Operativos: Son los gastos en el que incurre una empresa para el desarrollo normal de sus actividades diarias, por ejemplo: arriendo, salarios, marketing, costos de inventario, compra de suministros, investigación y desarrollo, etc.</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos Financieros: Son intereses de obligaciones y bonos, intereses de deudas, intereses por descuento de efectos, diferencias de cambio de moneda, y TAMBIEN los gastos generados por las pérdidas de valor de activos financieros.</UtilidadAntesDeImpuestos>
+				<UtilidadNeta />
+				<UtilidadParaAccionistas>No siempre es igual a la UTILIDAD NETA porque a veces existen OPERACIONES DISCONTINUAS, estas existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades, por lo que se toman en cuenta en la utilidad neta.</UtilidadParaAccionistas>
+				<Efectivo>Es el efectivo del que se puede disponer de forma inmediata</Efectivo>
+				<Deuda>Es la suma de todos los prestamos por instituciones financieras de Pasivos Circulantes y Pasivos No Circulantes.</Deuda>
+				<ActivosCirculantes>Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año)</ActivosCirculantes>
+				<PasivosCirculantes>Indica la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año)</PasivosCirculantes>
+				<ActivosTotales>Indica lo que la empresa Tiene</ActivosTotales>
+				<PasivosTotales>Indica lo que la empresa Debe</PasivosTotales>
+				<Capital>Indica el valor de la empresa (Lo que tienes menos lo que debes, Activos - Pasivos). Aveces la formula no aplica porque la empresa tiene acciones 'privadas' que NO cotizan en la bolsa y forman parte del capital privado (Algunas empresas no están 100 % bursatilizadas).</Capital>
+				<FlujoDeOperaciones />
+				<FlujoDeInversiones />
+				<FlujoDeFinanciamiento />
+				<EfectivoAlInicioDelAno />
+				<EfectivoAlFinalDelAno />
+				<AccionesEnCirculacion>-Se puede encontrar en la página de la empresa o en www.bmv.com.mx [Empresas Listadas-&gt;Buscar-&gt;Seleccionas la Empresa-&gt;Estadísticas de Operación-&gt;Acciones en Circulación]. - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim [Pestaña de Trade-&gt;All Productos-&gt;Simbolo de la Accion-&gt;Underlying(Expandir esa Area)-&gt;Shares]. - Tambien se puede encontrar en Yahoo Finance [Buscas la Empresa-&gt;Pestaña Statistics-&gt;Share Statistics-&gt;Shares Outstanding].</AccionesEnCirculacion>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+	<Empresa ID="FSHOP13" YahooID="FSHOP13.MX" Nombre="Fibra Shop" Moneda="MXN">
+		<Comentarios>En el primer y segundo trimestre del 2022 no hubo distribuciones porque se invertira en terminar la plaza LA PERLA</Comentarios>
+		<Reportes>
+			<Reporte ID="2021_1" TrimestreReporte="1" TrimestreNatural="1" Dia="31" Mes="3" Ano="2021">
+				<NumeroDeUnidades>767237</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>336334000</Ingresos>
+				<IngresosAA>369954000</IngresosAA>
+				<UtilidadBruta>336334000</UtilidadBruta>
+				<UtilidadOperativa>243023000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>68615000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>68615000</UtilidadNeta>
+				<UtilidadParaAccionistas>68615000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>100263000</UtilidadParaAccionistasAA>
+				<Efectivo>107479000</Efectivo>
+				<Deuda>8684271000</Deuda>
+				<ActivosCirculantes>895325000</ActivosCirculantes>
+				<PasivosCirculantes>420335000</PasivosCirculantes>
+				<ActivosTotales>20037877000</ActivosTotales>
+				<PasivosTotales>9221291000</PasivosTotales>
+				<Capital>10816586000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>145752000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-69955000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-83961000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>115643000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>107479000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>497801481</AccionesEnCirculacion>
+				<PrecioPorAccion>7.15</PrecioPorAccion>
+				<Dividendo>0.164</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2021">
+				<NumeroDeUnidades>767237</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>341978000</Ingresos>
+				<IngresosAA>293032000</IngresosAA>
+				<UtilidadBruta>341978000</UtilidadBruta>
+				<UtilidadOperativa>246128000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>91816000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>91816000</UtilidadNeta>
+				<UtilidadParaAccionistas>91816000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>247583000</UtilidadParaAccionistasAA>
+				<Efectivo>123576000</Efectivo>
+				<Deuda>8928803000</Deuda>
+				<ActivosCirculantes>931724000</ActivosCirculantes>
+				<PasivosCirculantes>1857529000</PasivosCirculantes>
+				<ActivosTotales>20316201000</ActivosTotales>
+				<PasivosTotales>9462890000</PasivosTotales>
+				<Capital>10853311000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>401993000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-314081000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-79979000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>115643000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>123576000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>497801481000</AccionesEnCirculacion>
+				<PrecioPorAccion>6.97</PrecioPorAccion>
+				<Dividendo>0.164</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2021">
+				<NumeroDeUnidades>767237</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>360049000</Ingresos>
+				<IngresosAA>321293000</IngresosAA>
+				<UtilidadBruta>360049000</UtilidadBruta>
+				<UtilidadOperativa>260576000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>95489000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>95489000</UtilidadNeta>
+				<UtilidadParaAccionistas>95489000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>65899000</UtilidadParaAccionistasAA>
+				<Efectivo>123038000</Efectivo>
+				<Deuda>9052059000</Deuda>
+				<ActivosCirculantes>962645000</ActivosCirculantes>
+				<PasivosCirculantes>1905063000</PasivosCirculantes>
+				<ActivosTotales>20493059000</ActivosTotales>
+				<PasivosTotales>9634839000</PasivosTotales>
+				<Capital>10858220000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>653363000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-459912000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-186056000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>115643000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>123038000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>497801481000</AccionesEnCirculacion>
+				<PrecioPorAccion>6.49</PrecioPorAccion>
+				<Dividendo>0.164</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2021">
+				<NumeroDeUnidades>767554</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+				<Ingresos>387267000</Ingresos>
+				<IngresosAA>375223000</IngresosAA>
+				<UtilidadBruta>387267000</UtilidadBruta>
+				<UtilidadOperativa>285581000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>686111000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>683986000</UtilidadNeta>
+				<UtilidadParaAccionistas>683986000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>423597000</UtilidadParaAccionistasAA>
+				<Efectivo>194501000</Efectivo>
+				<Deuda>9317671000</Deuda>
+				<ActivosCirculantes>995044000</ActivosCirculantes>
+				<PasivosCirculantes>1866662000</PasivosCirculantes>
+				<ActivosTotales>21364339000</ActivosTotales>
+				<PasivosTotales>9859968000</PasivosTotales>
+				<Capital>11504371000</Capital>
+				<CapitalAA>10807454000</CapitalAA>
+				<FlujoDeOperaciones>844003000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-557691000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-207454000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>115643000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>194501000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>497801481000</AccionesEnCirculacion>
+				<PrecioPorAccion>6.56</PrecioPorAccion>
+				<Dividendo>0.1093</Dividendo>
+				<IngresosAcumulados>1425628000</IngresosAcumulados>
+				<IngresosAAAcumulados>1359502000</IngresosAAAcumulados>
+				<UBrutaAcumulados>1425628000</UBrutaAcumulados>
+				<UOperativaAcumulados>1035308000</UOperativaAcumulados>
+				<UAccionistasAcumulados>939906000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>837342000</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2022_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2022">
+				<NumeroDeUnidades>767554</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>767237</NumeroDeUnidadesAA>
+				<Ingresos>362058000</Ingresos>
+				<IngresosAA>336334000</IngresosAA>
+				<UtilidadBruta>362058000</UtilidadBruta>
+				<UtilidadOperativa>262707000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>68287000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>68287000</UtilidadNeta>
+				<UtilidadParaAccionistas>68287000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>68615000</UtilidadParaAccionistasAA>
+				<Efectivo>129568000</Efectivo>
+				<Deuda>9371547000</Deuda>
+				<ActivosCirculantes>961562000</ActivosCirculantes>
+				<PasivosCirculantes>2035311000</PasivosCirculantes>
+				<ActivosTotales>21564455000</ActivosTotales>
+				<PasivosTotales>10012939000</PasivosTotales>
+				<Capital>11551516000</Capital>
+				<CapitalAA>10816586000</CapitalAA>
+				<FlujoDeOperaciones>311895000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-234516000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-141853000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>194501000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>129568000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>497801481000</AccionesEnCirculacion>
+				<PrecioPorAccion>6.53</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>1451352000</IngresosAcumulados>
+				<IngresosAAAcumulados>1325882000</IngresosAAAcumulados>
+				<UBrutaAcumulados>1451352000</UBrutaAcumulados>
+				<UOperativaAcumulados>1054992000</UOperativaAcumulados>
+				<UAccionistasAcumulados>939578000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>805694000</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="2" ID="2022_2" TrimestreReporte="2" Dia="30" Mes="6" Ano="2022">
+				<NumeroDeUnidades>767554</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>767237</NumeroDeUnidadesAA>
+				<Ingresos>380517000</Ingresos>
+				<IngresosAA>341978000</IngresosAA>
+				<UtilidadBruta>380517000</UtilidadBruta>
+				<UtilidadOperativa>280093000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>65342000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>65342000</UtilidadNeta>
+				<UtilidadParaAccionistas>65342000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>91816000</UtilidadParaAccionistasAA>
+				<IngresoProp>380520000</IngresoProp>
+				<NOI>294670000</NOI>
+				<FFO>107580000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>275776000</Efectivo>
+				<Deuda>6545718000</Deuda>
+				<ActivosCirculantes>1054377000</ActivosCirculantes>
+				<PasivosCirculantes>4969147000</PasivosCirculantes>
+				<ActivosTotales>22167431000</ActivosTotales>
+				<PasivosTotales>10271882000</PasivosTotales>
+				<Capital>11895549000</Capital>
+				<CapitalAA>10853311000</CapitalAA>
+				<FlujoDeOperaciones>445924000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-421517000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>57327000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>194042000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>275776000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>497801481000</AccionesEnCirculacion>
+				<PrecioPorAccion>6.05</PrecioPorAccion>
+				<Dividendo>0</Dividendo>
+				<IngresosAcumulados>1489891000</IngresosAcumulados>
+				<IngresosAAAcumulados>1374828000</IngresosAAAcumulados>
+				<UBrutaAcumulados>1489891000</UBrutaAcumulados>
+				<UOperativaAcumulados>1088957000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>915229000</UAImpuestosAcumulados>
+				<UNetaAcumulados>913104000</UNetaAcumulados>
+				<UAccionistasAcumulados>913104000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>649927000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0.2733</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="3" ID="2013_3" TrimestreReporte="3" Dia="30" Mes="9" Ano="2013">
+				<NumeroDeUnidades>171131</NumeroDeUnidades>
+				<NumeroDeUnidadesAA d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Ingresos>65268000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>65268000</UtilidadBruta>
+				<UtilidadOperativa>44138000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>51245000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>51245000</UtilidadNeta>
+				<UtilidadParaAccionistas>51245000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<IngresoProp>65268000</IngresoProp>
+				<NOI>48200000</NOI>
+				<FFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>1715445000</Efectivo>
+				<Deuda>0</Deuda>
+				<ActivosCirculantes>2356752000</ActivosCirculantes>
+				<PasivosCirculantes>20078000</PasivosCirculantes>
+				<ActivosTotales>6202288000</ActivosTotales>
+				<PasivosTotales>43147000</PasivosTotales>
+				<Capital>6159141000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>-546913000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-518684000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>2781042000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1715445000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>353780507</AccionesEnCirculacion>
+				<PrecioPorAccion>15.41</PrecioPorAccion>
+				<Dividendo>0.1449</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+				<UNetaAcumulados>0</UNetaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>0</DividendosAcumulados>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="ResultadosConsolidados">
+				<NumeroDeUnidades>Usar el ARB (GLA en ingles) en m2 del Capitulo: [Ocupación del Portafolio]</NumeroDeUnidades>
+				<Ingresos>[Total de ingresos]</Ingresos>
+				<UtilidadBruta>~ NO APLICA ~</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>false</GastosOperativosAutocalculado>
+				<UtilidadOperativa>[UTILIDAD DE OPERACIÓN]</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>[RESULTADO ANTES DE IMPUESTOS]</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>[UTILIDAD DEL PERÍODO]</UtilidadNeta>
+				<UtilidadParaAccionistas>[UTILIDAD NETA DEL PERÍODO]</UtilidadParaAccionistas>
+				<IngresosProp>[Total de ingresos] = Ingresos por rentas + Otros ingresos operativos</IngresosProp>
+				<NOI>[NOI]</NOI>
+				<FFO>[AMEFIBRA FFO]</FFO>
+				<AFFO>~ NO APLICA ~</AFFO>
+				<Efectivo>[Efectivo y equivalentes de efectivo]</Efectivo>
+				<ActivosCirculantes>[Total de activos circulantes]</ActivosCirculantes>
+				<ActivosTotales>[TOTAL DE ACTIVOS]</ActivosTotales>
+				<Deuda>[Deuda Bursátil + Crédito Bancario]</Deuda>
+				<PasivosCirculantes>[Total de pasivos circulantes]</PasivosCirculantes>
+				<PasivosTotales>[TOTAL DE PASIVOS]</PasivosTotales>
+				<Capital>[TOTAL PATRIMONIO]</Capital>
+				<FlujoDeOperaciones>Flujos de efectivo netos generados [en actividades de operación]</FlujoDeOperaciones>
+				<FlujoDeInversiones>Flujos de efectivo netos utilizados [en actividades de inversión]</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Flujos de efectivo netos utilizados [en actividades de financiamiento]</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>Efectivo y equivalentes de efectivo al [inicio del período]</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>Efectivo y equivalentes de [efectivo al final del período]</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Poner los CBFIs en circulación del Capitulo: [Patrimonio Contribuido]</AccionesEnCirculacion>
+				<Dividendo>Capitulo [Distribución a Tenedores]</Dividendo>
+			</Referencia>
+			<Referencia ID="Yahoo">
+				<Ingresos>Total Revenue</Ingresos>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Cost of Revenue</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Expense</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Pretax Income</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income Including Non-Controlling Interests </UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income Common Stockholders </UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Ω Ayuda">
+				<Ingresos />
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<UtilidadBruta>Costo de venta: Son todos los gastos asociados a la producción, distribución y difusión de un producto o servicio. En otras palabras, todo el dinero gastado en las operaciones de una empresa.</UtilidadBruta>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Gastos Operativos: Son los gastos en el que incurre una empresa para el desarrollo normal de sus actividades diarias, por ejemplo: arriendo, salarios, marketing, costos de inventario, compra de suministros, investigación y desarrollo, etc.</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos Financieros: Son intereses de obligaciones y bonos, intereses de deudas, intereses por descuento de efectos, diferencias de cambio de moneda, y TAMBIEN los gastos generados por las pérdidas de valor de activos financieros.</UtilidadAntesDeImpuestos>
+				<UtilidadNeta />
+				<UtilidadParaAccionistas>No siempre es igual a la UTILIDAD NETA porque a veces existen OPERACIONES DISCONTINUAS, estas existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades, por lo que se toman en cuenta en la utilidad neta.</UtilidadParaAccionistas>
+				<Efectivo>Es el efectivo del que se puede disponer de forma inmediata</Efectivo>
+				<Deuda>Es la suma de todos los prestamos por instituciones financieras de Pasivos Circulantes y Pasivos No Circulantes.</Deuda>
+				<ActivosCirculantes>Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año)</ActivosCirculantes>
+				<PasivosCirculantes>Indica la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año)</PasivosCirculantes>
+				<ActivosTotales>Indica lo que la empresa Tiene</ActivosTotales>
+				<PasivosTotales>Indica lo que la empresa Debe</PasivosTotales>
+				<Capital>Indica el valor de la empresa (Lo que tienes menos lo que debes, Activos - Pasivos). Aveces la formula no aplica porque la empresa tiene acciones 'privadas' que NO cotizan en la bolsa y forman parte del capital privado (Algunas empresas no están 100 % bursatilizadas).</Capital>
+				<FlujoDeOperaciones />
+				<FlujoDeInversiones />
+				<FlujoDeFinanciamiento />
+				<EfectivoAlInicioDelAno />
+				<EfectivoAlFinalDelAno />
+				<AccionesEnCirculacion>-Se puede encontrar en la página de la empresa o en www.bmv.com.mx [Empresas Listadas-&gt;Buscar-&gt;Seleccionas la Empresa-&gt;Estadísticas de Operación-&gt;Acciones en Circulación]. - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim [Pestaña de Trade-&gt;All Productos-&gt;Simbolo de la Accion-&gt;Underlying(Expandir esa Area)-&gt;Shares]. - Tambien se puede encontrar en Yahoo Finance [Buscas la Empresa-&gt;Pestaña Statistics-&gt;Share Statistics-&gt;Shares Outstanding].</AccionesEnCirculacion>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+	<Empresa ID="FUNO11" YahooID="FUNO11.MX" Nombre="Fibra UNO" Moneda="MXN">
+		<Comentarios></Comentarios>
+		<Reportes>
+			<Reporte ID="2021_1" TrimestreReporte="1" TrimestreNatural="1" Dia="31" Mes="3" Ano="2021">
+				<NumeroDeUnidades>10803974</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10242894</NumeroDeUnidadesAA>
+				<Ingresos>5369491000</Ingresos>
+				<IngresosAA>5169237000</IngresosAA>
+				<UtilidadBruta>5369491000</UtilidadBruta>
+				<UtilidadOperativa>3999311000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>-338467000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>-338467000</UtilidadNeta>
+				<UtilidadParaAccionistas>-416505000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>-15207717000</UtilidadParaAccionistasAA>
+				<IngresoProp>4901841000</IngresoProp>
+				<NOI>4220100000.0000005</NOI>
+				<FFO>2059000000</FFO>
+				<AFFO>2106100000</AFFO>
+				<Efectivo>4820260000</Efectivo>
+				<Deuda>131638940000</Deuda>
+				<ActivosCirculantes>13125695000</ActivosCirculantes>
+				<PasivosCirculantes>6272279000</PasivosCirculantes>
+				<ActivosTotales>311614671000</ActivosTotales>
+				<PasivosTotales>140542066000</PasivosTotales>
+				<Capital>171072605000</Capital>
+				<CapitalAA>149374728000</CapitalAA>
+				<FlujoDeOperaciones>2918273000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-5267929000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-576677000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>7746593000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>4820260000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3818072916</AccionesEnCirculacion>
+				<PrecioPorAccion>23.89</PrecioPorAccion>
+				<Dividendo>0.3283</Dividendo>
+				<IngresosAcumulados>19393489000</IngresosAcumulados>
+				<IngresosAAAcumulados>19755129000</IngresosAAAcumulados>
+				<UBrutaAcumulados>19393489000</UBrutaAcumulados>
+				<UOperativaAcumulados>14118965000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>28680188000</UAImpuestosAcumulados>
+				<UNetaAcumulados>28680188000</UNetaAcumulados>
+				<UAccionistasAcumulados>27765460000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>-849353000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>18487365000</IngresosPropAcumulados>
+				<NOIAcumulados>14985900000</NOIAcumulados>
+				<FFOAcumulados>6037200000</FFOAcumulados>
+				<AFFOAcumulados>6574000000</AFFOAcumulados>
+				<DividendosAcumulados>1.2382000000000002</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2021_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2021">
+				<NumeroDeUnidades>10793556</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10354392</NumeroDeUnidadesAA>
+				<Ingresos>5285546000</Ingresos>
+				<IngresosAA>4298271000</IngresosAA>
+				<UtilidadBruta>5285546000</UtilidadBruta>
+				<UtilidadOperativa>4015751000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1519184000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1519184000</UtilidadNeta>
+				<UtilidadParaAccionistas>1540289000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>13297801000</UtilidadParaAccionistasAA>
+				<IngresoProp>4802116000</IngresoProp>
+				<NOI>4241100000.0000005</NOI>
+				<FFO>2179700000</FFO>
+				<AFFO>2179700000</AFFO>
+				<Efectivo>3713816000</Efectivo>
+				<Deuda>128108410000</Deuda>
+				<ActivosCirculantes>11613168000</ActivosCirculantes>
+				<PasivosCirculantes>6624376000</PasivosCirculantes>
+				<ActivosTotales>308632067000</ActivosTotales>
+				<PasivosTotales>137395621000</PasivosTotales>
+				<Capital>171236446000</Capital>
+				<CapitalAA>160957612000</CapitalAA>
+				<FlujoDeOperaciones>7056947000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7269731000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-3819993000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>7746593000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3713816000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3799999999</AccionesEnCirculacion>
+				<PrecioPorAccion>21.53</PrecioPorAccion>
+				<Dividendo>0.3311</Dividendo>
+				<IngresosAcumulados>20380764000</IngresosAcumulados>
+				<IngresosAAAcumulados>19316464000</IngresosAAAcumulados>
+				<UBrutaAcumulados>20380764000</UBrutaAcumulados>
+				<UOperativaAcumulados>15079078000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>16841536000</UAImpuestosAcumulados>
+				<UNetaAcumulados>16841536000</UNetaAcumulados>
+				<UAccionistasAcumulados>16007948000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>7011985000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>18796657000</IngresosPropAcumulados>
+				<NOIAcumulados>15982000000</NOIAcumulados>
+				<FFOAcumulados>7213500000</FFOAcumulados>
+				<AFFOAcumulados>7750300000</AFFOAcumulados>
+				<DividendosAcumulados>1.2883</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2021_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2021">
+				<NumeroDeUnidades>10802693</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10511969</NumeroDeUnidadesAA>
+				<Ingresos>5395586000</Ingresos>
+				<IngresosAA>4534300000</IngresosAA>
+				<UtilidadBruta>5395586000</UtilidadBruta>
+				<UtilidadOperativa>4133639000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>-538720000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>-538720000</UtilidadNeta>
+				<UtilidadParaAccionistas>-611421000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>4482777000</UtilidadParaAccionistasAA>
+				<IngresoProp>4894380000</IngresoProp>
+				<NOI>4356100000</NOI>
+				<FFO>2221800000</FFO>
+				<AFFO>2221800000</AFFO>
+				<Efectivo>3502365000</Efectivo>
+				<Deuda>131194062000</Deuda>
+				<ActivosCirculantes>11110256000</ActivosCirculantes>
+				<PasivosCirculantes>6275644000</PasivosCirculantes>
+				<ActivosTotales>309242276000</ActivosTotales>
+				<PasivosTotales>140474144000</PasivosTotales>
+				<Capital>168768132000</Capital>
+				<CapitalAA>163779539000</CapitalAA>
+				<FlujoDeOperaciones>10467539000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-8555258000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-6156509000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>7746593000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3502365000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3799999999</AccionesEnCirculacion>
+				<PrecioPorAccion>23.4</PrecioPorAccion>
+				<Dividendo>0.37</Dividendo>
+				<IngresosAcumulados>21242050000</IngresosAcumulados>
+				<IngresosAAAcumulados>19094909000</IngresosAAAcumulados>
+				<UBrutaAcumulados>21242050000</UBrutaAcumulados>
+				<UOperativaAcumulados>16011937000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>11763677000</UAImpuestosAcumulados>
+				<UNetaAcumulados>11763677000</UNetaAcumulados>
+				<UAccionistasAcumulados>10913750000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>9577276000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>19301327000</IngresosPropAcumulados>
+				<NOIAcumulados>16929800000</NOIAcumulados>
+				<FFOAcumulados>8289000000</FFOAcumulados>
+				<AFFOAcumulados>8625900000</AFFOAcumulados>
+				<DividendosAcumulados>1.3413</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2021_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2021">
+				<NumeroDeUnidades>10881061</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10720998</NumeroDeUnidadesAA>
+				<Ingresos>5818087000</Ingresos>
+				<IngresosAA>5191427000</IngresosAA>
+				<UtilidadBruta>5818087000</UtilidadBruta>
+				<UtilidadOperativa>4390863000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>3368007000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>3368007000</UtilidadNeta>
+				<UtilidadParaAccionistas>3147175000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>10401387000</UtilidadParaAccionistasAA>
+				<IngresoProp>5271303000</IngresoProp>
+				<NOI>4604400000</NOI>
+				<FFO>2538900000</FFO>
+				<AFFO>2635100000</AFFO>
+				<Efectivo>6739511000</Efectivo>
+				<Deuda>136026198000</Deuda>
+				<ActivosCirculantes>14002143000</ActivosCirculantes>
+				<PasivosCirculantes>11205003000</PasivosCirculantes>
+				<ActivosTotales>316621511000</ActivosTotales>
+				<PasivosTotales>145681740000</PasivosTotales>
+				<Capital>170939771000</Capital>
+				<CapitalAA>173395572000</CapitalAA>
+				<FlujoDeOperaciones>18112965000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-12263413000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-6856634000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>7746593000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>6739511000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3799999999</AccionesEnCirculacion>
+				<PrecioPorAccion>21.53</PrecioPorAccion>
+				<Dividendo>0.6829</Dividendo>
+				<IngresosAcumulados>21868710000</IngresosAcumulados>
+				<IngresosAAAcumulados>19193235000</IngresosAAAcumulados>
+				<UBrutaAcumulados>21868710000</UBrutaAcumulados>
+				<UOperativaAcumulados>16539564000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>4010004000</UAImpuestosAcumulados>
+				<UNetaAcumulados>4010004000</UNetaAcumulados>
+				<UAccionistasAcumulados>3659538000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>12974248000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>19869640000</IngresosPropAcumulados>
+				<NOIAcumulados>17421700000</NOIAcumulados>
+				<FFOAcumulados>8999400000</FFOAcumulados>
+				<AFFOAcumulados>9142700000</AFFOAcumulados>
+				<DividendosAcumulados>1.7123</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2022_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2022">
+				<NumeroDeUnidades>10919264</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10803974</NumeroDeUnidadesAA>
+				<Ingresos>5849374000</Ingresos>
+				<IngresosAA>5369491000</IngresosAA>
+				<UtilidadBruta>5849374000</UtilidadBruta>
+				<UtilidadOperativa>4394035000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>4362438000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>4362438000</UtilidadNeta>
+				<UtilidadParaAccionistas>4235172000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>-416505000</UtilidadParaAccionistasAA>
+				<IngresoProp>5214485000</IngresoProp>
+				<NOI>4616000000</NOI>
+				<FFO>2384900000</FFO>
+				<AFFO>2384900000</AFFO>
+				<Efectivo>4336725000</Efectivo>
+				<Deuda>134310188000</Deuda>
+				<ActivosCirculantes>12742090000</ActivosCirculantes>
+				<PasivosCirculantes>10759729000</PasivosCirculantes>
+				<ActivosTotales>316901675000</ActivosTotales>
+				<PasivosTotales>144535125000</PasivosTotales>
+				<Capital>172366550000</Capital>
+				<CapitalAA>171072605000</CapitalAA>
+				<FlujoDeOperaciones>3693822000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-1820378000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-4276230000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>6739511000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>4336725000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3779000000</AccionesEnCirculacion>
+				<PrecioPorAccion>23.19</PrecioPorAccion>
+				<Dividendo>0.5049</Dividendo>
+				<IngresosAcumulados>22348593000</IngresosAcumulados>
+				<IngresosAAAcumulados>19393489000</IngresosAAAcumulados>
+				<UBrutaAcumulados>22348593000</UBrutaAcumulados>
+				<UOperativaAcumulados>16934288000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>8710909000</UAImpuestosAcumulados>
+				<UNetaAcumulados>8710909000</UNetaAcumulados>
+				<UAccionistasAcumulados>8311215000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>27765460000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>20182284000</IngresosPropAcumulados>
+				<NOIAcumulados>17817600000</NOIAcumulados>
+				<FFOAcumulados>9325300000</FFOAcumulados>
+				<AFFOAcumulados>9421500000</AFFOAcumulados>
+				<DividendosAcumulados>1.8889</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="2" ID="2022_2" TrimestreReporte="2" Dia="30" Mes="6" Ano="2022">
+				<NumeroDeUnidades>11039182</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10793556</NumeroDeUnidadesAA>
+				<Ingresos>5801324000</Ingresos>
+				<IngresosAA>5285546000</IngresosAA>
+				<UtilidadBruta>5801324000</UtilidadBruta>
+				<UtilidadOperativa>4321679000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2619820000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2619820000</UtilidadNeta>
+				<UtilidadParaAccionistas>2556313000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1540289000</UtilidadParaAccionistasAA>
+				<IngresoProp>5215475000</IngresoProp>
+				<NOI>4546700000</NOI>
+				<FFO>2341700000</FFO>
+				<AFFO>2473500000</AFFO>
+				<Efectivo>5258079000</Efectivo>
+				<Deuda>138112211000</Deuda>
+				<ActivosCirculantes>13278719000</ActivosCirculantes>
+				<PasivosCirculantes>20988783000</PasivosCirculantes>
+				<ActivosTotales>322520154000</ActivosTotales>
+				<PasivosTotales>149339317000</PasivosTotales>
+				<Capital>173180837000</Capital>
+				<CapitalAA>171236446000</CapitalAA>
+				<FlujoDeOperaciones>9296261000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-6876581000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-3901112000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>6739511000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>5258079000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3801382093</AccionesEnCirculacion>
+				<PrecioPorAccion>20.03</PrecioPorAccion>
+				<Dividendo>0.5236</Dividendo>
+				<IngresosAcumulados>22864371000</IngresosAcumulados>
+				<IngresosAAAcumulados>20380764000</IngresosAAAcumulados>
+				<UBrutaAcumulados>22864371000</UBrutaAcumulados>
+				<UOperativaAcumulados>17240216000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>9811545000</UAImpuestosAcumulados>
+				<UNetaAcumulados>9811545000</UNetaAcumulados>
+				<UAccionistasAcumulados>9327239000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>16007948000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>20595643000</IngresosPropAcumulados>
+				<NOIAcumulados>18123200000</NOIAcumulados>
+				<FFOAcumulados>9487300000</FFOAcumulados>
+				<AFFOAcumulados>9715300000</AFFOAcumulados>
+				<DividendosAcumulados>2.0814</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2013_1" TrimestreReporte="1" TrimestreNatural="1" Dia="31" Mes="3" Ano="2013">
+				<NumeroDeUnidades>1719330</NumeroDeUnidades>
+				<NumeroDeUnidadesAA d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Ingresos>710222000</Ingresos>
+				<IngresosAA>210308000</IngresosAA>
+				<UtilidadBruta>710222000</UtilidadBruta>
+				<UtilidadOperativa>539124000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>844792000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>844792000</UtilidadNeta>
+				<UtilidadParaAccionistas>844792000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>167816000</UtilidadParaAccionistasAA>
+				<IngresoProp>638460000</IngresoProp>
+				<NOI>539100000</NOI>
+				<FFO>578100000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>21153121000</Efectivo>
+				<Deuda>8570515000</Deuda>
+				<ActivosCirculantes>23066923000</ActivosCirculantes>
+				<PasivosCirculantes>19691033000</PasivosCirculantes>
+				<ActivosTotales>73323038000</ActivosTotales>
+				<PasivosTotales>27828282000</PasivosTotales>
+				<Capital>45494756000</Capital>
+				<CapitalAA>10793221000</CapitalAA>
+				<FlujoDeOperaciones>379379000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-1738513000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>20464543000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2047712000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>21153121000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1572311334</AccionesEnCirculacion>
+				<PrecioPorAccion>40.75</PrecioPorAccion>
+				<Dividendo>0.37</Dividendo>
+				<IngresosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<IngresosAAAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UBrutaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UOperativaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAImpuestosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UNetaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAccionistasAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAccionistasAAAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+			</Reporte>
+			<Reporte ID="2013_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2013">
+				<NumeroDeUnidades>3141599</NumeroDeUnidades>
+				<NumeroDeUnidadesAA d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Ingresos>949102000</Ingresos>
+				<IngresosAA>401935000</IngresosAA>
+				<UtilidadBruta>949102000</UtilidadBruta>
+				<UtilidadOperativa>721316000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>425321000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>425321000</UtilidadNeta>
+				<UtilidadParaAccionistas>425321000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>304839000</UtilidadParaAccionistasAA>
+				<IngresoProp>889573000</IngresoProp>
+				<NOI>820400000</NOI>
+				<FFO>673500000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>18608134000</Efectivo>
+				<Deuda>8780543000</Deuda>
+				<ActivosCirculantes>20651323000</ActivosCirculantes>
+				<PasivosCirculantes>11684160000</PasivosCirculantes>
+				<ActivosTotales>71775255000</ActivosTotales>
+				<PasivosTotales>20027128000</PasivosTotales>
+				<Capital>51748127000</Capital>
+				<CapitalAA>24024712000</CapitalAA>
+				<FlujoDeOperaciones>1111475000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-10519849000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>25968796000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2047712000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>18608134000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1800607685</AccionesEnCirculacion>
+				<PrecioPorAccion>43.29</PrecioPorAccion>
+				<Dividendo>0.41</Dividendo>
+				<IngresosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<IngresosAAAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UBrutaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UOperativaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAImpuestosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UNetaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAccionistasAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAccionistasAAAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+			</Reporte>
+			<Reporte ID="2013_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2013">
+				<NumeroDeUnidades>3248495</NumeroDeUnidades>
+				<NumeroDeUnidadesAA d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Ingresos>1061145000</Ingresos>
+				<IngresosAA>523855000</IngresosAA>
+				<UtilidadBruta>1061145000</UtilidadBruta>
+				<UtilidadOperativa>805058000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>876868000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>876868000</UtilidadNeta>
+				<UtilidadParaAccionistas>876868000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>588087000</UtilidadParaAccionistasAA>
+				<IngresoProp>993254000</IngresoProp>
+				<NOI>903700000</NOI>
+				<FFO>904000000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>15823523000</Efectivo>
+				<Deuda>12288989000</Deuda>
+				<ActivosCirculantes>17608412000</ActivosCirculantes>
+				<PasivosCirculantes>3777907000</PasivosCirculantes>
+				<ActivosTotales>67327144000</ActivosTotales>
+				<PasivosTotales>15440406000</PasivosTotales>
+				<Capital>51886738000</Capital>
+				<CapitalAA>24024712000</CapitalAA>
+				<FlujoDeOperaciones>2149335000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-15629360000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>27255837000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2047712000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>15823524000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1809013266</AccionesEnCirculacion>
+				<PrecioPorAccion>36.29</PrecioPorAccion>
+				<Dividendo>0.45</Dividendo>
+				<IngresosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<IngresosAAAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UBrutaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UOperativaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAImpuestosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UNetaAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAccionistasAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<UAccionistasAAAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<IngresosPropAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<NOIAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<FFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+			</Reporte>
+			<Reporte ID="2013_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2013">
+				<NumeroDeUnidades>5241038</NumeroDeUnidades>
+				<NumeroDeUnidadesAA d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Ingresos>1183633000</Ingresos>
+				<IngresosAA>417121000</IngresosAA>
+				<UtilidadBruta>1183633000</UtilidadBruta>
+				<UtilidadOperativa>874195000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>739480000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>739480000</UtilidadNeta>
+				<UtilidadParaAccionistas>739480000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>90015000</UtilidadParaAccionistasAA>
+				<IngresoProp>1092965000</IngresoProp>
+				<NOI>967000000</NOI>
+				<FFO>747300000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>2088434000</Efectivo>
+				<Deuda>34302426000</Deuda>
+				<ActivosCirculantes>6700178000</ActivosCirculantes>
+				<PasivosCirculantes>15352369000</PasivosCirculantes>
+				<ActivosTotales>101329995000</ActivosTotales>
+				<PasivosTotales>43115782000</PasivosTotales>
+				<Capital>58214213000</Capital>
+				<CapitalAA>24024712000</CapitalAA>
+				<FlujoDeOperaciones>1251929000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-31293765000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>31045679000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2047712000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1364458000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1809013266</AccionesEnCirculacion>
+				<PrecioPorAccion>42.11</PrecioPorAccion>
+				<Dividendo>0.48</Dividendo>
+				<IngresosAcumulados>3904102000</IngresosAcumulados>
+				<IngresosAAAcumulados>1553219000</IngresosAAAcumulados>
+				<UBrutaAcumulados>3904102000</UBrutaAcumulados>
+				<UOperativaAcumulados>2939693000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>2886461000</UAImpuestosAcumulados>
+				<UNetaAcumulados>2886461000</UNetaAcumulados>
+				<UAccionistasAcumulados>2886461000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>1150757000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>3614252000</IngresosPropAcumulados>
+				<NOIAcumulados>3230200000</NOIAcumulados>
+				<FFOAcumulados>2902900000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.71</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2014_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2014">
+				<NumeroDeUnidades>5234084</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>1719330</NumeroDeUnidadesAA>
+				<Ingresos>1697943000</Ingresos>
+				<IngresosAA>710222000</IngresosAA>
+				<UtilidadBruta>1697943000</UtilidadBruta>
+				<UtilidadOperativa>1220559000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1054544000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1054544000</UtilidadNeta>
+				<UtilidadParaAccionistas>1054544000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>844792000</UtilidadParaAccionistasAA>
+				<IngresoProp>1456088000</IngresoProp>
+				<NOI>1363000000</NOI>
+				<FFO>762200000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>1321703000</Efectivo>
+				<Deuda>37886549000</Deuda>
+				<ActivosCirculantes>6244514000</ActivosCirculantes>
+				<PasivosCirculantes>6976610000</PasivosCirculantes>
+				<ActivosTotales>103143526000</ActivosTotales>
+				<PasivosTotales>40830829000</PasivosTotales>
+				<Capital>62312697000</Capital>
+				<CapitalAA>45494756000</CapitalAA>
+				<FlujoDeOperaciones>-272207000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-2845370000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>2749994000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1364458000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>996875000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1893424876</AccionesEnCirculacion>
+				<PrecioPorAccion>42.23</PrecioPorAccion>
+				<Dividendo>0.4366</Dividendo>
+				<IngresosAcumulados>4891823000</IngresosAcumulados>
+				<IngresosAAAcumulados>2053133000</IngresosAAAcumulados>
+				<UBrutaAcumulados>4891823000</UBrutaAcumulados>
+				<UOperativaAcumulados>3621128000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>3096213000</UAImpuestosAcumulados>
+				<UNetaAcumulados>3096213000</UNetaAcumulados>
+				<UAccionistasAcumulados>3096213000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>1827733000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>4431880000</IngresosPropAcumulados>
+				<NOIAcumulados>4054100000</NOIAcumulados>
+				<FFOAcumulados>3087000000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.7765999999999997</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2014_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2014">
+				<NumeroDeUnidades>5737506</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>3141599</NumeroDeUnidadesAA>
+				<Ingresos>1982099000</Ingresos>
+				<IngresosAA>949102000</IngresosAA>
+				<UtilidadBruta>1982099000</UtilidadBruta>
+				<UtilidadOperativa>1196358000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1722457000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1722457000</UtilidadNeta>
+				<UtilidadParaAccionistas>1722457000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>425321000</UtilidadParaAccionistasAA>
+				<IngresoProp>1824227000</IngresoProp>
+				<NOI>1717400000</NOI>
+				<FFO>933500000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>30450513000</Efectivo>
+				<Deuda>36206404000</Deuda>
+				<ActivosCirculantes>33642475000</ActivosCirculantes>
+				<PasivosCirculantes>6297252000</PasivosCirculantes>
+				<ActivosTotales>140513258000</ActivosTotales>
+				<PasivosTotales>40146539000</PasivosTotales>
+				<Capital>100366719000</Capital>
+				<CapitalAA>51748127000</CapitalAA>
+				<FlujoDeOperaciones>4685679000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-35738261000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>30624971000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1364458000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>936847000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2776965881</AccionesEnCirculacion>
+				<PrecioPorAccion>45.3</PrecioPorAccion>
+				<Dividendo>0.4014</Dividendo>
+				<IngresosAcumulados>5924820000</IngresosAcumulados>
+				<IngresosAAAcumulados>2600300000</IngresosAAAcumulados>
+				<UBrutaAcumulados>5924820000</UBrutaAcumulados>
+				<UOperativaAcumulados>4096170000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>4393349000</UAImpuestosAcumulados>
+				<UNetaAcumulados>4393349000</UNetaAcumulados>
+				<UAccionistasAcumulados>4393349000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>1948215000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>5366534000</IngresosPropAcumulados>
+				<NOIAcumulados>4951100000</NOIAcumulados>
+				<FFOAcumulados>3347000000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.768</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2014_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2014">
+				<NumeroDeUnidades>5778672</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>3248495</NumeroDeUnidadesAA>
+				<Ingresos>2020125000</Ingresos>
+				<IngresosAA>1061145000</IngresosAA>
+				<UtilidadBruta>2020125000</UtilidadBruta>
+				<UtilidadOperativa>1198965000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>660067000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>660067000</UtilidadNeta>
+				<UtilidadParaAccionistas>660067000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>876868000</UtilidadParaAccionistasAA>
+				<IngresoProp>1822247000</IngresoProp>
+				<NOI>1614100000</NOI>
+				<FFO>1173800000</FFO>
+				<AFFO d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<Efectivo>24943725000</Efectivo>
+				<Deuda>34554585000</Deuda>
+				<ActivosCirculantes>29325288000</ActivosCirculantes>
+				<PasivosCirculantes>5795261000</PasivosCirculantes>
+				<ActivosTotales>138816588000</ActivosTotales>
+				<PasivosTotales>38747660000</PasivosTotales>
+				<Capital>100068928000</Capital>
+				<CapitalAA>51886738000</CapitalAA>
+				<FlujoDeOperaciones>-281284000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-28499253000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>27951426000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1364458000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>535347000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2878386926</AccionesEnCirculacion>
+				<PrecioPorAccion>44.2</PrecioPorAccion>
+				<Dividendo>0.497</Dividendo>
+				<IngresosAcumulados>6883800000</IngresosAcumulados>
+				<IngresosAAAcumulados>3137590000</IngresosAAAcumulados>
+				<UBrutaAcumulados>6883800000</UBrutaAcumulados>
+				<UOperativaAcumulados>4490077000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>4176548000</UAImpuestosAcumulados>
+				<UNetaAcumulados>4176548000</UNetaAcumulados>
+				<UAccionistasAcumulados>4176548000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>2236996000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>6195527000</IngresosPropAcumulados>
+				<NOIAcumulados>5661500000</NOIAcumulados>
+				<FFOAcumulados>3616800000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.815</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2014_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2014">
+				<NumeroDeUnidades>5951240</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5241038</NumeroDeUnidadesAA>
+				<Ingresos>2121813000</Ingresos>
+				<IngresosAA>1183633000</IngresosAA>
+				<UtilidadBruta>2121813000</UtilidadBruta>
+				<UtilidadOperativa>1571012000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2274017000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2274017000</UtilidadNeta>
+				<UtilidadParaAccionistas>2274017000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>739480000</UtilidadParaAccionistasAA>
+				<IngresoProp>1887189000</IngresoProp>
+				<NOI>1710300000</NOI>
+				<FFO>1274800000</FFO>
+				<AFFO>1267800000</AFFO>
+				<Efectivo>500848000</Efectivo>
+				<Deuda>35920635000</Deuda>
+				<ActivosCirculantes>24047188000</ActivosCirculantes>
+				<PasivosCirculantes>4304781000</PasivosCirculantes>
+				<ActivosTotales>144142945000</ActivosTotales>
+				<PasivosTotales>39067474000</PasivosTotales>
+				<Capital>105075471000</Capital>
+				<CapitalAA>58214213000</CapitalAA>
+				<FlujoDeOperaciones>3918558000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-28823955000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>24041787000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1364458000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>500848000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2878386926</AccionesEnCirculacion>
+				<PrecioPorAccion>42.1</PrecioPorAccion>
+				<Dividendo>0.489</Dividendo>
+				<IngresosAcumulados>7821980000</IngresosAcumulados>
+				<IngresosAAAcumulados>3904102000</IngresosAAAcumulados>
+				<UBrutaAcumulados>7821980000</UBrutaAcumulados>
+				<UOperativaAcumulados>5186894000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>5711085000</UAImpuestosAcumulados>
+				<UNetaAcumulados>5711085000</UNetaAcumulados>
+				<UAccionistasAcumulados>5711085000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>2886461000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>6989751000</IngresosPropAcumulados>
+				<NOIAcumulados>6404800000</NOIAcumulados>
+				<FFOAcumulados>4144300000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.8239999999999998</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2015_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2015">
+				<NumeroDeUnidades>6041600</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5234084</NumeroDeUnidadesAA>
+				<Ingresos>2225502000</Ingresos>
+				<IngresosAA>1697943000</IngresosAA>
+				<UtilidadBruta>2225502000</UtilidadBruta>
+				<UtilidadOperativa>1636129000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1392952000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1392952000</UtilidadNeta>
+				<UtilidadParaAccionistas>1392952000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1054544000</UtilidadParaAccionistasAA>
+				<IngresoProp>1998714000</IngresoProp>
+				<NOI>1787100000</NOI>
+				<FFO>1240100000</FFO>
+				<AFFO>1233100000</AFFO>
+				<Efectivo>863437000</Efectivo>
+				<Deuda>46517178000</Deuda>
+				<ActivosCirculantes>31096214000</ActivosCirculantes>
+				<PasivosCirculantes>5324924000</PasivosCirculantes>
+				<ActivosTotales>155364777000</ActivosTotales>
+				<PasivosTotales>50303875000</PasivosTotales>
+				<Capital>105060902000</Capital>
+				<CapitalAA>62312697000</CapitalAA>
+				<FlujoDeOperaciones>2203623000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-9888578000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>8047544000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>500848000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>863437000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2988764820</AccionesEnCirculacion>
+				<PrecioPorAccion>39.85</PrecioPorAccion>
+				<Dividendo>0.4921</Dividendo>
+				<IngresosAcumulados>8349539000</IngresosAcumulados>
+				<IngresosAAAcumulados>4891823000</IngresosAAAcumulados>
+				<UBrutaAcumulados>8349539000</UBrutaAcumulados>
+				<UOperativaAcumulados>5602464000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>6049493000</UAImpuestosAcumulados>
+				<UNetaAcumulados>6049493000</UNetaAcumulados>
+				<UAccionistasAcumulados>6049493000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>3096213000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>7532377000</IngresosPropAcumulados>
+				<NOIAcumulados>6828900000</NOIAcumulados>
+				<FFOAcumulados>4622200000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.8795</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2015_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2015">
+				<NumeroDeUnidades>6669900</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5737506</NumeroDeUnidadesAA>
+				<Ingresos>2509202000</Ingresos>
+				<IngresosAA>1982099000</IngresosAA>
+				<UtilidadBruta>2509202000</UtilidadBruta>
+				<UtilidadOperativa>1875727000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1343496000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1343496000</UtilidadNeta>
+				<UtilidadParaAccionistas>1343496000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1722457000</UtilidadParaAccionistasAA>
+				<IngresoProp>2275200000</IngresoProp>
+				<NOI>2028000000</NOI>
+				<FFO>1332700000</FFO>
+				<AFFO>1325700000</AFFO>
+				<Efectivo>1011918000</Efectivo>
+				<Deuda>46543616000</Deuda>
+				<ActivosCirculantes>13326595000</ActivosCirculantes>
+				<PasivosCirculantes>4945103000</PasivosCirculantes>
+				<ActivosTotales>157112890000</ActivosTotales>
+				<PasivosTotales>50553454000</PasivosTotales>
+				<Capital>106559436000</Capital>
+				<CapitalAA>100366719000</CapitalAA>
+				<FlujoDeOperaciones>2651079000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7461462000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>5321453000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>500848000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1011918000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3030150972</AccionesEnCirculacion>
+				<PrecioPorAccion>37.31</PrecioPorAccion>
+				<Dividendo>0.4934</Dividendo>
+				<IngresosAcumulados>8876642000</IngresosAcumulados>
+				<IngresosAAAcumulados>5924820000</IngresosAAAcumulados>
+				<UBrutaAcumulados>8876642000</UBrutaAcumulados>
+				<UOperativaAcumulados>6281833000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>5670532000</UAImpuestosAcumulados>
+				<UNetaAcumulados>5670532000</UNetaAcumulados>
+				<UAccionistasAcumulados>5670532000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>4393349000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>7983350000</IngresosPropAcumulados>
+				<NOIAcumulados>7139500000</NOIAcumulados>
+				<FFOAcumulados>5021400000</FFOAcumulados>
+				<AFFOAcumulados d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" />
+				<DividendosAcumulados>1.9715</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2015_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2015">
+				<NumeroDeUnidades>6833300</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5778672</NumeroDeUnidadesAA>
+				<Ingresos>2871645000</Ingresos>
+				<IngresosAA>2020125000</IngresosAA>
+				<UtilidadBruta>2871645000</UtilidadBruta>
+				<UtilidadOperativa>2159049000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>236410000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>236410000</UtilidadNeta>
+				<UtilidadParaAccionistas>236410000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>660067000</UtilidadParaAccionistasAA>
+				<IngresoProp>2587500000</IngresoProp>
+				<NOI>2311700000</NOI>
+				<FFO>1517500000</FFO>
+				<AFFO>1510500000</AFFO>
+				<Efectivo>586271000</Efectivo>
+				<Deuda>47319855000</Deuda>
+				<ActivosCirculantes>10524398000</ActivosCirculantes>
+				<PasivosCirculantes>9596021000</PasivosCirculantes>
+				<ActivosTotales>157423594000</ActivosTotales>
+				<PasivosTotales>50603535000</PasivosTotales>
+				<Capital>106820059000</Capital>
+				<CapitalAA>100068928000</CapitalAA>
+				<FlujoDeOperaciones>5020344000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-6752386000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1817465000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>500848000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>586271000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3040340391</AccionesEnCirculacion>
+				<PrecioPorAccion>34.91</PrecioPorAccion>
+				<Dividendo>0.5005</Dividendo>
+				<IngresosAcumulados>9728162000</IngresosAcumulados>
+				<IngresosAAAcumulados>6883800000</IngresosAAAcumulados>
+				<UBrutaAcumulados>9728162000</UBrutaAcumulados>
+				<UOperativaAcumulados>7241917000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>5246875000</UAImpuestosAcumulados>
+				<UNetaAcumulados>5246875000</UNetaAcumulados>
+				<UAccionistasAcumulados>5246875000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>4176548000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>8748603000</IngresosPropAcumulados>
+				<NOIAcumulados>7837100000</NOIAcumulados>
+				<FFOAcumulados>5365100000</FFOAcumulados>
+				<AFFOAcumulados>5337100000</AFFOAcumulados>
+				<DividendosAcumulados>1.9749999999999999</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2015_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2015">
+				<NumeroDeUnidades>7079274</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5951240</NumeroDeUnidadesAA>
+				<Ingresos>3118549000</Ingresos>
+				<IngresosAA>2121813000</IngresosAA>
+				<UtilidadBruta>3118549000</UtilidadBruta>
+				<UtilidadOperativa>2361785000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2761632000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2761632000</UtilidadNeta>
+				<UtilidadParaAccionistas>2761632000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>2274017000</UtilidadParaAccionistasAA>
+				<IngresoProp>2828400000</IngresoProp>
+				<NOI>2518900000</NOI>
+				<FFO>1673000000</FFO>
+				<AFFO>1666000000</AFFO>
+				<Efectivo>5995918000</Efectivo>
+				<Deuda>54333035000</Deuda>
+				<ActivosCirculantes>13715805000</ActivosCirculantes>
+				<PasivosCirculantes>12769096000</PasivosCirculantes>
+				<ActivosTotales>171301153000</ActivosTotales>
+				<PasivosTotales>57942775000</PasivosTotales>
+				<Capital>113358378000</Capital>
+				<CapitalAA>105075471000</CapitalAA>
+				<FlujoDeOperaciones>7176379000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7730073000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>6048764000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>500848000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>5995918000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3197600000</AccionesEnCirculacion>
+				<PrecioPorAccion>37.5</PrecioPorAccion>
+				<Dividendo>0.5097</Dividendo>
+				<IngresosAcumulados>10724898000</IngresosAcumulados>
+				<IngresosAAAcumulados>7821980000</IngresosAAAcumulados>
+				<UBrutaAcumulados>10724898000</UBrutaAcumulados>
+				<UOperativaAcumulados>8032690000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>5734490000</UAImpuestosAcumulados>
+				<UNetaAcumulados>5734490000</UNetaAcumulados>
+				<UAccionistasAcumulados>5734490000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>5711085000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>9689814000</IngresosPropAcumulados>
+				<NOIAcumulados>8645700000</NOIAcumulados>
+				<FFOAcumulados>5763300000</FFOAcumulados>
+				<AFFOAcumulados>5735300000</AFFOAcumulados>
+				<DividendosAcumulados>1.9957</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2016_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2016">
+				<NumeroDeUnidades>7127182</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>6041600</NumeroDeUnidadesAA>
+				<Ingresos>3174161000</Ingresos>
+				<IngresosAA>2225502000</IngresosAA>
+				<UtilidadBruta>3174161000</UtilidadBruta>
+				<UtilidadOperativa>2385719000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2769457000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2769457000</UtilidadNeta>
+				<UtilidadParaAccionistas>2738007000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1392952000</UtilidadParaAccionistasAA>
+				<IngresoProp>2864981000</IngresoProp>
+				<NOI>2551700000</NOI>
+				<FFO>1607100000</FFO>
+				<AFFO>1600100000</AFFO>
+				<Efectivo>6485800000</Efectivo>
+				<Deuda>54455550000</Deuda>
+				<ActivosCirculantes>12183850000</ActivosCirculantes>
+				<PasivosCirculantes>13109401000</PasivosCirculantes>
+				<ActivosTotales>172977889000</ActivosTotales>
+				<PasivosTotales>58175494000</PasivosTotales>
+				<Capital>114802395000</Capital>
+				<CapitalAA>105060902000</CapitalAA>
+				<FlujoDeOperaciones>3369735000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-742393000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2137460000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5995918000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>6485800000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3202639639000</AccionesEnCirculacion>
+				<PrecioPorAccion>39.8</PrecioPorAccion>
+				<Dividendo>0.502</Dividendo>
+				<IngresosAcumulados>11673557000</IngresosAcumulados>
+				<IngresosAAAcumulados>8349539000</IngresosAAAcumulados>
+				<UBrutaAcumulados>11673557000</UBrutaAcumulados>
+				<UOperativaAcumulados>8782280000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>7110995000</UAImpuestosAcumulados>
+				<UNetaAcumulados>7110995000</UNetaAcumulados>
+				<UAccionistasAcumulados>7079545000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>6049493000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>10556081000</IngresosPropAcumulados>
+				<NOIAcumulados>9410300000</NOIAcumulados>
+				<FFOAcumulados>6130300000</FFOAcumulados>
+				<AFFOAcumulados>6102300000</AFFOAcumulados>
+				<DividendosAcumulados>2.0056000000000003</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2016_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2016">
+				<NumeroDeUnidades>7191414</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>6669900</NumeroDeUnidadesAA>
+				<Ingresos>3187557000</Ingresos>
+				<IngresosAA>2509202000</IngresosAA>
+				<UtilidadBruta>3187557000</UtilidadBruta>
+				<UtilidadOperativa>2393871000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2345265000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2345265000</UtilidadNeta>
+				<UtilidadParaAccionistas>1723789000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1343496000</UtilidadParaAccionistasAA>
+				<IngresoProp>2869069000</IngresoProp>
+				<NOI>2563400000</NOI>
+				<FFO>1536000000</FFO>
+				<AFFO>1529000000</AFFO>
+				<Efectivo>6411670000</Efectivo>
+				<Deuda>61483876000</Deuda>
+				<ActivosCirculantes>15326249000</ActivosCirculantes>
+				<PasivosCirculantes>6390458000</PasivosCirculantes>
+				<ActivosTotales>183889832000</ActivosTotales>
+				<PasivosTotales>67109379000</PasivosTotales>
+				<Capital>116780453000</Capital>
+				<CapitalAA>106559436000</CapitalAA>
+				<FlujoDeOperaciones>7161991000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-6940821000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>194582000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5995918000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>6411670000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3220900751</AccionesEnCirculacion>
+				<PrecioPorAccion>38.86</PrecioPorAccion>
+				<Dividendo>0.4801</Dividendo>
+				<IngresosAcumulados>12351912000</IngresosAcumulados>
+				<IngresosAAAcumulados>8876642000</IngresosAAAcumulados>
+				<UBrutaAcumulados>12351912000</UBrutaAcumulados>
+				<UOperativaAcumulados>9300424000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>8112764000</UAImpuestosAcumulados>
+				<UNetaAcumulados>8112764000</UNetaAcumulados>
+				<UAccionistasAcumulados>7459838000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>5670532000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>11149950000</IngresosPropAcumulados>
+				<NOIAcumulados>9945700000</NOIAcumulados>
+				<FFOAcumulados>6333600000</FFOAcumulados>
+				<AFFOAcumulados>6305600000</AFFOAcumulados>
+				<DividendosAcumulados>1.9923</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2016_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2016">
+				<NumeroDeUnidades>7320742</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>6833300</NumeroDeUnidadesAA>
+				<Ingresos>3359100000</Ingresos>
+				<IngresosAA>2871645000</IngresosAA>
+				<UtilidadBruta>3359100000</UtilidadBruta>
+				<UtilidadOperativa>2537934000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1320840000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1320840000</UtilidadNeta>
+				<UtilidadParaAccionistas>1432610000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>236410000</UtilidadParaAccionistasAA>
+				<IngresoProp>3027393000</IngresoProp>
+				<NOI>2708700000</NOI>
+				<FFO>1586800000</FFO>
+				<AFFO>1579800000</AFFO>
+				<Efectivo>5154590000</Efectivo>
+				<Deuda>62520708000</Deuda>
+				<ActivosCirculantes>11734722000</ActivosCirculantes>
+				<PasivosCirculantes>4279103000</PasivosCirculantes>
+				<ActivosTotales>184834408000</ActivosTotales>
+				<PasivosTotales>67278931000</PasivosTotales>
+				<Capital>117555477000</Capital>
+				<CapitalAA>106820059000</CapitalAA>
+				<FlujoDeOperaciones>9867115000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7272191000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-3436252000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5995918000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>5154590000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3220900751</AccionesEnCirculacion>
+				<PrecioPorAccion>35.42</PrecioPorAccion>
+				<Dividendo>0.4894</Dividendo>
+				<IngresosAcumulados>12839367000</IngresosAcumulados>
+				<IngresosAAAcumulados>9728162000</IngresosAAAcumulados>
+				<UBrutaAcumulados>12839367000</UBrutaAcumulados>
+				<UOperativaAcumulados>9679309000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>9197194000</UAImpuestosAcumulados>
+				<UNetaAcumulados>9197194000</UNetaAcumulados>
+				<UAccionistasAcumulados>8656038000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>5246875000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>11589843000</IngresosPropAcumulados>
+				<NOIAcumulados>10342700000</NOIAcumulados>
+				<FFOAcumulados>6402900000</FFOAcumulados>
+				<AFFOAcumulados>6374900000</AFFOAcumulados>
+				<DividendosAcumulados>1.9812</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2016_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2016">
+				<NumeroDeUnidades>7369935</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7079274</NumeroDeUnidadesAA>
+				<Ingresos>3532030000</Ingresos>
+				<IngresosAA>3118549000</IngresosAA>
+				<UtilidadBruta>3532030000</UtilidadBruta>
+				<UtilidadOperativa>2670907000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>5958350000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>5958350000</UtilidadNeta>
+				<UtilidadParaAccionistas>5930226000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>2761632000</UtilidadParaAccionistasAA>
+				<IngresoProp>3152985000</IngresoProp>
+				<NOI>2843300000</NOI>
+				<FFO>1681500000</FFO>
+				<AFFO>1674500000</AFFO>
+				<Efectivo>5554120000</Efectivo>
+				<Deuda>64806553000</Deuda>
+				<ActivosCirculantes>11673221000</ActivosCirculantes>
+				<PasivosCirculantes>4124936000</PasivosCirculantes>
+				<ActivosTotales>192026977000</ActivosTotales>
+				<PasivosTotales>69383642000</PasivosTotales>
+				<Capital>122643335000</Capital>
+				<CapitalAA>113358378000</CapitalAA>
+				<FlujoDeOperaciones>12176264000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7804388000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-4813674000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5995918000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>5554120000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3249305750</AccionesEnCirculacion>
+				<PrecioPorAccion>31.76</PrecioPorAccion>
+				<Dividendo>0.5116</Dividendo>
+				<IngresosAcumulados>13252848000</IngresosAcumulados>
+				<IngresosAAAcumulados>10724898000</IngresosAAAcumulados>
+				<UBrutaAcumulados>13252848000</UBrutaAcumulados>
+				<UOperativaAcumulados>9988431000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>12393912000</UAImpuestosAcumulados>
+				<UNetaAcumulados>12393912000</UNetaAcumulados>
+				<UAccionistasAcumulados>11824632000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>5734490000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>11914428000</IngresosPropAcumulados>
+				<NOIAcumulados>10667100000</NOIAcumulados>
+				<FFOAcumulados>6411400000</FFOAcumulados>
+				<AFFOAcumulados>6383400000</AFFOAcumulados>
+				<DividendosAcumulados>1.9831</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="1" ID="2017_1" TrimestreReporte="1" Dia="30" Mes="3" Ano="2017">
+				<NumeroDeUnidades>7611765</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7127182</NumeroDeUnidadesAA>
+				<Ingresos>3563962000</Ingresos>
+				<IngresosAA>3174161000</IngresosAA>
+				<UtilidadBruta>3563962000</UtilidadBruta>
+				<UtilidadOperativa>2698476000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>5037184000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>5037184000</UtilidadNeta>
+				<UtilidadParaAccionistas>5026414000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>2738007000</UtilidadParaAccionistasAA>
+				<IngresoProp>3202564000</IngresoProp>
+				<NOI>2877200000</NOI>
+				<FFO>1691300000</FFO>
+				<AFFO>1684300000</AFFO>
+				<Efectivo>3006323000</Efectivo>
+				<Deuda>61133289000</Deuda>
+				<ActivosCirculantes>9750902000</ActivosCirculantes>
+				<PasivosCirculantes>4679027000</PasivosCirculantes>
+				<ActivosTotales>194521959000</ActivosTotales>
+				<PasivosTotales>66897334000</PasivosTotales>
+				<Capital>127624625000</Capital>
+				<CapitalAA>114802395000</CapitalAA>
+				<FlujoDeOperaciones>1923739000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-1630824000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2840712000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5554120000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3006323000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3268142986</AccionesEnCirculacion>
+				<PrecioPorAccion>32.14</PrecioPorAccion>
+				<Dividendo>0.5154</Dividendo>
+				<IngresosAcumulados>13642649000</IngresosAcumulados>
+				<IngresosAAAcumulados>11673557000</IngresosAAAcumulados>
+				<UBrutaAcumulados>13642649000</UBrutaAcumulados>
+				<UOperativaAcumulados>10301188000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>14661639000</UAImpuestosAcumulados>
+				<UNetaAcumulados>14661639000</UNetaAcumulados>
+				<UAccionistasAcumulados>14113039000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>7079545000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>12252011000</IngresosPropAcumulados>
+				<NOIAcumulados>10992600000</NOIAcumulados>
+				<FFOAcumulados>6495600000</FFOAcumulados>
+				<AFFOAcumulados>6467600000</AFFOAcumulados>
+				<DividendosAcumulados>1.9965000000000002</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="2" ID="2017_2" TrimestreReporte="2" Dia="30" Mes="6" Ano="2017">
+				<NumeroDeUnidades>7665296</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7191414</NumeroDeUnidadesAA>
+				<Ingresos>3580056000</Ingresos>
+				<IngresosAA>3187557000</IngresosAA>
+				<UtilidadBruta>3580056000</UtilidadBruta>
+				<UtilidadOperativa>2693386000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>3517708000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>3517708000</UtilidadNeta>
+				<UtilidadParaAccionistas>3508591000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1723789000</UtilidadParaAccionistasAA>
+				<IngresoProp>3197719000</IngresoProp>
+				<NOI>2876700000</NOI>
+				<FFO>1597300000</FFO>
+				<AFFO>1590300000</AFFO>
+				<Efectivo>1870940000</Efectivo>
+				<Deuda>61870677000</Deuda>
+				<ActivosCirculantes>8977506000</ActivosCirculantes>
+				<PasivosCirculantes>7225263000</PasivosCirculantes>
+				<ActivosTotales>198879669000</ActivosTotales>
+				<PasivosTotales>69277344000</PasivosTotales>
+				<Capital>129602325000</Capital>
+				<CapitalAA>116780453000</CapitalAA>
+				<FlujoDeOperaciones>4052085000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-3520883000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-4214382000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5554120000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1870940000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3289543506</AccionesEnCirculacion>
+				<PrecioPorAccion>34.42</PrecioPorAccion>
+				<Dividendo>0.5115</Dividendo>
+				<IngresosAcumulados>14035148000</IngresosAcumulados>
+				<IngresosAAAcumulados>12351912000</IngresosAAAcumulados>
+				<UBrutaAcumulados>14035148000</UBrutaAcumulados>
+				<UOperativaAcumulados>10600703000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>15834082000</UAImpuestosAcumulados>
+				<UNetaAcumulados>15834082000</UNetaAcumulados>
+				<UAccionistasAcumulados>15897841000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>7459838000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>12580661000</IngresosPropAcumulados>
+				<NOIAcumulados>11305900000</NOIAcumulados>
+				<FFOAcumulados>6556900000</FFOAcumulados>
+				<AFFOAcumulados>6528900000</AFFOAcumulados>
+				<DividendosAcumulados>2.0279</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="3" ID="2017_3" TrimestreReporte="3" Dia="30" Mes="9" Ano="2017">
+				<NumeroDeUnidades>7734584</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7320742</NumeroDeUnidadesAA>
+				<Ingresos>2684730000</Ingresos>
+				<IngresosAA>3359100000</IngresosAA>
+				<UtilidadBruta>2684730000</UtilidadBruta>
+				<UtilidadOperativa>2684730000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>2070901000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2070901000</UtilidadNeta>
+				<UtilidadParaAccionistas>2060896000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1432610000</UtilidadParaAccionistasAA>
+				<IngresoProp>3201208000</IngresoProp>
+				<NOI>2871700000</NOI>
+				<FFO>1562500000</FFO>
+				<AFFO>1555500000</AFFO>
+				<Efectivo>1983177000</Efectivo>
+				<Deuda>8195799000</Deuda>
+				<ActivosCirculantes>7868689000</ActivosCirculantes>
+				<PasivosCirculantes>7396633000</PasivosCirculantes>
+				<ActivosTotales>200893767000</ActivosTotales>
+				<PasivosTotales>69931680000</PasivosTotales>
+				<Capital>130962087000</Capital>
+				<CapitalAA>117555477000</CapitalAA>
+				<FlujoDeOperaciones>7975154000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-5059221000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-6486876000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5554120000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1983177000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3327000000</AccionesEnCirculacion>
+				<PrecioPorAccion>30.72</PrecioPorAccion>
+				<Dividendo>0.5166</Dividendo>
+				<IngresosAcumulados>13360778000</IngresosAcumulados>
+				<IngresosAAAcumulados>12839367000</IngresosAAAcumulados>
+				<UBrutaAcumulados>13360778000</UBrutaAcumulados>
+				<UOperativaAcumulados>10747499000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>16584143000</UAImpuestosAcumulados>
+				<UNetaAcumulados>16584143000</UNetaAcumulados>
+				<UAccionistasAcumulados>16526127000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>8656038000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>12754476000</IngresosPropAcumulados>
+				<NOIAcumulados>11468900000</NOIAcumulados>
+				<FFOAcumulados>6532600000</FFOAcumulados>
+				<AFFOAcumulados>6504600000</AFFOAcumulados>
+				<DividendosAcumulados>2.0551</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="4" ID="2017_4" TrimestreReporte="4" Dia="30" Mes="12" Ano="2017">
+				<NumeroDeUnidades>8447785</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7369935</NumeroDeUnidadesAA>
+				<Ingresos>3903857000</Ingresos>
+				<IngresosAA>3532030000</IngresosAA>
+				<UtilidadBruta>3903857000</UtilidadBruta>
+				<UtilidadOperativa>2911231000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1519241000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1519241000</UtilidadNeta>
+				<UtilidadParaAccionistas>1496910000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>5930226000</UtilidadParaAccionistasAA>
+				<IngresoProp>3323483000</IngresoProp>
+				<NOI>3115800000</NOI>
+				<FFO>1819200000</FFO>
+				<AFFO>1903000000</AFFO>
+				<Efectivo>879718000</Efectivo>
+				<Deuda>68062146000</Deuda>
+				<ActivosCirculantes>11737370000</ActivosCirculantes>
+				<PasivosCirculantes>6115431000</PasivosCirculantes>
+				<ActivosTotales>222850446000</ActivosTotales>
+				<PasivosTotales>72953899000</PasivosTotales>
+				<Capital>149896547000</Capital>
+				<CapitalAA>122643335000</CapitalAA>
+				<FlujoDeOperaciones>9134757000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-17517475000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>3708316000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>5554120000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>879718000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3956776551</AccionesEnCirculacion>
+				<PrecioPorAccion>29.14</PrecioPorAccion>
+				<Dividendo>0.5107</Dividendo>
+				<IngresosAcumulados>13732605000</IngresosAcumulados>
+				<IngresosAAAcumulados>13252848000</IngresosAAAcumulados>
+				<UBrutaAcumulados>13732605000</UBrutaAcumulados>
+				<UOperativaAcumulados>10987823000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>12145034000</UAImpuestosAcumulados>
+				<UNetaAcumulados>12145034000</UNetaAcumulados>
+				<UAccionistasAcumulados>12092811000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>11824632000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>12924974000</IngresosPropAcumulados>
+				<NOIAcumulados>11741400000</NOIAcumulados>
+				<FFOAcumulados>6670300000</FFOAcumulados>
+				<AFFOAcumulados>6733100000</AFFOAcumulados>
+				<DividendosAcumulados>2.0542</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="1" ID="2018_1" TrimestreReporte="1" Dia="30" Mes="3" Ano="2018">
+				<NumeroDeUnidades>8270950</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7611765</NumeroDeUnidadesAA>
+				<Ingresos>4129806000</Ingresos>
+				<IngresosAA>3563962000</IngresosAA>
+				<UtilidadBruta>4129806000</UtilidadBruta>
+				<UtilidadOperativa>3078132000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>4819637000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>4819637000</UtilidadNeta>
+				<UtilidadParaAccionistas>4819637000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>5026414000</UtilidadParaAccionistasAA>
+				<IngresoProp>3740180000</IngresoProp>
+				<NOI>3279800000</NOI>
+				<FFO>1991400000</FFO>
+				<AFFO>2014300000</AFFO>
+				<Efectivo>3749858000</Efectivo>
+				<Deuda>66072085000</Deuda>
+				<ActivosCirculantes>10442285000</ActivosCirculantes>
+				<PasivosCirculantes>5745703000</PasivosCirculantes>
+				<ActivosTotales>224199262000</ActivosTotales>
+				<PasivosTotales>71123791000</PasivosTotales>
+				<Capital>153075471000</Capital>
+				<CapitalAA>127624625000</CapitalAA>
+				<FlujoDeOperaciones>1720871000</FlujoDeOperaciones>
+				<FlujoDeInversiones>955743000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2155200000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3228444000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3749858000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3964259186</AccionesEnCirculacion>
+				<PrecioPorAccion>27.36</PrecioPorAccion>
+				<Dividendo>0.5294</Dividendo>
+				<IngresosAcumulados>14298449000</IngresosAcumulados>
+				<IngresosAAAcumulados>13642649000</IngresosAAAcumulados>
+				<UBrutaAcumulados>14298449000</UBrutaAcumulados>
+				<UOperativaAcumulados>11367479000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>11927487000</UAImpuestosAcumulados>
+				<UNetaAcumulados>11927487000</UNetaAcumulados>
+				<UAccionistasAcumulados>11886034000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>14113039000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>13462590000</IngresosPropAcumulados>
+				<NOIAcumulados>12144000000</NOIAcumulados>
+				<FFOAcumulados>6970400000</FFOAcumulados>
+				<AFFOAcumulados>7063100000</AFFOAcumulados>
+				<DividendosAcumulados>2.0681999999999996</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="2" ID="2018_2" TrimestreReporte="2" Dia="30" Mes="6" Ano="2018">
+				<NumeroDeUnidades>8418787</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7665296</NumeroDeUnidadesAA>
+				<Ingresos>4215178000</Ingresos>
+				<IngresosAA>3580056000</IngresosAA>
+				<UtilidadBruta>4215178000</UtilidadBruta>
+				<UtilidadOperativa>3142441000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>862017000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>862017000</UtilidadNeta>
+				<UtilidadParaAccionistas>871095000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>3508591000</UtilidadParaAccionistasAA>
+				<IngresoProp>3790171000</IngresoProp>
+				<NOI>3349500000</NOI>
+				<FFO>1957900000</FFO>
+				<AFFO>2045100000</AFFO>
+				<Efectivo>3503940000</Efectivo>
+				<Deuda>72404240000</Deuda>
+				<ActivosCirculantes>10258803000</ActivosCirculantes>
+				<PasivosCirculantes>8299575000</PasivosCirculantes>
+				<ActivosTotales>228276133000</ActivosTotales>
+				<PasivosTotales>77488250000</PasivosTotales>
+				<Capital>150787883000</Capital>
+				<CapitalAA>129602325000</CapitalAA>
+				<FlujoDeOperaciones>7103958000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-2864800000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-3963662000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3228444000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3503940000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3938304777</AccionesEnCirculacion>
+				<PrecioPorAccion>28.84</PrecioPorAccion>
+				<Dividendo>0.5401</Dividendo>
+				<IngresosAcumulados>14933571000</IngresosAcumulados>
+				<IngresosAAAcumulados>14035148000</IngresosAAAcumulados>
+				<UBrutaAcumulados>14933571000</UBrutaAcumulados>
+				<UOperativaAcumulados>11816534000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>9271796000</UAImpuestosAcumulados>
+				<UNetaAcumulados>9271796000</UNetaAcumulados>
+				<UAccionistasAcumulados>9248538000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>15897841000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>14055042000</IngresosPropAcumulados>
+				<NOIAcumulados>12616800000</NOIAcumulados>
+				<FFOAcumulados>7331000000</FFOAcumulados>
+				<AFFOAcumulados>7517900000</AFFOAcumulados>
+				<DividendosAcumulados>2.0968</DividendosAcumulados>
+			</Reporte>
+			<Reporte TrimestreNatural="3" ID="2018_3" TrimestreReporte="3" Dia="30" Mes="9" Ano="2018">
+				<NumeroDeUnidades>8454283</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>7734584</NumeroDeUnidadesAA>
+				<Ingresos>4345347000</Ingresos>
+				<IngresosAA>2684730000</IngresosAA>
+				<UtilidadBruta>4345347000</UtilidadBruta>
+				<UtilidadOperativa>3227208000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>4582872000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>4582872000</UtilidadNeta>
+				<UtilidadParaAccionistas>4541909000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>2060896000</UtilidadParaAccionistasAA>
+				<IngresoProp>3909964000</IngresoProp>
+				<NOI>3439500000</NOI>
+				<FFO>2202900000</FFO>
+				<AFFO>2267000000</AFFO>
+				<Efectivo>6014561000</Efectivo>
+				<Deuda>74482182000</Deuda>
+				<ActivosCirculantes>12137285000</ActivosCirculantes>
+				<PasivosCirculantes>3432758000</PasivosCirculantes>
+				<ActivosTotales>233658164000</ActivosTotales>
+				<PasivosTotales>79927891000</PasivosTotales>
+				<Capital>153730273000</Capital>
+				<CapitalAA>130962087000</CapitalAA>
+				<FlujoDeOperaciones>10972666000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-5502912000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2683637000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3228444000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>6014561000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3925323970</AccionesEnCirculacion>
+				<PrecioPorAccion>24.61</PrecioPorAccion>
+				<Dividendo>0.555</Dividendo>
+				<IngresosAcumulados>16594188000</IngresosAcumulados>
+				<IngresosAAAcumulados>13360778000</IngresosAAAcumulados>
+				<UBrutaAcumulados>16594188000</UBrutaAcumulados>
+				<UOperativaAcumulados>12359012000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>11783767000</UAImpuestosAcumulados>
+				<UNetaAcumulados>11783767000</UNetaAcumulados>
+				<UAccionistasAcumulados>11729551000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>16526127000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>14763798000</IngresosPropAcumulados>
+				<NOIAcumulados>13184600000</NOIAcumulados>
+				<FFOAcumulados>7971400000</FFOAcumulados>
+				<AFFOAcumulados>8229400000</AFFOAcumulados>
+				<DividendosAcumulados>2.1352</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2018_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2018">
+				<NumeroDeUnidades>8614725</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8447785</NumeroDeUnidadesAA>
+				<Ingresos>4514798000</Ingresos>
+				<IngresosAA>3903857000</IngresosAA>
+				<UtilidadBruta>4514798000</UtilidadBruta>
+				<UtilidadOperativa>3362163000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>7006226000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>7006226000</UtilidadNeta>
+				<UtilidadParaAccionistas>6969527000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1496910000</UtilidadParaAccionistasAA>
+				<IngresoProp>4074457000</IngresoProp>
+				<NOI>3577600000</NOI>
+				<FFO>2353200000</FFO>
+				<AFFO>2402300000</AFFO>
+				<Efectivo>4408926000</Efectivo>
+				<Deuda>79566110000</Deuda>
+				<ActivosCirculantes>10471728000</ActivosCirculantes>
+				<PasivosCirculantes>5711708000</PasivosCirculantes>
+				<ActivosTotales>242795015000</ActivosTotales>
+				<PasivosTotales>84689700000</PasivosTotales>
+				<Capital>158105315000</Capital>
+				<CapitalAA>149896547000</CapitalAA>
+				<FlujoDeOperaciones>15044885000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-8456313000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-5408090000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3228444000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>4408926000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3890114426</AccionesEnCirculacion>
+				<PrecioPorAccion>21.84</PrecioPorAccion>
+				<Dividendo>0.5755</Dividendo>
+				<IngresosAcumulados>17205129000</IngresosAcumulados>
+				<IngresosAAAcumulados>13732605000</IngresosAAAcumulados>
+				<UBrutaAcumulados>17205129000</UBrutaAcumulados>
+				<UOperativaAcumulados>12809944000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>17270752000</UAImpuestosAcumulados>
+				<UNetaAcumulados>17270752000</UNetaAcumulados>
+				<UAccionistasAcumulados>17202168000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>12092811000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>15514772000</IngresosPropAcumulados>
+				<NOIAcumulados>13646400000</NOIAcumulados>
+				<FFOAcumulados>8505400000</FFOAcumulados>
+				<AFFOAcumulados>8728700000</AFFOAcumulados>
+				<DividendosAcumulados>2.2</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2019_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2019">
+				<NumeroDeUnidades>8681121</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8270950</NumeroDeUnidadesAA>
+				<Ingresos>4603191000</Ingresos>
+				<IngresosAA>4129806000</IngresosAA>
+				<UtilidadBruta>4603191000</UtilidadBruta>
+				<UtilidadOperativa>3444732000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>4263838000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>4263838000</UtilidadNeta>
+				<UtilidadParaAccionistas>4263838000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>4819637000</UtilidadParaAccionistasAA>
+				<IngresoProp>4129503000</IngresoProp>
+				<NOI>3667700000</NOI>
+				<FFO>2218400000</FFO>
+				<AFFO>2258400000</AFFO>
+				<Efectivo>3341418000</Efectivo>
+				<Deuda>81718253000</Deuda>
+				<ActivosCirculantes>10408519000</ActivosCirculantes>
+				<PasivosCirculantes>9631616000</PasivosCirculantes>
+				<ActivosTotales>248200458000</ActivosTotales>
+				<PasivosTotales>88022100000</PasivosTotales>
+				<Capital>160178358000</Capital>
+				<CapitalAA>153075471000</CapitalAA>
+				<FlujoDeOperaciones>5137443000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-3171482000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-1024871000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>4408926000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3341418000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3890100000</AccionesEnCirculacion>
+				<PrecioPorAccion>26.82</PrecioPorAccion>
+				<Dividendo>0.5806</Dividendo>
+				<IngresosAcumulados>17678514000</IngresosAcumulados>
+				<IngresosAAAcumulados>14298449000</IngresosAAAcumulados>
+				<UBrutaAcumulados>17678514000</UBrutaAcumulados>
+				<UOperativaAcumulados>13176544000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>16714953000</UAImpuestosAcumulados>
+				<UNetaAcumulados>16714953000</UNetaAcumulados>
+				<UAccionistasAcumulados>16646369000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>11886034000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>15904095000</IngresosPropAcumulados>
+				<NOIAcumulados>14034300000</NOIAcumulados>
+				<FFOAcumulados>8732400000</FFOAcumulados>
+				<AFFOAcumulados>8972800000</AFFOAcumulados>
+				<DividendosAcumulados>2.2512</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2019_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2019">
+				<NumeroDeUnidades>8729996</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8418787</NumeroDeUnidadesAA>
+				<Ingresos>4736936000</Ingresos>
+				<IngresosAA>4215178000</IngresosAA>
+				<UtilidadBruta>4736936000</UtilidadBruta>
+				<UtilidadOperativa>3527086000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>5473456000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>5473456000</UtilidadNeta>
+				<UtilidadParaAccionistas>5436463000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>871095000</UtilidadParaAccionistasAA>
+				<IngresoProp>4227623000</IngresoProp>
+				<NOI>3747300000</NOI>
+				<FFO>2206200000</FFO>
+				<AFFO>2206200000</AFFO>
+				<Efectivo>18152334000</Efectivo>
+				<Deuda>99237194000</Deuda>
+				<ActivosCirculantes>25424196000</ActivosCirculantes>
+				<PasivosCirculantes>4175612000</PasivosCirculantes>
+				<ActivosTotales>268599891000</ActivosTotales>
+				<PasivosTotales>105185469000</PasivosTotales>
+				<Capital>163414422000</Capital>
+				<CapitalAA>150787883000</CapitalAA>
+				<FlujoDeOperaciones>6667851000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-5582241000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>12657798000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>4408926000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>18152334000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3890100000</AccionesEnCirculacion>
+				<PrecioPorAccion>25.42</PrecioPorAccion>
+				<Dividendo>0.5836</Dividendo>
+				<IngresosAcumulados>18200272000</IngresosAcumulados>
+				<IngresosAAAcumulados>14933571000</IngresosAAAcumulados>
+				<UBrutaAcumulados>18200272000</UBrutaAcumulados>
+				<UOperativaAcumulados>13561189000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>21326392000</UAImpuestosAcumulados>
+				<UNetaAcumulados>21326392000</UNetaAcumulados>
+				<UAccionistasAcumulados>21211737000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>9248538000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>16341547000</IngresosPropAcumulados>
+				<NOIAcumulados>14432100000</NOIAcumulados>
+				<FFOAcumulados>8980700000</FFOAcumulados>
+				<AFFOAcumulados>9133900000</AFFOAcumulados>
+				<DividendosAcumulados>2.2947</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2019_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2019">
+				<NumeroDeUnidades>8744632</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8454283</NumeroDeUnidadesAA>
+				<Ingresos>4755855000</Ingresos>
+				<IngresosAA>4345347000</IngresosAA>
+				<UtilidadBruta>4755855000</UtilidadBruta>
+				<UtilidadOperativa>4755855000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1970228000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1970228000</UtilidadNeta>
+				<UtilidadParaAccionistas>1917486000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>4541909000</UtilidadParaAccionistasAA>
+				<IngresoProp>4269800000</IngresoProp>
+				<NOI>3774600000</NOI>
+				<FFO>2220700000</FFO>
+				<AFFO>2231300000</AFFO>
+				<Efectivo>13723073000</Efectivo>
+				<Deuda>98297991000</Deuda>
+				<ActivosCirculantes>20579080000</ActivosCirculantes>
+				<PasivosCirculantes>4943383000</PasivosCirculantes>
+				<ActivosTotales>267592517000</ActivosTotales>
+				<PasivosTotales>105020424000</PasivosTotales>
+				<Capital>162572093000</Capital>
+				<CapitalAA>153730273000</CapitalAA>
+				<FlujoDeOperaciones>10571647000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7233287000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>5975787000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>4408926000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>13723073000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3928194243</AccionesEnCirculacion>
+				<PrecioPorAccion>28.84</PrecioPorAccion>
+				<Dividendo>0.585</Dividendo>
+				<IngresosAcumulados>18610780000</IngresosAcumulados>
+				<IngresosAAAcumulados>16594188000</IngresosAAAcumulados>
+				<UBrutaAcumulados>18610780000</UBrutaAcumulados>
+				<UOperativaAcumulados>15089836000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>18713748000</UAImpuestosAcumulados>
+				<UNetaAcumulados>18713748000</UNetaAcumulados>
+				<UAccionistasAcumulados>18587314000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>11729551000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>16701383000</IngresosPropAcumulados>
+				<NOIAcumulados>14767200000</NOIAcumulados>
+				<FFOAcumulados>8998500000</FFOAcumulados>
+				<AFFOAcumulados>9098200000</AFFOAcumulados>
+				<DividendosAcumulados>2.3247</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2019_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2019">
+				<NumeroDeUnidades>10130413</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8614725</NumeroDeUnidadesAA>
+				<Ingresos>5093101000</Ingresos>
+				<IngresosAA>4514798000</IngresosAA>
+				<UtilidadBruta>5093101000</UtilidadBruta>
+				<UtilidadOperativa>3798647000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>7017488000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>7017488000</UtilidadNeta>
+				<UtilidadParaAccionistas>7004415000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>6969527000</UtilidadParaAccionistasAA>
+				<IngresoProp>4567731000</IngresoProp>
+				<NOI>4024000000</NOI>
+				<FFO>2475600000</FFO>
+				<AFFO>2475600000</AFFO>
+				<Efectivo>3042914000</Efectivo>
+				<Deuda>107058638000</Deuda>
+				<ActivosCirculantes>12085555000</ActivosCirculantes>
+				<PasivosCirculantes>7597537000</PasivosCirculantes>
+				<ActivosTotales>282781979000</ActivosTotales>
+				<PasivosTotales>115325564000</PasivosTotales>
+				<Capital>167456415000</Capital>
+				<CapitalAA>158105315000</CapitalAA>
+				<FlujoDeOperaciones>13266786000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-28227989000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>13595191000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>4408926000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>3042914000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3928194243</AccionesEnCirculacion>
+				<PrecioPorAccion>29.25</PrecioPorAccion>
+				<Dividendo>0.5899</Dividendo>
+				<IngresosAcumulados>19189083000</IngresosAcumulados>
+				<IngresosAAAcumulados>17205129000</IngresosAAAcumulados>
+				<UBrutaAcumulados>19189083000</UBrutaAcumulados>
+				<UOperativaAcumulados>15526320000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>18725010000</UAImpuestosAcumulados>
+				<UNetaAcumulados>18725010000</UNetaAcumulados>
+				<UAccionistasAcumulados>18622202000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>17202168000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>17194657000</IngresosPropAcumulados>
+				<NOIAcumulados>15213600000</NOIAcumulados>
+				<FFOAcumulados>9120900000</FFOAcumulados>
+				<AFFOAcumulados>9171500000</AFFOAcumulados>
+				<DividendosAcumulados>2.3391</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_1" TrimestreReporte="1" TrimestreNatural="1" Dia="30" Mes="3" Ano="2020">
+				<NumeroDeUnidades>10242894</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8681121</NumeroDeUnidadesAA>
+				<Ingresos>5169237000</Ingresos>
+				<IngresosAA>4603191000</IngresosAA>
+				<UtilidadBruta>5169237000</UtilidadBruta>
+				<UtilidadOperativa>3945493000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>-15059421000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>-15059421000</UtilidadNeta>
+				<UtilidadParaAccionistas>-15207717000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>4263838000</UtilidadParaAccionistasAA>
+				<IngresoProp>4637904000</IngresoProp>
+				<NOI>4160100000.0000005</NOI>
+				<FFO>2281800000</FFO>
+				<AFFO>2281800000</AFFO>
+				<Efectivo>4068954000</Efectivo>
+				<Deuda>131342346000</Deuda>
+				<ActivosCirculantes>12982189000</ActivosCirculantes>
+				<PasivosCirculantes>10967947000</PasivosCirculantes>
+				<ActivosTotales>288592992000</ActivosTotales>
+				<PasivosTotales>139218264000</PasivosTotales>
+				<Capital>149374728000</Capital>
+				<CapitalAA>160178358000</CapitalAA>
+				<FlujoDeOperaciones>3887616000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-1835578000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-1025998000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3042914000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>4068954000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3928194243</AccionesEnCirculacion>
+				<PrecioPorAccion>18.54</PrecioPorAccion>
+				<Dividendo>0.2904</Dividendo>
+				<IngresosAcumulados>19755129000</IngresosAcumulados>
+				<IngresosAAAcumulados>17678514000</IngresosAAAcumulados>
+				<UBrutaAcumulados>19755129000</UBrutaAcumulados>
+				<UOperativaAcumulados>16027081000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>-598249000</UAImpuestosAcumulados>
+				<UNetaAcumulados>-598249000</UNetaAcumulados>
+				<UAccionistasAcumulados>-849353000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>16646369000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>17703058000</IngresosPropAcumulados>
+				<NOIAcumulados>15706000000</NOIAcumulados>
+				<FFOAcumulados>9184300000</FFOAcumulados>
+				<AFFOAcumulados>9194900000</AFFOAcumulados>
+				<DividendosAcumulados>2.0489</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2020">
+				<NumeroDeUnidades>10354392</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8729996</NumeroDeUnidadesAA>
+				<Ingresos>4298271000</Ingresos>
+				<IngresosAA>4736936000</IngresosAA>
+				<UtilidadBruta>4298271000</UtilidadBruta>
+				<UtilidadOperativa>3055638000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>13357836000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>13357836000</UtilidadNeta>
+				<UtilidadParaAccionistas>13297801000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>5436463000</UtilidadParaAccionistasAA>
+				<IngresoProp>4492824000</IngresoProp>
+				<NOI>3245000000</NOI>
+				<FFO>1003400000</FFO>
+				<AFFO>1003400000</AFFO>
+				<Efectivo>14857313000</Efectivo>
+				<Deuda>139619239000</Deuda>
+				<ActivosCirculantes>23918436000</ActivosCirculantes>
+				<PasivosCirculantes>12589803000</PasivosCirculantes>
+				<ActivosTotales>309279387000</ActivosTotales>
+				<PasivosTotales>148321775000</PasivosTotales>
+				<Capital>160957612000</Capital>
+				<CapitalAA>163414422000</CapitalAA>
+				<FlujoDeOperaciones>7717526000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-4040144000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>8137017000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3042914000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>14857313000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3928194243</AccionesEnCirculacion>
+				<PrecioPorAccion>18.25</PrecioPorAccion>
+				<Dividendo>0.281</Dividendo>
+				<IngresosAcumulados>19316464000</IngresosAcumulados>
+				<IngresosAAAcumulados>18200272000</IngresosAAAcumulados>
+				<UBrutaAcumulados>19316464000</UBrutaAcumulados>
+				<UOperativaAcumulados>15555633000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>7286131000</UAImpuestosAcumulados>
+				<UNetaAcumulados>7286131000</UNetaAcumulados>
+				<UAccionistasAcumulados>7011985000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>21211737000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>17968259000</IngresosPropAcumulados>
+				<NOIAcumulados>15203700000</NOIAcumulados>
+				<FFOAcumulados>7981500000</FFOAcumulados>
+				<AFFOAcumulados>7992100000</AFFOAcumulados>
+				<DividendosAcumulados>1.7463000000000002</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2020">
+				<NumeroDeUnidades>10511969</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>8744632</NumeroDeUnidadesAA>
+				<Ingresos>4534300000</Ingresos>
+				<IngresosAA>4755855000</IngresosAA>
+				<UtilidadBruta>4534300000</UtilidadBruta>
+				<UtilidadOperativa>3200780000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>4539139000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>4539139000</UtilidadNeta>
+				<UtilidadParaAccionistas>4482777000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1917486000</UtilidadParaAccionistasAA>
+				<IngresoProp>4389710000</IngresoProp>
+				<NOI>3408300000</NOI>
+				<FFO>1146300000</FFO>
+				<AFFO>1346200000</AFFO>
+				<Efectivo>18373936000</Efectivo>
+				<Deuda>144421549000</Deuda>
+				<ActivosCirculantes>27193658000</ActivosCirculantes>
+				<PasivosCirculantes>6227227000</PasivosCirculantes>
+				<ActivosTotales>316786217000</ActivosTotales>
+				<PasivosTotales>153006678000</PasivosTotales>
+				<Capital>163779539000</Capital>
+				<CapitalAA>162572093000</CapitalAA>
+				<FlujoDeOperaciones>10657813000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-7956966000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>12630175000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3042914000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>18373936000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3874466823</AccionesEnCirculacion>
+				<PrecioPorAccion>17.49</PrecioPorAccion>
+				<Dividendo>0.317</Dividendo>
+				<IngresosAcumulados>19094909000</IngresosAcumulados>
+				<IngresosAAAcumulados>18610780000</IngresosAAAcumulados>
+				<UBrutaAcumulados>19094909000</UBrutaAcumulados>
+				<UOperativaAcumulados>14000558000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>9855042000</UAImpuestosAcumulados>
+				<UNetaAcumulados>9855042000</UNetaAcumulados>
+				<UAccionistasAcumulados>9577276000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>18587314000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>18088169000</IngresosPropAcumulados>
+				<NOIAcumulados>14837400000</NOIAcumulados>
+				<FFOAcumulados>6907100000</FFOAcumulados>
+				<AFFOAcumulados>7107000000</AFFOAcumulados>
+				<DividendosAcumulados>1.4783</DividendosAcumulados>
+			</Reporte>
+			<Reporte ID="2020_4" TrimestreReporte="4" TrimestreNatural="4" Dia="30" Mes="12" Ano="2020">
+				<NumeroDeUnidades>10720998</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>10130413</NumeroDeUnidadesAA>
+				<Ingresos>5191427000</Ingresos>
+				<IngresosAA>5093101000</IngresosAA>
+				<UtilidadBruta>5191427000</UtilidadBruta>
+				<UtilidadOperativa>3863236000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>11121680000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>11121680000</UtilidadNeta>
+				<UtilidadParaAccionistas>10401387000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>7004415000</UtilidadParaAccionistasAA>
+				<IngresoProp>4702990000</IngresoProp>
+				<NOI>4112500000</NOI>
+				<FFO>1828500000</FFO>
+				<AFFO>2118300000.0000002</AFFO>
+				<Efectivo>7746593000</Efectivo>
+				<Deuda>125529858000</Deuda>
+				<ActivosCirculantes>15236374000</ActivosCirculantes>
+				<PasivosCirculantes>8399986000</PasivosCirculantes>
+				<ActivosTotales>307067985000</ActivosTotales>
+				<PasivosTotales>133672413000</PasivosTotales>
+				<Capital>173395572000</Capital>
+				<CapitalAA>167456415000</CapitalAA>
+				<FlujoDeOperaciones>13520527000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-9745264000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>928416000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>3042914000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>7746593000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>3872415403</AccionesEnCirculacion>
+				<PrecioPorAccion>22.89</PrecioPorAccion>
+				<Dividendo>0.3119</Dividendo>
+				<IngresosAcumulados>19193235000</IngresosAcumulados>
+				<IngresosAAAcumulados>19189083000</IngresosAAAcumulados>
+				<UBrutaAcumulados>19193235000</UBrutaAcumulados>
+				<UOperativaAcumulados>14065147000</UOperativaAcumulados>
+				<UAImpuestosAcumulados>13959234000</UAImpuestosAcumulados>
+				<UNetaAcumulados>13959234000</UNetaAcumulados>
+				<UAccionistasAcumulados>12974248000</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>18622202000</UAccionistasAAAcumulados>
+				<IngresosPropAcumulados>18223428000</IngresosPropAcumulados>
+				<NOIAcumulados>14925900000</NOIAcumulados>
+				<FFOAcumulados>6260000000</FFOAcumulados>
+				<AFFOAcumulados>6749700000</AFFOAcumulados>
+				<DividendosAcumulados>1.2003000000000001</DividendosAcumulados>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="Yahoo">
+				<Ingresos>Total Revenue</Ingresos>
+				<UtilidadBruta>Cost of Revenue</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Expense</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Pretax Income</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income Including Non-Controlling Interests</UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income Common Stockholders</UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<PasivosTotales />
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="SuplementoInformativo">
+				<NumeroDeUnidades>Usar el ARB (GLA en ingles) en m2 del Capitulo: [Ocupación del Portafolio]</NumeroDeUnidades>
+				<Ingresos>En la sección [Estado de Resultados] usar el Renglón siguiente a Comisiones, que es el total de los ingresos</Ingresos>
+				<UtilidadBruta>~ NO APLICA ~</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>false</GastosOperativosAutocalculado>
+				<UtilidadOperativa>[Utilidad antes de gastos e ingresos por intereses]</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>[Utilidad (perdida) neta consolidada]</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>[Utilidad (perdida) neta consolidada]</UtilidadNeta>
+				<UtilidadParaAccionistas>Utilidad (perdida) neta consolidada: [Participación controladora]</UtilidadParaAccionistas>
+				<IngresosProp>[Ingresos de propiedades de inversión]+Dividendos sobre rentas de derechos fiduciarios</IngresosProp>
+				<NOI>[Ingreso neto operativo (NOI)]</NOI>
+				<FFO>[FFO]</FFO>
+				<AFFO>[AFFO]</AFFO>
+				<Efectivo>[Efectivo y equivalentes en efectivo]</Efectivo>
+				<ActivosCirculantes>[Total de activo circulante]</ActivosCirculantes>
+				<ActivosTotales>[Total de activo]</ActivosTotales>
+				<Deuda>Sumar todo lo que diga [Préstamos]</Deuda>
+				<PasivosCirculantes>[Total de pasivo a corto plazo]</PasivosCirculantes>
+				<PasivosTotales>[Total de pasivo]</PasivosTotales>
+				<Capital>[Total de patrimonio de los fideicomitentes / fideicomisarios]</Capital>
+				<FlujoDeOperaciones>Flujo neto de efectivo generado [por actividades de operación]</FlujoDeOperaciones>
+				<FlujoDeInversiones>Flujo neto de efectivo utilizado [en actividades de inversión]</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Flujo neto de efectivo utilizado [de actividades de financiamiento]</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>Efectivo y equivalentes de efectivo [al inicio del período]</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>Efectivo y equivalentes de [efectivo al final del período]</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Poner los CBFIs en circulación del SubCapitulo [FFO y AFFO por CBFI]</AccionesEnCirculacion>
+				<Dividendo>En el  Capitulo: [Distribución Trimestral]</Dividendo>
+			</Referencia>
+			<Referencia ID="Ω Ayuda">
+				<Ingresos />
+				<UtilidadBruta>Costo de venta: Son todos los gastos asociados a la producción, distribución y difusión de un producto o servicio. En otras palabras, todo el dinero gastado en las operaciones de una empresa.</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Gastos Operativos: Son los gastos en el que incurre una empresa para el desarrollo normal de sus actividades diarias, por ejemplo: arriendo, salarios, marketing, costos de inventario, compra de suministros, investigación y desarrollo, etc.</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos Financieros: Son intereses de obligaciones y bonos, intereses de deudas, intereses por descuento de efectos, diferencias de cambio de moneda, y TAMBIEN los gastos generados por las pérdidas de valor de activos financieros.</UtilidadAntesDeImpuestos>
+				<UtilidadNeta />
+				<UtilidadParaAccionistas>No siempre es igual a la UTILIDAD NETA porque a veces existen OPERACIONES DISCONTINUAS, estas existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades, por lo que se toman en cuenta en la utilidad neta.</UtilidadParaAccionistas>
+				<Efectivo>Es el efectivo del que se puede disponer de forma inmediata</Efectivo>
+				<ActivosCirculantes>Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año)</ActivosCirculantes>
+				<ActivosTotales>Indica lo que la empresa Tiene</ActivosTotales>
+				<Deuda>Es la suma de todos los prestamos por instituciones financieras de Pasivos Circulantes y Pasivos No Circulantes.</Deuda>
+				<PasivosCirculantes>Indica la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año)</PasivosCirculantes>
+				<PasivosTotales>Indica lo que la empresa Debe</PasivosTotales>
+				<Capital>Indica el valor de la empresa (Lo que tienes menos lo que debes, Activos - Pasivos). Aveces la formula no aplica porque la empresa tiene acciones 'privadas' que NO cotizan en la bolsa y forman parte del capital privado (Algunas empresas no están 100 % bursatilizadas).</Capital>
+				<FlujoDeOperaciones />
+				<FlujoDeInversiones />
+				<FlujoDeFinanciamiento />
+				<EfectivoAlInicioDelAno />
+				<EfectivoAlFinalDelAno />
+				<AccionesEnCirculacion>-Se puede encontrar en la página de la empresa o en www.bmv.com.mx [Empresas Listadas-&gt;Buscar-&gt;Seleccionas la Empresa-&gt;Estadísticas de Operación-&gt;Acciones en Circulación]. - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim [Pestaña de Trade-&gt;All Productos-&gt;Simbolo de la Accion-&gt;Underlying(Expandir esa Area)-&gt;Shares]. - Tambien se puede encontrar en Yahoo Finance [Buscas la Empresa-&gt;Pestaña Statistics-&gt;Share Statistics-&gt;Shares Outstanding].</AccionesEnCirculacion>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+	<Empresa ID="TERRA13" YahooID="TERRA13.MX" Nombre="Terrafina" Moneda="MXN">
+		<Comentarios></Comentarios>
+		<Reportes>
+			<Reporte ID="2021_1" TrimestreReporte="1" TrimestreNatural="1" Dia="31" Mes="3" Ano="2021">
+				<NumeroDeUnidades>3645485</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>3929766</NumeroDeUnidadesAA>
+				<Ingresos>959952000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>959952000</UtilidadBruta>
+				<UtilidadOperativa>1615047000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1394746000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1388388000</UtilidadNeta>
+				<UtilidadParaAccionistas>1388388000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<Efectivo>1329628000</Efectivo>
+				<Deuda>20223802000</Deuda>
+				<ActivosCirculantes>368231000</ActivosCirculantes>
+				<PasivosCirculantes>1009125000</PasivosCirculantes>
+				<ActivosTotales>51195292000</ActivosTotales>
+				<PasivosTotales>21086006000</PasivosTotales>
+				<Capital>30109286000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>718804000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-27580000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-876181000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1443720000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1329628000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>790600000</AccionesEnCirculacion>
+				<PrecioPorAccion>30.46</PrecioPorAccion>
+				<Dividendo>0.6026</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_2" TrimestreReporte="2" TrimestreNatural="2" Dia="30" Mes="6" Ano="2021">
+				<NumeroDeUnidades>3612969</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>3929766</NumeroDeUnidadesAA>
+				<Ingresos>946865000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>946865000</UtilidadBruta>
+				<UtilidadOperativa>1488762000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1272900000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1295947000</UtilidadNeta>
+				<UtilidadParaAccionistas>1295947000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<Efectivo>975914000</Efectivo>
+				<Deuda>19522008000</Deuda>
+				<ActivosCirculantes>1347611000</ActivosCirculantes>
+				<PasivosCirculantes>1019031000</PasivosCirculantes>
+				<ActivosTotales>49524851000</ActivosTotales>
+				<PasivosTotales>20329338000</PasivosTotales>
+				<Capital>29195513000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>1401575000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-27580000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-1537036000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1443720000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>975914000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>790600000</AccionesEnCirculacion>
+				<PrecioPorAccion>30.26</PrecioPorAccion>
+				<Dividendo>0.4597</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+			<Reporte ID="2021_3" TrimestreReporte="3" TrimestreNatural="3" Dia="30" Mes="9" Ano="2021">
+				<NumeroDeUnidades>3668711</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>3928837</NumeroDeUnidadesAA>
+				<Ingresos>938900000</Ingresos>
+				<IngresosAA>0</IngresosAA>
+				<UtilidadBruta>938900000</UtilidadBruta>
+				<UtilidadOperativa>1418796000</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos>1118847000</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1155278000</UtilidadNeta>
+				<UtilidadParaAccionistas>1155278000</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+				<Efectivo>853450000</Efectivo>
+				<Deuda>19993927000</Deuda>
+				<ActivosCirculantes>1274452000</ActivosCirculantes>
+				<PasivosCirculantes>677024000</PasivosCirculantes>
+				<ActivosTotales>51944682000</ActivosTotales>
+				<PasivosTotales>20950997000</PasivosTotales>
+				<Capital>30993685000</Capital>
+				<CapitalAA>0</CapitalAA>
+				<FlujoDeOperaciones>2145975000</FlujoDeOperaciones>
+				<FlujoDeInversiones>-276541000</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>-2080047000</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1443720000</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>853450000</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>790600000</AccionesEnCirculacion>
+				<PrecioPorAccion>30.18</PrecioPorAccion>
+				<Dividendo>0.4266</Dividendo>
+				<IngresosAcumulados>0</IngresosAcumulados>
+				<IngresosAAAcumulados>0</IngresosAAAcumulados>
+				<UBrutaAcumulados>0</UBrutaAcumulados>
+				<UOperativaAcumulados>0</UOperativaAcumulados>
+				<UAccionistasAcumulados>0</UAccionistasAcumulados>
+				<UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="Ω Ayuda">
+				<Ingresos />
+				<UtilidadBruta>Costo de venta: Son todos los gastos asociados a la producción, distribución y difusión de un producto o servicio. En otras palabras, todo el dinero gastado en las operaciones de una empresa.</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Gastos Operativos: Son los gastos en el que incurre una empresa para el desarrollo normal de sus actividades diarias, por ejemplo: arriendo, salarios, marketing, costos de inventario, compra de suministros, investigación y desarrollo, etc.</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos Financieros: Son intereses de obligaciones y bonos, intereses de deudas, intereses por descuento de efectos, diferencias de cambio de moneda, y TAMBIEN los gastos generados por las pérdidas de valor de activos financieros.</UtilidadAntesDeImpuestos>
+				<UtilidadNeta />
+				<UtilidadParaAccionistas>No siempre es igual a la UTILIDAD NETA porque a veces existen OPERACIONES DISCONTINUAS, estas existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades, por lo que se toman en cuenta en la utilidad neta.</UtilidadParaAccionistas>
+				<Efectivo>Es el efectivo del que se puede disponer de forma inmediata</Efectivo>
+				<ActivosCirculantes>Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año)</ActivosCirculantes>
+				<ActivosTotales>Indica lo que la empresa Tiene</ActivosTotales>
+				<Deuda>Es la suma de todos los prestamos por instituciones financieras de Pasivos Circulantes y Pasivos No Circulantes.</Deuda>
+				<PasivosCirculantes>Indica la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año)</PasivosCirculantes>
+				<PasivosTotales>Indica lo que la empresa Debe</PasivosTotales>
+				<Capital>Indica el valor de la empresa (Lo que tienes menos lo que debes, Activos - Pasivos). Aveces la formula no aplica porque la empresa tiene acciones 'privadas' que NO cotizan en la bolsa y forman parte del capital privado (Algunas empresas no están 100 % bursatilizadas).</Capital>
+				<FlujoDeOperaciones />
+				<FlujoDeInversiones />
+				<FlujoDeFinanciamiento />
+				<EfectivoAlInicioDelAno />
+				<EfectivoAlFinalDelAno />
+				<AccionesEnCirculacion>-Se puede encontrar en la página de la empresa o en www.bmv.com.mx [Empresas Listadas-&gt;Buscar-&gt;Seleccionas la Empresa-&gt;Estadísticas de Operación-&gt;Acciones en Circulación]. - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim [Pestaña de Trade-&gt;All Productos-&gt;Simbolo de la Accion-&gt;Underlying(Expandir esa Area)-&gt;Shares]. - Tambien se puede encontrar en Yahoo Finance [Buscas la Empresa-&gt;Pestaña Statistics-&gt;Share Statistics-&gt;Shares Outstanding].</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Yahoo">
+				<Ingresos>Total Revenue</Ingresos>
+				<UtilidadBruta>Cost of Revenue</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Expense</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Pretax Income</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income Including Non-Controlling Interests</UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income Common Stockholders</UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<PasivosTotales />
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Reuters">
+				<Ingresos>Total Revenue</Ingresos>
+				<UtilidadBruta>Cost of Revenue, Total</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Operating Income + Unusual Expense (Income)</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Net Income Before Taxes</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Net Income After Taxes</UtilidadNeta>
+				<UtilidadParaAccionistas>Net Income</UtilidadParaAccionistas>
+				<Efectivo>Total Assets =&gt; Current Assets =&gt; Cash, Cash Equivalents &amp; Short Term Investments</Efectivo>
+				<ActivosCirculantes>Total Assets =&gt; Current Assets</ActivosCirculantes>
+				<ActivosTotales>Total Assets</ActivosTotales>
+				<Deuda>Total Debt</Deuda>
+				<PasivosCirculantes>Total Liabilities Net Minority Interest =&gt; Current Liabilities</PasivosCirculantes>
+				<PasivosTotales />
+				<Capital>Stockholders' Equity</Capital>
+				<FlujoDeOperaciones>Cash Flow from Continuing Operating Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeOperaciones>
+				<FlujoDeInversiones>Cash Flow from Continuing Investing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>Cash Flow from Continuing Financing Activities {Sumar todos los trimestres fiscales del presente año fiscal}</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>End Cash Position {Poner el del Cuarto trimestre fiscal del año anterior}</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>End Cash Position</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>Shares Outstanding {Yahoo solo da el dato del ultimo reporte disponible}</AccionesEnCirculacion>
+			</Referencia>
+			<Referencia ID="Reportes de Resultados">
+				<NumeroDeUnidades>~ Usar el ARB (GLA en ingles) en m2 (ft2/10.764) {Capitulo: Composición por Diversificación Geográfica} ~</NumeroDeUnidades>
+				<Ingresos>Ingresos por rentas</Ingresos>
+				<UtilidadBruta>~ NO APLICA ~</UtilidadBruta>
+				<CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+				<GastosOperativosAutocalculado>false</GastosOperativosAutocalculado>
+				<UtilidadOperativa>Utilidad de operación</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>Gastos financieros-neto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>Utilidad Neta del periodo</UtilidadNeta>
+				<UtilidadParaAccionistas>Utilidad Neta del periodo</UtilidadParaAccionistas>
+				<Efectivo>Efectivo y equivalentes de efectivo</Efectivo>
+				<ActivosCirculantes>~ Sumar cada elemento de Activo circulante ~</ActivosCirculantes>
+				<ActivosTotales>Total activos</ActivosTotales>
+				<Deuda>~ Sumar cada elemento Préstamos ~</Deuda>
+				<PasivosCirculantes>~ Sumar cada elemento de Pasivo circulante ~</PasivosCirculantes>
+				<PasivosTotales>Total pasivo</PasivosTotales>
+				<Capital>~ Activos Totales - Pasivos Totales ~</Capital>
+				<FlujoDeOperaciones>*actividades de operación </FlujoDeOperaciones>
+				<FlujoDeInversiones>*actividades de inversión</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>*actividades de financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>Efectivo y equivalentes de efectivo al inicio del período</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>Efectivo y equivalentes de efectivo al final del periodo </EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>CBFIs en Circulación</AccionesEnCirculacion>
+				<Dividendo>Distribuciones por CBFIs</Dividendo>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+</Empresas>

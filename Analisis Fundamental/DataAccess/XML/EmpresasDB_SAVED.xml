@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Empresas>
+  <Empresa ID="SinReportes" YahooID="" Nombre="Empresa de Pruebas" Moneda="XXX">
+    <Comentarios>Empresa ficticia para pruebas unitarias CON 4 reportes</Comentarios>
+    <Reportes />
+    <Referencias />
+  </Empresa>
+  <Empresa ID="FullEmp" YahooID="" Nombre="Empresa de Pruebas" Moneda="XXX">
+    <Comentarios>Empresa ficticia para pruebas unitarias CON 4 reportes</Comentarios>
+    <Reportes>
+      <Reporte ID="1000_1" TrimestreReporte="1" TrimestreNatural="1" Dia="1" Mes="1" Ano="1000">
+        <NumeroDeUnidades>100</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>100</NumeroDeUnidadesAA>
+        <Ingresos>100</Ingresos>
+        <IngresosAA>100</IngresosAA>
+        <UtilidadBruta>100</UtilidadBruta>
+        <UtilidadOperativa>100</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>100</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>100</UtilidadNeta>
+        <UtilidadParaAccionistas>100</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>100</UtilidadParaAccionistasAA>
+        <IngresoProp d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOI d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <Efectivo>100</Efectivo>
+        <Deuda>100</Deuda>
+        <ActivosCirculantes>100</ActivosCirculantes>
+        <PasivosCirculantes>100</PasivosCirculantes>
+        <ActivosTotales>100</ActivosTotales>
+        <PasivosTotales>100</PasivosTotales>
+        <Capital>100</Capital>
+        <CapitalAA>100</CapitalAA>
+        <FlujoDeOperaciones>100</FlujoDeOperaciones>
+        <FlujoDeInversiones>100</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>100</FlujoDeFinanciamiento>
+        <EfectivoAlInicioDelAno>100</EfectivoAlInicioDelAno>
+        <EfectivoAlFinalDelAno>100</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>100</AccionesEnCirculacion>
+        <PrecioPorAccion>100</PrecioPorAccion>
+        <Dividendo>100</Dividendo>
+        <IngresosAcumulados>0</IngresosAcumulados>
+        <IngresosAAAcumulados>0</IngresosAAAcumulados>
+        <UBrutaAcumulados>0</UBrutaAcumulados>
+        <UOperativaAcumulados>0</UOperativaAcumulados>
+        <UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+        <UNetaAcumulados>0</UNetaAcumulados>
+        <UAccionistasAcumulados>0</UAccionistasAcumulados>
+        <UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+        <IngresosPropAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOIAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <DividendosAcumulados>0</DividendosAcumulados>
+      </Reporte>
+      <Reporte ID="2000_1" TrimestreReporte="2" TrimestreNatural="1" Dia="2" Mes="2" Ano="2000">
+        <NumeroDeUnidades>200</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>200</NumeroDeUnidadesAA>
+        <Ingresos>200</Ingresos>
+        <IngresosAA>200</IngresosAA>
+        <UtilidadBruta>200</UtilidadBruta>
+        <UtilidadOperativa>200</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>200</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>200</UtilidadNeta>
+        <UtilidadParaAccionistas>200</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>200</UtilidadParaAccionistasAA>
+        <IngresoProp d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOI d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <Efectivo>200</Efectivo>
+        <Deuda>200</Deuda>
+        <ActivosCirculantes>200</ActivosCirculantes>
+        <PasivosCirculantes>200</PasivosCirculantes>
+        <ActivosTotales>200</ActivosTotales>
+        <PasivosTotales>200</PasivosTotales>
+        <Capital>200</Capital>
+        <CapitalAA>200</CapitalAA>
+        <FlujoDeOperaciones>200</FlujoDeOperaciones>
+        <FlujoDeInversiones>200</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>200</FlujoDeFinanciamiento>
+        <EfectivoAlInicioDelAno>200</EfectivoAlInicioDelAno>
+        <EfectivoAlFinalDelAno>200</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>200</AccionesEnCirculacion>
+        <PrecioPorAccion>200</PrecioPorAccion>
+        <Dividendo>200</Dividendo>
+        <IngresosAcumulados>0</IngresosAcumulados>
+        <IngresosAAAcumulados>0</IngresosAAAcumulados>
+        <UBrutaAcumulados>0</UBrutaAcumulados>
+        <UOperativaAcumulados>0</UOperativaAcumulados>
+        <UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+        <UNetaAcumulados>0</UNetaAcumulados>
+        <UAccionistasAcumulados>0</UAccionistasAcumulados>
+        <UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+        <IngresosPropAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOIAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <DividendosAcumulados>0</DividendosAcumulados>
+      </Reporte>
+      <Reporte ID="3000_1" TrimestreReporte="3" TrimestreNatural="1" Dia="3" Mes="3" Ano="3000">
+        <NumeroDeUnidades>300</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>300</NumeroDeUnidadesAA>
+        <Ingresos>300</Ingresos>
+        <IngresosAA>300</IngresosAA>
+        <UtilidadBruta>300</UtilidadBruta>
+        <UtilidadOperativa>300</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>300</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>300</UtilidadNeta>
+        <UtilidadParaAccionistas>300</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>300</UtilidadParaAccionistasAA>
+        <IngresoProp d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOI d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <Efectivo>300</Efectivo>
+        <Deuda>300</Deuda>
+        <ActivosCirculantes>300</ActivosCirculantes>
+        <PasivosCirculantes>300</PasivosCirculantes>
+        <ActivosTotales>300</ActivosTotales>
+        <PasivosTotales>300</PasivosTotales>
+        <Capital>300</Capital>
+        <CapitalAA>300</CapitalAA>
+        <FlujoDeOperaciones>300</FlujoDeOperaciones>
+        <FlujoDeInversiones>300</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>300</FlujoDeFinanciamiento>
+        <EfectivoAlInicioDelAno>300</EfectivoAlInicioDelAno>
+        <EfectivoAlFinalDelAno>300</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>300</AccionesEnCirculacion>
+        <PrecioPorAccion>300</PrecioPorAccion>
+        <Dividendo>300</Dividendo>
+        <IngresosAcumulados>0</IngresosAcumulados>
+        <IngresosAAAcumulados>0</IngresosAAAcumulados>
+        <UBrutaAcumulados>0</UBrutaAcumulados>
+        <UOperativaAcumulados>0</UOperativaAcumulados>
+        <UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+        <UNetaAcumulados>0</UNetaAcumulados>
+        <UAccionistasAcumulados>0</UAccionistasAcumulados>
+        <UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+        <IngresosPropAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOIAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <DividendosAcumulados>0</DividendosAcumulados>
+      </Reporte>
+      <Reporte ID="4000_2" TrimestreReporte="4" TrimestreNatural="2" Dia="4" Mes="4" Ano="4000">
+        <NumeroDeUnidades>400</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>400</NumeroDeUnidadesAA>
+        <Ingresos>400</Ingresos>
+        <IngresosAA>400</IngresosAA>
+        <UtilidadBruta>400</UtilidadBruta>
+        <UtilidadOperativa>400</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>400</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>400</UtilidadNeta>
+        <UtilidadParaAccionistas>400</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>400</UtilidadParaAccionistasAA>
+        <IngresoProp d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOI d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFO d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <Efectivo>400</Efectivo>
+        <Deuda>400</Deuda>
+        <ActivosCirculantes>400</ActivosCirculantes>
+        <PasivosCirculantes>400</PasivosCirculantes>
+        <ActivosTotales>400</ActivosTotales>
+        <PasivosTotales>400</PasivosTotales>
+        <Capital>400</Capital>
+        <CapitalAA>400</CapitalAA>
+        <FlujoDeOperaciones>400</FlujoDeOperaciones>
+        <FlujoDeInversiones>400</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>400</FlujoDeFinanciamiento>
+        <EfectivoAlInicioDelAno>400</EfectivoAlInicioDelAno>
+        <EfectivoAlFinalDelAno>400</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>400</AccionesEnCirculacion>
+        <PrecioPorAccion>400</PrecioPorAccion>
+        <Dividendo>400</Dividendo>
+        <IngresosAcumulados>0</IngresosAcumulados>
+        <IngresosAAAcumulados>0</IngresosAAAcumulados>
+        <UBrutaAcumulados>0</UBrutaAcumulados>
+        <UOperativaAcumulados>0</UOperativaAcumulados>
+        <UAImpuestosAcumulados>0</UAImpuestosAcumulados>
+        <UNetaAcumulados>0</UNetaAcumulados>
+        <UAccionistasAcumulados>0</UAccionistasAcumulados>
+        <UAccionistasAAAcumulados>0</UAccionistasAAAcumulados>
+        <IngresosPropAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <NOIAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <FFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <AFFOAcumulados d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <DividendosAcumulados>0</DividendosAcumulados>
+      </Reporte>
+    </Reportes>
+    <Referencias>
+      <Referencia ID="UnoRef">
+        <NumeroDeUnidades>Ref1</NumeroDeUnidades>
+        <Ingresos>Ref1</Ingresos>
+        <CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+        <UtilidadBruta>Ref1</UtilidadBruta>
+        <GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+        <UtilidadOperativa>Ref1</UtilidadOperativa>
+        <GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+        <UtilidadAntesDeImpuestos>Ref1</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>Ref1</UtilidadNeta>
+        <UtilidadParaAccionistas>Ref1</UtilidadParaAccionistas>
+        <Efectivo />
+        <Deuda />
+        <ActivosCirculantes />
+        <PasivosCirculantes />
+        <ActivosTotales />
+        <PasivosTotales />
+        <Capital />
+        <FlujoDeOperaciones>Ref1</FlujoDeOperaciones>
+        <FlujoDeInversiones>Ref1</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>Ref1</FlujoDeFinanciamiento>
+        <EfectivoAlInicioDelAno>Ref1</EfectivoAlInicioDelAno>
+        <EfectivoAlFinalDelAno>Ref1</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>Ref1</AccionesEnCirculacion>
+        <Dividendo>Ref1</Dividendo>
+      </Referencia>
+      <Referencia ID="DosRef">
+        <NumeroDeUnidades>Ref2</NumeroDeUnidades>
+        <Ingresos />
+        <CostoDeVentasAutocalculado>false</CostoDeVentasAutocalculado>
+        <UtilidadBruta />
+        <GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+        <UtilidadOperativa />
+        <GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+        <UtilidadAntesDeImpuestos />
+        <UtilidadNeta />
+        <UtilidadParaAccionistas />
+        <Efectivo>Ref2</Efectivo>
+        <Deuda>Ref2</Deuda>
+        <ActivosCirculantes>Ref2</ActivosCirculantes>
+        <PasivosCirculantes>Ref2</PasivosCirculantes>
+        <ActivosTotales>Ref2</ActivosTotales>
+        <PasivosTotales>Ref2</PasivosTotales>
+        <Capital>Ref2</Capital>
+        <FlujoDeOperaciones />
+        <FlujoDeInversiones />
+        <FlujoDeFinanciamiento />
+        <EfectivoAlInicioDelAno />
+        <EfectivoAlFinalDelAno />
+      </Referencia>
+    </Referencias>
+  </Empresa>
+  <Empresa ID="EmptyEmp" YahooID="" Nombre="" Moneda="">
+    <Comentarios />
+    <Reportes />
+    <Referencias />
+  </Empresa>
+</Empresas>

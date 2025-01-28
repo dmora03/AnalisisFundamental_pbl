@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Empresas>
+	<Empresa ID="ConReportes" YahooID="" Nombre="Amazon" Moneda="USD">
+		<Comentarios>Esta empresa se dedica al comercio electronico y bases de datos en la nube</Comentarios>
+		<Reportes>
+			<Reporte ID="2020_1" TrimestreNatural="1" TrimestreReporte="1" Dia="5" Mes="4" Ano="2020">
+				<NumeroDeUnidades Ref="Una Referencia">10000</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5000</NumeroDeUnidadesAA>
+
+				<Ingresos Ref="Referencia de ingreso">123</Ingresos>
+				<IngresosAA>123</IngresosAA>
+				<UtilidadBruta Ref="Referencia de UBruta" Directo="1">123</UtilidadBruta>
+				<UtilidadOperativa Ref="Referencia de UOperativa" Directo="0">123</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="Referencia de impuesto" Directo="0">123</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="">123</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="">123</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>123</UtilidadParaAccionistasAA>
+
+				<Efectivo Ref="">123</Efectivo>
+				<Deuda Ref="">123</Deuda>
+				<ActivosCirculantes Ref="">123</ActivosCirculantes>
+				<PasivosCirculantes Ref="">123</PasivosCirculantes>
+				<ActivosTotales Ref="">123</ActivosTotales>
+				<PasivosTotales Ref="">123</PasivosTotales>
+				<Capital Ref="">123</Capital>
+				<CapitalAA>123</CapitalAA>
+
+				<FlujoDeOperaciones Ref="">123</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="">123</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="">123</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="">123</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="">123</EfectivoAlFinalDelAno>
+
+				<AccionesEnCirculacion  Ref="">123</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="">123</PrecioPorAccion>
+				<Dividendo Ref="">123</Dividendo>
+			</Reporte>
+			<Reporte ID="2020_2" TrimestreNatural="2" TrimestreReporte="2" Dia="5" Mes="7" Ano="2020">
+				<NumeroDeUnidades Ref="Una Referencia">10002</NumeroDeUnidades>
+				<NumeroDeUnidadesAA>5002</NumeroDeUnidadesAA>
+
+				<Ingresos Ref="Referencia de ingreso">1232</Ingresos>
+				<IngresosAA>1232</IngresosAA>
+				<UtilidadBruta Ref="Referencia de UBruta" Directo="1">1232</UtilidadBruta>
+				<UtilidadOperativa Ref="Referencia de UOperativa" Directo="0">1232</UtilidadOperativa>
+				<UtilidadAntesDeImpuestos Ref="Referencia de impuesto" Directo="0">1232</UtilidadAntesDeImpuestos>
+				<UtilidadNeta Ref="">1232</UtilidadNeta>
+				<UtilidadParaAccionistas Ref="">1232</UtilidadParaAccionistas>
+				<UtilidadParaAccionistasAA>1232</UtilidadParaAccionistasAA>
+
+				<Efectivo Ref="">123</Efectivo>
+				<Deuda Ref="">123</Deuda>
+				<ActivosCirculantes Ref="">123</ActivosCirculantes>
+				<PasivosCirculantes Ref="">123</PasivosCirculantes>
+				<ActivosTotales Ref="">123</ActivosTotales>
+				<PasivosTotales Ref="">123</PasivosTotales>
+				<Capital Ref="">123</Capital>
+				<CapitalAA>123</CapitalAA>
+
+				<FlujoDeOperaciones Ref="">123</FlujoDeOperaciones>
+				<FlujoDeInversiones Ref="">123</FlujoDeInversiones>
+				<FlujoDeFinanciamiento Ref="">123</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno Ref="">123</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno Ref="">123</EfectivoAlFinalDelAno>
+
+				<AccionesEnCirculacion  Ref="">123</AccionesEnCirculacion>
+				<PrecioPorAccion Ref="">123</PrecioPorAccion>
+				<Dividendo Ref="">123</Dividendo>
+			</Reporte>
+		</Reportes>
+		<Referencias>
+			<Referencia ID="Ref1">
+				<NumeroDeUnidades>1RefUnidades</NumeroDeUnidades>
+				<Ingresos>1RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>0</CostoDeVentasAutocalculado>
+				<UtilidadBruta>1Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>1</GastosOperativosAutocalculado>
+				<UtilidadOperativa>1Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>1</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>1Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>1Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>1Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>1Ref Efectivo</Efectivo>
+				<Deuda>1Ref Deuda</Deuda>
+				<ActivosCirculantes>1Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>1Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>1Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>1Ref Pasiv Totales</PasivosTotales>
+				<Capital>1Ref Capital</Capital>
+				<FlujoDeOperaciones>1Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>1Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>1Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>1Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>1Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>1Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>1Ref Dividendo</Dividendo>
+			</Referencia>
+			<Referencia ID="Ref2">
+				<NumeroDeUnidades>2RefUnidades</NumeroDeUnidades>
+				<Ingresos>2RefIngreso</Ingresos>
+				<CostoDeVentasAutocalculado>1</CostoDeVentasAutocalculado>
+				<UtilidadBruta>2Ref UBruta</UtilidadBruta>
+				<GastosOperativosAutocalculado>0</GastosOperativosAutocalculado>
+				<UtilidadOperativa>2Ref UOperativa</UtilidadOperativa>
+				<GastosFinancierosAutocalculado>0</GastosFinancierosAutocalculado>
+				<UtilidadAntesDeImpuestos>2Ref Impuesto</UtilidadAntesDeImpuestos>
+				<UtilidadNeta>2Ref Utilidad Neta</UtilidadNeta>
+				<UtilidadParaAccionistas>2Ref Utilidad Accionistas</UtilidadParaAccionistas>
+				<Efectivo>2Ref Efectivo</Efectivo>
+				<Deuda>2Ref Deuda</Deuda>
+				<ActivosCirculantes>2Ref Activ Circ</ActivosCirculantes>
+				<PasivosCirculantes>2Ref Pasiv Circ</PasivosCirculantes>
+				<ActivosTotales>2Ref Activ Totales</ActivosTotales>
+				<PasivosTotales>2Ref Pasiv Totales</PasivosTotales>
+				<Capital>2Ref Capital</Capital>
+				<FlujoDeOperaciones>2Ref F. de Operaciones</FlujoDeOperaciones>
+				<FlujoDeInversiones>2Ref F. de Inversiones</FlujoDeInversiones>
+				<FlujoDeFinanciamiento>2Ref F. de Financiamiento</FlujoDeFinanciamiento>
+				<EfectivoAlInicioDelAno>2Ref Efectivo Inicial</EfectivoAlInicioDelAno>
+				<EfectivoAlFinalDelAno>2Ref Efectivo Final</EfectivoAlFinalDelAno>
+				<AccionesEnCirculacion>2Ref Acc en Circulación</AccionesEnCirculacion>
+				<Dividendo>2Ref Dividendo</Dividendo>
+			</Referencia>
+		</Referencias>
+	</Empresa>
+	<Empresa ID="SinReportes" YahooID="" Nombre="Beyond Meat" Moneda="USD">
+		<Comentarios>Esta empresa se dedica a vender comida vegana</Comentarios>
+		<Reportes/>
+		<Referencias/>
+	</Empresa>
+	<Empresa ID="Vacio" YahooID="" Nombre="" Moneda="">
+		<Comentarios/>
+		<Reportes/>
+		<Referencias/>
+	</Empresa>
+</Empresas>
