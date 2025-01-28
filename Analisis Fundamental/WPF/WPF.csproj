@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+		<Authors>David Mora Barreto</Authors>
+		<Product>Analisis Fundamental</Product>
+		<Description>Programa para hace analisis fundamental de empresas</Description>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>2024.09.04.22</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Images\AddCompany.png" />
+	  <None Remove="Images\AddReport.png" />
+	  <None Remove="Images\Clean.png" />
+	  <None Remove="Images\ConfDelete.gif" />
+	  <None Remove="Images\DeleteCompany.png" />
+	  <None Remove="Images\DeleteReport.png" />
+	  <None Remove="Images\Good.gif" />
+	  <None Remove="Images\Info.png" />
+	  <None Remove="Images\Info1.png" />
+	  <None Remove="Images\Info2.png" />
+	  <None Remove="Images\Info3.png" />
+	  <None Remove="Images\man.png" />
+	  <None Remove="Images\UpdateCompany.png" />
+	  <None Remove="Images\UpdateReport.png" />
+	  <None Remove="Images\Visible.png" />
+	  <None Remove="Images\Warning.gif" />
+	  <None Remove="Images\Warning1.gif" />
+	  <None Remove="Images\Warning2.gif" />
+	  <None Remove="Images\Warning3.gif" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="AnFund.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\SimulateMouseKeyboard\SimulateMouseKeyboard.csproj" />
+		<ProjectReference Include="..\..\StockFromYahoo\StockFromYahoo.csproj" />
+		<ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Fonts\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\..\..\..\Downloads\AnFund.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Castle.Core" Version="4.4.1" />
+	  <PackageReference Include="Castle.Windsor" Version="5.1.1" />
+	  <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+	  <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\AddCompany.png" />
+	  <Resource Include="Images\AddReport.png" />
+	  <Resource Include="Images\Clean.png" />
+	  <Resource Include="Images\ConfDelete.gif" />
+	  <Resource Include="Images\DeleteCompany.png" />
+	  <Resource Include="Images\DeleteReport.png" />
+	  <Resource Include="Images\Good.gif" />
+	  <Resource Include="Images\Info.png" />
+	  <Resource Include="Images\man.png" />
+	  <Resource Include="Images\UpdateCompany.png" />
+	  <Resource Include="Images\UpdateReport.png" />
+	  <Resource Include="Images\Visible.png" />
+	  <Resource Include="Images\Warning.gif" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Properties\Settings.Designer.cs">
+	    <DesignTimeSharedInput>True</DesignTimeSharedInput>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Settings.settings</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Properties\Settings.settings">
+	    <Generator>SettingsSingleFileGenerator</Generator>
+	    <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	  </None>
+	</ItemGroup>
+</Project>

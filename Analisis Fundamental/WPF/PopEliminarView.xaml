@@ -1,0 +1,76 @@
+﻿<Window x:Class="WPF.PopEliminarView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        
+        mc:Ignorable="d ignore"
+        xmlns:ignore="DavidMora/ignore/UsarParaNoCompilarElElemento"
+        xmlns:conv="clr-namespace:WPF.Converters"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:mvvm="clr-namespace:MvvmFramework;assembly=MvvmFramework"
+        d:DataContext="{d:DesignInstance Type=local:PopEliminarViewModel}"
+        ignore:DataContext="{d:DesignInstance Type=local:DesignTimeViewModel, IsDesignTimeCreatable=True}"
+        
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        gif:ImageBehavior.AnimateInDesignMode="True"
+        
+        Title="Eliminar"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterOwner"
+        Background="#FF939393"
+        Height="150" MaxWidth="500"
+        WindowStyle="ToolWindow"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image gif:ImageBehavior.AnimatedSource="Images/ConfDelete.gif"
+                   gif:ImageBehavior.RepeatBehavior="3x"
+                   Width="100"
+                   Margin="5"/>
+            <StackPanel Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                        VerticalAlignment="Center"
+                        Margin="0,10,20,10">
+                <TextBlock Text="Seguro que desea eliminar el siguiente elemento:"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       />
+                <TextBlock Text="{Binding Elemento}" d:Text="Nombre"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"
+                           TextWrapping="Wrap"
+                           FontWeight="ExtraBold"
+                           MaxWidth="330"
+                           Margin="0"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0"
+                    Content="Aceptar"                
+                    Command="{Binding OKCommand}"
+                    Width="150" Height="30"
+                    Margin="5"
+                    IsDefault="True"/>
+            <Button Grid.Column="1"
+                    Content="Cancelar"
+                    Command="{Binding CancelCommand}"
+                    Width="150"
+                    Margin="5"
+                    IsCancel="True" />
+        </Grid>
+    </Grid>
+</Window>

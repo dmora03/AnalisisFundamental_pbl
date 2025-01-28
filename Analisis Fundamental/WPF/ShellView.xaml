@@ -1,0 +1,108 @@
+﻿<Window x:Class="WPF.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        
+        mc:Ignorable="d ignore"
+        xmlns:ignore="DavidMora/ignore/UsarParaNoCompilarElElemento"
+        xmlns:p="clr-namespace:WPF.Properties"
+        xmlns:conv="clr-namespace:WPF.Converters"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:mvvm="clr-namespace:MvvmFramework;assembly=MvvmFramework"
+        mvvm:ViewModelLocator.AutoWireViewModel="True"
+        ignore:DataContext="{d:DesignInstance Type=local:ShellViewModel}"
+        d:DataContext="{d:DesignInstance Type=local:DesignTimeViewModel, IsDesignTimeCreatable=True}"
+        
+        
+        Left="{Binding Source={x:Static p:Settings.Default}, Path=Shell_Left, Mode=TwoWay}"
+        Top="{Binding Source={x:Static p:Settings.Default}, Path=Shell_Top, Mode=TwoWay}"
+        Height="{Binding Source={x:Static p:Settings.Default}, Path=Shell_Height, Mode=TwoWay}"
+        Width="{Binding Source={x:Static p:Settings.Default}, Path=Shell_Width, Mode=TwoWay}"
+        WindowState="{Binding Source={x:Static p:Settings.Default}, Path=Shell_State, Mode=TwoWay}"
+        
+        
+        Title="Analisis Fundamental"
+        Background="{StaticResource AppBackground}">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Closing">
+            <i:CallMethodAction TargetObject="{Binding}" MethodName="OnClosing"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type local:MainViewModel}">
+            <local:MainView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:EmpresasViewModel}">
+            <local:EmpresasView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ReportesViewModel}">
+            <local:ReportesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:InfoPorAnoViewModel}">
+            <local:InfoPorAnoView/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" Grid.Column="0" LastChildFill="False">
+            <StackPanel DockPanel.Dock="Top">
+                <RadioButton Content="Inicio"
+                         Height="50"
+                         Foreground="White"
+                         FontSize="14"
+                         IsTabStop="False"
+                         Style="{StaticResource MenuButtonTheme}"
+                         IsChecked="True"
+                         Command="{Binding ViewNavigatorCommand}"
+                         CommandParameter="{x:Type local:MainViewModel}"/>
+
+                <RadioButton Content="Empresas"
+                         Height="50"
+                         Foreground="White"
+                         FontSize="14"
+                         IsTabStop="False"
+                         Style="{StaticResource MenuButtonTheme}"
+                         Command="{Binding ViewNavigatorCommand}"
+                         CommandParameter="{x:Type local:EmpresasViewModel}"/>
+
+                <RadioButton Content="Reportes"
+                         Height="50"
+                         Foreground="White"
+                         FontSize="14"
+                         IsTabStop="False"
+                         Style="{StaticResource MenuButtonTheme}"
+                         Command="{Binding ViewNavigatorCommand}"
+                         CommandParameter="{x:Type local:ReportesViewModel}"/>
+
+                <RadioButton Content="Informes por Año"
+                         Height="50"
+                         Foreground="White"
+                         FontSize="14"
+                         IsTabStop="False"
+                         Style="{StaticResource MenuButtonTheme}"
+                         Command="{Binding ViewNavigatorCommand}"
+                         CommandParameter="{x:Type local:InfoPorAnoViewModel}"/>
+            </StackPanel>
+            <Label x:Name="Verison_lbl" Content="{Binding Version}"
+                   DockPanel.Dock="Bottom"
+                   Foreground="Wheat"
+                   FontSize="10"
+                   Margin="5" Height="23"/>
+        </DockPanel>
+
+        <ContentControl Content="{Binding CurrentViewModel}"
+                        Grid.Row="0" Grid.Column="1"
+                        IsTabStop="False"
+                        Margin="5,5,5,5"/>
+    </Grid>
+</Window>

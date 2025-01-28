@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Components\PoligonChart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\TrimestreLabel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmpresasView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmpresasViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InfoPorAnoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InfoPorAnoViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PopEliminarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportesViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Components\PoligonChart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\TrimestreLabel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmpresasView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InfoPorAnoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PopEliminarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SampleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShellView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\AppTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\CheckBoxSelectorTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ComboBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ExpanderTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\HelpTextDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\MenuButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\TextBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

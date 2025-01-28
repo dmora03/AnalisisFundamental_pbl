@@ -1,0 +1,262 @@
+﻿<UserControl x:Class="WPF.EmpresasView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF"
+             
+             mc:Ignorable="d ignore"
+             xmlns:ignore="DavidMora/ignore/UsarParaNoCompilarElElemento"
+             xmlns:conv="clr-namespace:WPF.Converters"
+             xmlns:mvvm="clr-namespace:MvvmFramework;assembly=MvvmFramework"
+             xmlns:be="clr-namespace:WPF.Behaviors"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             ignore:DataContext="{d:DesignInstance Type=local:EmpresasViewModel}"
+             d:DataContext="{d:DesignInstance Type=local:DesignTimeViewModel, IsDesignTimeCreatable=True}"
+             
+             xmlns:models="clr-namespace:Models;assembly=Models"
+             
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.InputBindings>
+        <KeyBinding Key="A" Modifiers="Ctrl" Command="{Binding AgregarCommand}"/>
+        <KeyBinding Key="G" Modifiers="Ctrl" Command="{Binding ActualizarCommand}"/>
+        <KeyBinding Key="E" Modifiers="Ctrl" Command="{Binding EliminarCommand}"/>
+        <KeyBinding Key="L" Modifiers="Ctrl" Command="{Binding LimpiarCommand}"/>
+    </UserControl.InputBindings>
+
+    <UserControl.Resources>
+        <Style x:Key="TextBoxStyle" TargetType="TextBox"
+               BasedOn="{StaticResource TextBoxTheme}">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="be:SelectAllFocusBehavior.Enable" Value="True"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Empresas" Grid.Row="0"
+                   Style="{StaticResource TitleTextBlock}"/>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*" MinWidth="150"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="2*" MinWidth="200"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Row="0" Grid.Column="0"
+                     Text="{Binding Empresa.ID, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource TextBoxStyle}" Tag="Símbolo"
+                     CharacterCasing="Upper"/>
+            <TextBox Grid.Row="0" Grid.Column="1"
+                     Text="{Binding Empresa.Nombre, UpdateSourceTrigger=PropertyChanged}"                     
+                     Style="{StaticResource TextBoxStyle}" Tag="Nombre de la empresa"/>
+            <TextBox Grid.Row="0" Grid.Column="2"
+                     Text="{Binding Empresa.Moneda, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource TextBoxStyle}" Tag="Moneda"
+                     CharacterCasing="Upper"/>
+            <TextBox Grid.Row="0" Grid.Column="3"
+                     Text="{Binding Empresa.YahooID, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource TextBoxStyle}" Tag="Yahoo ID"
+                     CharacterCasing="Upper"/>
+            <TextBox Grid.Row="1" Grid.ColumnSpan="4"
+                     Text="{Binding Empresa.Comentarios, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource TextBoxStyle}" Tag="Comentarios"
+                     Height="80"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True" AcceptsTab="True" AutoWordSelection="True"
+                     VerticalScrollBarVisibility="Auto"/>
+
+            <DataGrid ItemsSource="{Binding SelectedEmpresa.Referencias}"
+                      SelectedItem="{Binding SelectedReferencia, 
+                                             TargetNullValue={x:Static CollectionView.NewItemPlaceholder}}"
+                      Grid.Row="0" Grid.Column="4" Grid.RowSpan="2"
+                      Margin="5"
+                      Height="119.96"
+                      IsReadOnly="False"
+                      RowDetailsVisibilityMode="VisibleWhenSelected"
+                      EnableRowVirtualization="True" 
+                      AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID&#x0a;Referencia"
+                                        Binding="{Binding ID}"/>
+                    <DataGridTextColumn Header="Número de&#x0a;Unidades"
+                                        Binding="{Binding NumUnidades}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Ingresos"
+                                        Binding="{Binding Ingresos}"
+                                        MaxWidth="150"/>
+                    <DataGridCheckBoxColumn Header="Costo de &#x0a;Ventas"
+                                            Binding="{Binding CostoVentasAuto}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Utilidad&#x0a;Bruta"
+                                        Binding="{Binding UBruta}"
+                                        MaxWidth="150"/>
+                    <DataGridCheckBoxColumn Header="Gastos&#x0a;Operativos"
+                                            Binding="{Binding GastosOpAuto}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Utilidad&#x0a;Operativa"
+                                        Binding="{Binding UOperativa}"
+                                        MaxWidth="150"/>
+                    <DataGridCheckBoxColumn Header="Gastos&#x0a;Financieros"
+                                            Binding="{Binding GastosFinAuto}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Utilidad antes&#x0a;de Impuestos"
+                                        Binding="{Binding UAImpuestos}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Utilidad&#x0a;Neta"
+                                        Binding="{Binding UNeta}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Utilidad para&#x0a;Accionistas"
+                                        Binding="{Binding UAccionistas}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Ingresos de&#x0a;Propiedades"
+                                        Binding="{Binding IngresosProp}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="NOI"
+                                        Binding="{Binding NOI}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="FFO"
+                                        Binding="{Binding FFO}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="AFFO"
+                                        Binding="{Binding AFFO}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Efectivo"
+                                        Binding="{Binding Efectivo}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Deuda"
+                                        Binding="{Binding Deuda}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Activos&#x0a;Circulantes"
+                                        Binding="{Binding ActivosC}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Pasivos&#x0a;Circulantes"
+                                        Binding="{Binding PasivosC}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Activos&#x0a;Totales"
+                                        Binding="{Binding ActivosT}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Pasivos&#x0a;Totales"
+                                        Binding="{Binding PasivosT}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Capital"
+                                        Binding="{Binding Capital}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Flujo de&#x0a;Operaciones"
+                                        Binding="{Binding FlujoOperaciones}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Flujo de&#x0a;Inversiones"
+                                        Binding="{Binding FlujoInversiones}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Flujo de&#x0a;Financiamiento"
+                                        Binding="{Binding FlujoFinanciamiento}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Efectivo&#x0a;al Inicio"
+                                        Binding="{Binding EfectivoAlInicio}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Efectivo&#x0a;al Final"
+                                        Binding="{Binding EfectivoAlFinal}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Acciones en&#x0a;Circulación"
+                                        Binding="{Binding AccionesCir}"
+                                        MaxWidth="150"/>
+                    <DataGridTextColumn Header="Dividendo"
+                                        Binding="{Binding Dividendo}"
+                                        MaxWidth="150"/>
+                </DataGrid.Columns>
+                
+            </DataGrid>
+
+        </Grid>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="-5,0">
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding AgregarCommand}" 
+                        ToolTip="Agregar Empresa">
+                <be:AutoDisableImage Source="Images/AddCompany.png"/>
+            </Button>
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding ActualizarCommand}"
+                        ToolTip="Actualizar Empresa">
+                <be:AutoDisableImage Source="Images/UpdateCompany.png"/>
+            </Button>
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding EliminarCommand}"
+                        ToolTip="Eliminar Empresa">
+                <be:AutoDisableImage Source="Images/DeleteCompany.png"/>
+            </Button>
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding LimpiarCommand}"
+                        ToolTip="Limpiar campos">
+                <be:AutoDisableImage Source="Images/Clean.png"/>
+            </Button>
+        </StackPanel>
+
+        <!--<ListBox ItemsSource="{Binding Empresas}"
+                 SelectedItem="{Binding SelectedEmpresa}"
+                 ItemTemplate="{Binding Source={StaticResource EmpresaTemplate}}"
+                 Margin="5"
+                 Background="Transparent"
+                 Foreground="#CFCFCF"
+                 Tag="Nombre de la empresa"
+                 />-->
+        <DataGrid  Grid.Row="3"
+                   Margin="0,30,0,0"
+                   EnableRowVirtualization="True"
+                   AutoGenerateColumns="False"
+                   IsReadOnly="True"
+                   RowDetailsVisibilityMode="VisibleWhenSelected"
+                   ItemsSource="{Binding Empresas}"
+                   SelectedItem="{Binding SelectedEmpresa}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Simbolo"
+                                    Width="Auto"
+                                    Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Nombre"
+                                    Width="SizeToCells"
+                                    Binding="{Binding Nombre}"/>
+                <DataGridTextColumn Header="Moneda"
+                                    Width="SizeToHeader"
+                                    Binding="{Binding Moneda}"/>
+                <DataGridTextColumn Header="Yahoo ID"
+                                    Width="Auto"
+                                    Binding="{Binding YahooID}"/>
+                <DataGridTextColumn Header="# Reportes"
+                                    Width="SizeToHeader"
+                                    Binding="{Binding Reportes.Count}"/>
+                <DataGridTextColumn Header="# Referencias"
+                                    Width="SizeToHeader"
+                                    Binding="{Binding Referencias.Count}"/>
+                <DataGridTextColumn Header="Comentarios"
+                                    Width="*"
+                                    Binding="{Binding Comentarios}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+</UserControl>

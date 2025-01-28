@@ -1,0 +1,1874 @@
+﻿<UserControl x:Class="WPF.ReportesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF"
+             
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             
+			 mc:Ignorable="d ignore"
+             xmlns:ignore="DavidMora/ignore/UsarParaNoCompilarElElemento"
+             xmlns:p="clr-namespace:WPF.Properties"
+             xmlns:conv="clr-namespace:WPF.Converters"
+             xmlns:be="clr-namespace:WPF.Behaviors"
+             xmlns:uc="clr-namespace:WPF.Components"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:mvvm="clr-namespace:MvvmFramework;assembly=MvvmFramework"
+             ignore:DataContext="{d:DesignInstance Type=local:ReportesViewModel}"
+             d:DataContext="{d:DesignInstance Type=local:DesignTimeViewModel, IsDesignTimeCreatable=True}"
+			 
+             d:Background="{StaticResource AppBackground}"
+             d:DesignHeight="1950" d:DesignWidth="800">
+
+    <UserControl.InputBindings>
+        <KeyBinding Key="A" Modifiers="Ctrl" Command="{Binding AgregarCommand}"/>
+        <KeyBinding Key="G" Modifiers="Ctrl" Command="{Binding ActualizarCommand}"/>
+        <KeyBinding Key="E" Modifiers="Ctrl" Command="{Binding EliminarCommand}"/>
+        <KeyBinding Key="L" Modifiers="Ctrl" Command="{Binding LimpiarCommand}"/>
+        <KeyBinding Gesture="Control+1" Command="{Binding MultiploCommand}">
+            <KeyBinding.CommandParameter>
+                <sys:Int32>1</sys:Int32>
+            </KeyBinding.CommandParameter>
+        </KeyBinding>
+        <KeyBinding Gesture="Control+2" Command="{Binding MultiploCommand}">
+            <KeyBinding.CommandParameter>
+                <sys:Int32>1000</sys:Int32>
+            </KeyBinding.CommandParameter>
+        </KeyBinding>
+        <KeyBinding Gesture="Control+3" Command="{Binding MultiploCommand}">
+                <KeyBinding.CommandParameter>
+                    <sys:Int32>1000000</sys:Int32>
+                </KeyBinding.CommandParameter>
+        </KeyBinding>
+    </UserControl.InputBindings>
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <!--<Style TargetType="{x:Type ComboBox}"
+               BasedOn="{StaticResource ComboBoxTheme}">
+            <Setter Property="Margin" Value="5,5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>-->
+
+        <Style x:Key="EncabezadoGrid" TargetType="{x:Type Grid}">
+            <Setter Property="Margin" Value="12,0,30,0"/>
+        </Style>
+
+        <Style x:Key="BorderRowOdd" TargetType="{x:Type Border}">
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Grid.ColumnSpan" Value="4"/>
+            <Setter Property="Margin" Value="2,2,3,2"/>
+            <Setter Property="CornerRadius" Value="0,10,10,0"/>
+            <Setter Property="Background" Value="#1EFFFFFF"/>
+        </Style>
+        <Style x:Key="BorderRowPair" TargetType="{x:Type Border}">
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Grid.ColumnSpan" Value="4"/>
+            <Setter Property="Margin" Value="3,3,4,3"/>
+            <Setter Property="CornerRadius" Value="0,10,10,0"/>
+            
+        </Style>
+        <Style x:Key="BorderRowUtilidad" TargetType="{x:Type Border}">
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Grid.ColumnSpan" Value="4"/>
+            <Setter Property="Margin" Value="3,3,4,3"/>
+            <Setter Property="CornerRadius" Value="0,10,10,0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#FF909090"/>
+            <Setter Property="Background" Value="#0CFFF304"/>
+        </Style>
+
+        <Style x:Key="SelectorTheme" TargetType="{x:Type CheckBox}"
+               BasedOn="{StaticResource CheckBoxSelectorTheme}">
+            <Setter Property="Margin" Value="0,0,-2,0"/>
+            <Setter Property="IsTabStop" Value="False"/>
+        </Style>
+        
+        <Style x:Key="EncabezadoToggle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Foreground" Value="Green"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <!--<Setter Property="Margin" Value="5,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>-->
+            <Setter Property="Margin" Value="5,4,5,0"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+
+            <Setter Property="Content" Value="Trim. Actual"/>
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Content" Value="Rep. ANUAL"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>        
+
+        <Style x:Key="FechaLabel" TargetType="{x:Type Label}"
+               BasedOn="{StaticResource SubEncabezadoLabel_App}">
+            <Setter Property="ContentStringFormat" Value="{}{0:MMM yyyy}"/>
+        </Style>
+        <Style TargetType="{x:Type DatePicker}">
+            <Setter Property="Background" Value="{Binding Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Border}}}"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="IsTodayHighlighted" Value="True"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="be:DatePickerCalendar.IsMonthYear" Value="True"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="Padding" Value="5,0"/>
+        </Style>
+        <Style TargetType="{x:Type DatePickerTextBox}">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <TextBox x:Name="PART_TextBox"
+                                 IsEnabled="True"
+                                 Text="{Binding Path=SelectedDate,
+                                                StringFormat='MMM yyyy',
+                                                RelativeSource={RelativeSource AncestorType={x:Type DatePicker}}}"
+                                 Background="{x:Null}"
+                                 Foreground="Coral"
+                                 BorderThickness="0"
+                                 HorizontalContentAlignment="Right"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type Control}" x:Key="DatePickerTextBoxStyle">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="{x:Null}"/>
+        </Style>
+
+        <!--<Style x:Key="ConceptoLabel_App" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="Margin" Value="0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        </Style>        
+        <Style x:Key="UnidadLabel_App" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="Wheat"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="ContentStringFormat" Value="{}{0:#,0.#####}"/>
+        </Style>
+        <Style x:Key="TrimestreLabel_App" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="Wheat"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="ContentStringFormat" Value="{}{0}T"/>
+        </Style>-->
+
+        <!--<Style x:Key="MonedaLabel_App" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="Wheat"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="ContentStringFormat" Value="{}{0:c}"/>
+        </Style>
+        <Style x:Key="Moneda4Label_App" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="Wheat"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="ContentStringFormat" Value="{}{0:c4}"/>
+        </Style>-->
+
+        <Style x:Key="MilesLabel" TargetType="{x:Type Label}"
+               BasedOn="{StaticResource MilesLabel_App}">
+            <Setter Property="Content" Value="Mil"/>
+            <Setter Property="Grid.Column" Value="5"/>
+        </Style>
+        <Style x:Key="MillonesLabel" TargetType="{x:Type Label}"
+               BasedOn="{StaticResource MillonesLabel_App}">
+            <Setter Property="Content" Value="Millones"/>
+            <Setter Property="Grid.Column" Value="6"/>
+        </Style>
+        <!--<Style x:Key="MilesLabel" TargetType="{x:Type Label}">
+            <Setter Property="Content" Value="Mil"/>
+            <Setter Property="Grid.Column" Value="5"/>
+
+            <Setter Property="Foreground" Value="Silver"/>
+            <Setter Property="FontWeight" Value="Light"/>
+            <Setter Property="Margin" Value="-7.5,0,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        </Style>
+        <Style x:Key="MillonesLabel" TargetType="{x:Type Label}">
+            <Setter Property="Content" Value="Millones"/>            
+            <Setter Property="Grid.Column" Value="6"/>
+
+            <Setter Property="Foreground" Value="Silver"/>
+            <Setter Property="FontWeight" Value="Light"/>
+            <Setter Property="Margin" Value="-7.5,0,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        </Style>-->
+        <!--<Style x:Key="MilesColumnDefinition_App" TargetType="{x:Type ColumnDefinition}">
+            <Setter Property="Width" Value="0"/>
+            <Setter Property="SharedSizeGroup" Value="Multiplo3"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding SelectedIndex, ElementName=Multiplo_cmb}" Value="1">
+                    <Setter Property="Width" Value="Auto"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="MillonesColumnDefinition_App" TargetType="{x:Type ColumnDefinition}">
+            <Setter Property="Width" Value="0"/>
+            <Setter Property="SharedSizeGroup" Value="Multiplo6"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding SelectedIndex, ElementName=Multiplo_cmb}" Value="2">
+                    <Setter Property="Width" Value="Auto"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>-->
+        
+        <Style x:Key="TextBoxRefTheme" TargetType="{x:Type TextBox}"
+               BasedOn="{StaticResource TextBoxTheme}">
+            <Setter Property="Margin" Value="5,5"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="AutoWordSelection" Value="True"/>
+            <Setter Property="AcceptsReturn" Value="False"/>
+            <Setter Property="MaxHeight" Value="69.94"/>
+            <Setter Property="be:SelectBetweenOnFocusBehavior.Delimiters" Value="[]"/>
+        </Style>
+
+        <Style x:Key="TextBoxDigitTheme" TargetType="{x:Type TextBox}"
+               BasedOn="{StaticResource TextBoxTheme}">
+            <Setter Property="be:DigitsOnlyBehavior.IsDigitOnly" Value="True"/>
+            <Setter Property="be:SelectAllFocusBehavior.Enable" Value="True"/>
+            <Setter Property="Margin" Value="5,5"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="TextAlignment" Value="Right"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="AutoWordSelection" Value="True"/>
+            <Setter Property="MaxWidth" Value="130"/>
+            <Setter Property="MaxHeight" Value="70"/>
+        </Style>
+
+        <!--<Style TargetType="{x:Type Expander}"
+               BasedOn="{StaticResource RevealExpanderStyle}">
+            <Setter Property="Margin" Value="5,5"/>
+            --><!--<Setter Property="IsExpanded" Value="False"/>--><!--
+            <Setter Property="IsExpanded" Value="True"/>
+
+            <Setter Property="Foreground" Value="#FFC5C5C5"/>
+            <Setter Property="FontWeight" Value="Heavy"/>
+            <Setter Property="BorderBrush" Value="#FF151414"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="#FF4A485D"/>
+
+            <Style.Triggers>
+                <Trigger Property="IsExpanded" Value="False">
+                    <Setter Property="KeyboardNavigation.TabNavigation" Value="Once"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>-->
+    </UserControl.Resources>
+
+    <Grid Grid.IsSharedSizeScope="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Reporte Trimestral"
+                       Style="{StaticResource TitleTextBlock}"/>
+
+            <!-- EMPRESA, REPORTE Y MULTIPLO -->
+            <Grid Height="52">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+
+                <ComboBox ItemsSource="{Binding Empresas}" 
+                          SelectedItem="{Binding SelectedEmpresa}"
+                          Grid.Column="0"
+                          ignore:IsDropDownOpen="True"
+                          Style="{StaticResource EmpresaComboBox_App}"/>
+
+                <ComboBox ItemsSource="{Binding SelectedEmpresa.Reportes}" 
+                          SelectedItem="{Binding SelectedReporte}"
+                          Grid.Column="1"
+                          Style="{StaticResource ReporteComboBox_App}"/>
+
+                <ComboBox x:Name="Multiplo_cmb"
+                          Grid.Column="2"
+                          ToolTip="Multiplo {Ctrl+1,2,3}"
+                          ItemsSource="{Binding Multiplos}"
+                          SelectedItem="{Binding SelectedMultiplo}"
+                          Style="{StaticResource MultiploComboBox_App}"/>
+            </Grid>
+
+            <!-- ENCABEZADOS -->
+            <Grid Style="{StaticResource EncabezadoGrid}" Height="50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                    <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                    <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" MaxWidth="130"/>
+                </Grid.ColumnDefinitions>
+                <!--<Label Grid.Column="0"/>-->
+                <!--<Label Grid.Column="1"/>-->
+                <StackPanel Grid.Column="2">
+                    <Label Content="Año Anterior" Style="{StaticResource EncabezadoLabel_App}"/>
+                    <Label Content="{Binding ReporteAA.Fecha}" Style="{StaticResource FechaLabel}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="3" >
+                    <Label Content="Trim. Anterior" Style="{StaticResource EncabezadoLabel_App}"/>
+                    <Label Content="{Binding ReporteTA.Fecha}" Style="{StaticResource FechaLabel}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="4">
+                    <Label Content="Trim. Actual"
+                           Style="{StaticResource EncabezadoLabel_App}">
+                    </Label>
+                    <Grid>
+                        <Label Content="{Binding ReporteActual.Fecha}"
+                               Visibility="{Binding ElementName=SelecFecha_dp, Path=Visibility,
+                                                    Converter={conv:InverseVisibilityConverter}}"
+                               Style="{StaticResource FechaLabel}"/>
+                        <DatePicker x:Name="SelecFecha_dp"
+                                    SelectedDate="{Binding SelectedFecha}"
+                                    Grid.Row="0" Grid.Column="4">
+                            <DatePicker.Visibility>
+                                <MultiBinding Converter="{conv:VisibilityDateMultiConverter}">
+                                    <Binding Path="SelectedEmpresa"/>
+                                    <Binding Path="SelectedReporte"/>
+                                </MultiBinding>
+                            </DatePicker.Visibility>
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectedDateChanged">
+                                    <i:CallMethodAction TargetObject="{Binding}" MethodName="OnViewSelectedDateChanged"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </DatePicker>
+                    </Grid>
+                </StackPanel>
+                <ToggleButton Grid.Column="4"
+                              IsChecked="{Binding IsAnual}"
+                              Visibility="{Binding IsEnabled, RelativeSource={RelativeSource Self}, Converter={StaticResource BooleanToVisibilityConverter}}"
+                              Command="{Binding IsAnualCommand}" ignore:IsEnabled="False"
+                              Style="{StaticResource EncabezadoToggle}" />
+                <ComboBox Grid.Column="7" 
+                          ItemsSource="{Binding SelectedEmpresa.Referencias}" 
+                          SelectedItem="{Binding SelectedReferencia}"
+                          VerticalAlignment="Center" 
+                          Style="{StaticResource ReporteComboBox_App}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                                <TextBlock Text="{Binding ID}"
+                                           Margin="5,0"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button Grid.Column="8" 
+                        Content="Cargar desde..."
+                        Margin="5"
+                        IsEnabled="False"
+                        VerticalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel>
+                <Border Margin="5,5" Padding="5,0,5,0"
+                        CornerRadius="5"
+                        BorderBrush="#FF151414"
+                        BorderThickness="1"
+                        Background="#FF4A485D">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                            <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                            <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--#region ROW 0: Fecha-->
+                        <!--<Label Content="Fecha"                   
+                           Grid.Row="0" Grid.Column="1"
+                           Style="{StaticResource ConceptoLabel_App}"/>
+                        <Label Content="{Binding ReporteAA.Fecha}"
+                           Grid.Row="0" Grid.Column="2"
+                           Style="{StaticResource FechaLabel}"/>
+                        <Label Content="{Binding ReporteTA.Fecha}"
+                           Grid.Row="0" Grid.Column="3"
+                           Style="{StaticResource FechaLabel}"/>
+                        <Label Content="{Binding ReporteActual.Fecha}"
+                           Grid.Row="0" Grid.Column="4"
+                           Style="{StaticResource FechaLabel}"/>
+                        <DatePicker SelectedDate="{Binding SelectedFecha}"
+                                    Grid.Row="0" Grid.Column="4"
+                                    FontWeight="Normal"
+                                    IsTodayHighlighted="True"
+                                    BorderBrush="Transparent"
+                                    Background="{Binding Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Border}}}">
+                            <DatePicker.Visibility>
+                                <MultiBinding Converter="{conv:VisibilityDateMultiConverter}">
+                                    <Binding Path="SelectedEmpresa"/>
+                                    <Binding Path="SelectedReporte"/>
+                                </MultiBinding>
+                            </DatePicker.Visibility>
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectedDateChanged">
+                                    <i:CallMethodAction TargetObject="{Binding}" MethodName="OnViewSelectedDateChanged"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </DatePicker>-->
+                        <!--#endregion-->
+                        
+                        <!--#region ROW 1: Trimestre Natural-->
+                        <Border Grid.Row="1"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Trimestre Natural"
+                           Grid.Row="1" Grid.Column="1"
+                           Style="{StaticResource ConceptoLabel_App}" />
+
+                        <uc:TrimestreLabel Grid.Row="1" Grid.Column="2"
+                                           NumTrimestre="{Binding ReporteAA.TrimestreNatural}"
+                                           Ano="{Binding ReporteAA.Ano}"/>
+                        <uc:TrimestreLabel Grid.Row="1" Grid.Column="3"
+                                           NumTrimestre="{Binding ReporteTA.TrimestreNatural}"
+                                           Ano="{Binding ReporteTA.Ano}"/>
+                        <uc:TrimestreLabel Grid.Row="1" Grid.Column="4"
+                                           NumTrimestre="{Binding ReporteActual.TrimestreNatural}"
+                                           Ano="{Binding ReporteActual.Ano}"/>
+                        <!--#endregion-->
+                        
+                        <!--#region ROW 2: Trimestre Fiscal-->
+                        <Border Grid.Row="2"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Trimestre Fiscal"
+                               Grid.Row="2" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.TrimestreReporte}"
+                               Grid.Row="2" Grid.Column="2"
+                               HorizontalAlignment="Center"
+                               ContentStringFormat="{}{0}T"
+                               Style="{StaticResource UnidadLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.TrimestreReporte}"
+                               Grid.Row="2" Grid.Column="3"
+                               HorizontalAlignment="Center"
+                               ContentStringFormat="{}{0}T"
+                               Style="{StaticResource UnidadLabel_App}"/>
+                        <TextBox x:Name="TrimestreFiscal_txt"
+                                 Text="{Binding ReporteActual.TrimestreReporte,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='#,0.#####',
+                                                UpdateSourceTrigger=PropertyChanged}"
+                                 Grid.Row="2" Grid.Column="4" 
+                                 Style="{StaticResource TextBoxDigitTheme}"/>
+                        <!--#endregion-->
+                        
+                        <!--#region ROW 3: Unidades-->
+                        <Border Grid.Row="3"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Unidades"
+                           Grid.Row="3" Grid.Column="1"
+                           Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.NumUnidades}"
+                           Grid.Row="3" Grid.Column="2" 
+                           Style="{StaticResource UnidadLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.NumUnidades}"
+                           Grid.Row="3" Grid.Column="3" 
+                           Style="{StaticResource UnidadLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.NumUnidades,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='#,0.#####',
+                                                TargetNullValue=''}"
+                                 Grid.Row="3" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.NumUnidades, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.NumUnidades}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <TextBox Text="{Binding SelectedReferencia.NumUnidades}"
+                                 Grid.Row="3" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+                        
+                        <!--#region ROW 4: Unidades del Año Anterior-->
+                        <Border Grid.Row="4"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Unidades del Año Anterior"
+                               Grid.Row="4" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.NumUnidadesAA}"
+                               Grid.Row="4" Grid.Column="2"
+                               Style="{StaticResource UnidadLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.NumUnidadesAA}"
+                               Grid.Row="4" Grid.Column="3" 
+                               Style="{StaticResource UnidadLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.NumUnidadesAA,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='#,0.#####',
+                                                TargetNullValue=''}"
+                                 Grid.Row="4" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ReporteAA.NumUnidades}" Value="0">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.NumUnidades, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.NumUnidades}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <!--#endregion-->
+                    </Grid>
+                </Border>
+
+                <Expander Header="BALANCE GENERAL"
+                          IsExpanded="{Binding Source={x:Static p:Settings.Default}, Path=Exp_SitFinanciera, Mode=TwoWay}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                            <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                            <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--#region ROW 0: Efectivo-->
+                        <Border Grid.Row="0"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Efectivo"
+                               Grid.Row="0" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}"/>
+                        <Label Content="{Binding ReporteAA.Efectivo}"
+                               Grid.Row="0" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.Efectivo}"
+                               Grid.Row="0" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.Efectivo,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="0" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Efectivo}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="0" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="0" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.Efectivo}"
+                                 Grid.Row="0" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 1: Activos Circulantes-->
+                        <Border Grid.Row="1"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Activos Circulantes"
+                               Grid.Row="1" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.ActivosC}"
+                               Grid.Row="1" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.ActivosC}"
+                               Grid.Row="1" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.ActivosC,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="1" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.ActivosC, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.ActivosC}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="1" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="1" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.ActivosC}"
+                                 Grid.Row="1" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 2: Activos Totales-->
+                        <Border Grid.Row="2"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Activos Totales"
+                               Grid.Row="2" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.ActivosT}"
+                               Grid.Row="2" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.ActivosT}"
+                               Grid.Row="2" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.ActivosT,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="2" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.ActivosT}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="2" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="2" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.ActivosT}"
+                                 Grid.Row="2" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 3: Pasivos Ciruclantes-->
+                        <Border Grid.Row="3"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Pasivos Ciruclantes"
+                               Grid.Row="3" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.PasivosC}"
+                               Grid.Row="3" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.PasivosC}"
+                               Grid.Row="3" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.PasivosC,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="3" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.PasivosC, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.PasivosC}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="3" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="3" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.PasivosC}"
+                                 IsTabStop="False"
+                                 Grid.Row="3" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 4: Pasivos Totales-->
+                        <Border Grid.Row="4"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Pasivos Totales"
+                               Grid.Row="4" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.PasivosT}"
+                               Grid.Row="4" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.PasivosT}"
+                               Grid.Row="4" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.PasivosT,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="4" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.PasivosT}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="4" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="4" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.PasivosT}"
+                                 Grid.Row="4" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 5: Capital Contable-->
+                        <Border Grid.Row="5"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Capital Contable"
+                               Grid.Row="5" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.Capital}"
+                               Grid.Row="5" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.Capital}"
+                               Grid.Row="5" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.Capital,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="5" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Capital}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="5" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="5" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.Capital}"
+                                 Grid.Row="5" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 7: Capital Contable del Año Anterior-->
+                        <Border Grid.Row="6"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Cap Contable del Año Ant"
+                               Grid.Row="6" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.CapitalAA}"
+                               Grid.Row="6" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.CapitalAA}"
+                               Grid.Row="6" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.CapitalAA,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="6" Grid.Column="4"
+                                 ignore:IsEnabled="False"
+                                 ignore:Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ReporteAA.Capital}" Value="0">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Capital}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="6" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="6" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 7: Deuda con intereses-->
+                        <Border Grid.Row="7"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Deuda con intereses"
+                               Grid.Row="7" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.Deuda}"
+                               Grid.Row="7" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.Deuda}"
+                               Grid.Row="7" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.Deuda,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="7" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Deuda}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="7" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="7" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.Deuda}"
+                                 Grid.Row="7" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                    </Grid>
+                </Expander>
+
+                <Expander Header="ESTADO DE RESULTADOS"
+                          IsExpanded="{Binding Source={x:Static p:Settings.Default}, Path=Exp_EstResultados, Mode=TwoWay}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                            <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                            <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--#region ROW 0: Ingresos-->
+                        <Border Grid.Row="0"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Ingresos" 
+                               Grid.Row="0" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}"/>
+                        <Label Content="{Binding ReporteAA.Ingresos}"
+                               Grid.Row="0" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <!--<TextBox Text="{Binding ReporteAA.Ingresos, StringFormat={}{0:c}}"
+                               Grid.Row="0" Grid.Column="2"
+                               Style="{StaticResource MonedaTextBox}"/>-->
+                        <Label Content="{Binding ReporteTA.Ingresos}"
+                               Grid.Row="0" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.Ingresos,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="0" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Ingresos}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="0" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="0" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.Ingresos}"
+                                 Grid.Row="0" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 1: Ingresos del Año Anterior-->
+                        <Border Grid.Row="1"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Ingresos del Año Anterior"
+                               Grid.Row="1" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.IngresosAA}"
+                               Grid.Row="1" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}" />
+                        <Label Content="{Binding ReporteTA.IngresosAA}"
+                               Grid.Row="1" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.IngresosAA,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="1" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ReporteAA.Ingresos}" Value="0">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Ingresos}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="1" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="1" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 2: Costo de Ventas-->
+                        <Border Grid.Row="2"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <CheckBox x:Name="CostoVentas_chk"
+                                  ignore:IsChecked="{Binding SelectedReferencia.CostoVentasAuto}"
+                                  Grid.Row="2" Grid.Column="0" Grid.RowSpan="2">
+                            <CheckBox.Style>
+                                <Style TargetType="{x:Type CheckBox}"
+                                       BasedOn="{StaticResource SelectorTheme}">
+                                    <Setter Property="IsChecked" Value="{Binding SelectedReferencia.CostoVentasAuto}"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.UBruta, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsChecked" Value="True"/>
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </CheckBox.Style>
+                        </CheckBox>
+                        <Label Content="Costos de Ventas"
+                               Grid.Row="2" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.CostoVentas}"
+                               Grid.Row="2" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.CostoVentas}"
+                               Grid.Row="2" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActualCostoVentas,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c',
+                                                TargetNullValue=''}"
+                                 Grid.Row="2" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="{Binding IsChecked, ElementName=CostoVentas_chk}"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.UBruta, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UBruta}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="2" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="2" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 3: Utilidad Bruta-->
+                        <Border Grid.Row="3"
+                                Style="{StaticResource BorderRowUtilidad}"/>
+                        <Label Content="Utilidad Bruta"
+                               Grid.Row="3" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.UBruta}"
+                               Grid.Row="3" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.UBruta}"
+                               Grid.Row="3" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.UBruta,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c',
+                                                TargetNullValue=''}"
+                                 Grid.Row="3" Grid.Column="4" >
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="{Binding IsChecked, ElementName=CostoVentas_chk, Converter={conv:InverseBooleanConverter}}"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.UBruta, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UBruta}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <TextBox Text="{Binding SelectedReferencia.UBruta}"
+                                 Grid.Row="2" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <Label Grid.Row="3" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="3" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 4: Gastos Operativos-->
+                        <Border Grid.Row="4"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <CheckBox x:Name="UOperativaDirecto"
+                                  IsChecked="{Binding SelectedReferencia.GastosOpAuto}"
+                                  Grid.Row="4" Grid.Column="0" Grid.RowSpan="2"
+                                  Style="{StaticResource SelectorTheme}">
+                        </CheckBox>
+                        <Label Content="Gastos(+) Operativos y Generales"
+                               Grid.Row="4" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.GastosOp}"
+                               Grid.Row="4" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.GastosOp}"
+                               Grid.Row="4" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActualGastosOp,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="4" Grid.Column="4"
+                                 IsEnabled="{Binding IsChecked, ElementName=UOperativaDirecto}"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UOperativa}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="4" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="4" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 5: Utilidad Operativa-->
+                        <Border Grid.Row="5"
+                                Style="{StaticResource BorderRowUtilidad}"/>
+                        <Label Content="Utilidad Operativa"
+                               Grid.Row="5" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.UOperativa}"
+                               Grid.Row="5" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.UOperativa}"
+                               Grid.Row="5" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.UOperativa,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="5" Grid.Column="4"
+                                 IsEnabled="{Binding IsChecked, ElementName=UOperativaDirecto, Converter={conv:InverseBooleanConverter}}"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UOperativa}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="5" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="5" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.UOperativa}"
+                                 Grid.Row="4" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 6: Gastos/Ingresos Financieros-->
+                        <Border Grid.Row="6"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <CheckBox x:Name="UAImpuestosDirecto"
+                                  IsChecked="{Binding SelectedReferencia.GastosFinAuto}"
+                                  Grid.Row="6" Grid.Column="0" Grid.RowSpan="2"
+                                  Style="{StaticResource SelectorTheme}">
+                        </CheckBox>
+                        <Label Content="Gastos(-) o Ingresos(+) Financieros"
+                               Grid.Row="6" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.GastosFin}"
+                               Grid.Row="6" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.GastosFin}"
+                               Grid.Row="6" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActualGastosFin,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="6" Grid.Column="4"
+                                 IsEnabled="{Binding IsChecked, ElementName=UAImpuestosDirecto}"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UAImpuestos}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="6" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="6" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 7: Utilidad Antes de Impuestos-->
+                        <Border Grid.Row="7"
+                                Style="{StaticResource BorderRowUtilidad}"/>
+                        <Label Content="Utilidad Antes de Impuestos"
+                               Grid.Row="7" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.UAImpuestos}"
+                               Grid.Row="7" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.UAImpuestos}"
+                               Grid.Row="7" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.UAImpuestos,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="7" Grid.Column="4"
+                                 IsEnabled="{Binding IsChecked, ElementName=UAImpuestosDirecto, Converter={conv:InverseBooleanConverter}}"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UAImpuestos}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="7" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="7" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.UAImpuestos}"
+                                 IsTabStop="False"
+                                 Grid.Row="6" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 8: Utilidad Neta-->
+                        <Border Grid.Row="8"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Utilidad Neta"
+                               Grid.Row="8" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.UNeta}"
+                               Grid.Row="8" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.UNeta}"
+                               Grid.Row="8" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.UNeta,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="8" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UNeta}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="8" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="8" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.UNeta}"
+                                 Grid.Row="8" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 9: Utilidad para Accionistas-->
+                        <Border Grid.Row="9"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Utilidad Neta para Accionistas"
+                               Grid.Row="9" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.UAccionistas}"
+                               Grid.Row="9" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.UAccionistas}"
+                               Grid.Row="9" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.UAccionistas,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="9" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UAccionistas}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="9" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="9" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.UAccionistas}"
+                                 IsTabStop="False"
+                                 Grid.Row="9" Grid.Column="7" Grid.RowSpan="2"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 10: Utilidad para accionsitas del año Anterior-->
+                        <Border Grid.Row="10"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Utilidad Neta p/acc del Año Ant"
+                               Grid.Row="10" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.UAccionistasAA}"
+                               Grid.Row="10" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.UAccionistasAA}"
+                               Grid.Row="10" Grid.Column="3" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.UAccionistasAA,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="10" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ReporteAA.UAccionistas}" Value="0">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.UAccionistas}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="10" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="10" Style="{StaticResource MillonesLabel}"/>
+                        <!--#endregion-->
+                    </Grid>
+                </Expander>
+
+                <Expander Header="SOLO PARA FIBRAS"
+                          IsExpanded="{Binding Source={x:Static p:Settings.Default}, Path=Exp_Fibras, Mode=TwoWay}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                            <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                            <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--#region ROW 0: Ingresos de Propiedades-->
+                        <Border Grid.Row="0"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Ingresos de las Propiedades"
+                               Grid.Row="0" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.IngresosProp}"
+                               Grid.Row="0" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.IngresosProp}"
+                               Grid.Row="0" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.IngresosProp,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c',
+                                                TargetNullValue=''}"
+                                 Grid.Row="0" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.IngresosProp, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.IngresosProp}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="0" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="0" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.IngresosProp}"
+                                 Grid.Row="0" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 1: NOI-->
+                        <Border Grid.Row="1"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Ingreso Operativo Neto (NOI)"
+                               Grid.Row="1" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.NOI}"
+                               Grid.Row="1" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.NOI}"
+                               Grid.Row="1" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.NOI,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c',
+                                                TargetNullValue=''}"
+                                 Grid.Row="1" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.NOI, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.NOI}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="1" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="1" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.NOI}"
+                                 IsTabStop="False"
+                                 Grid.Row="1" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 2: FFO-->
+                        <Border Grid.Row="2"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Fondos de Operaciones (FFO)"
+                               Grid.Row="2" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.FFO}"
+                               Grid.Row="2" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.FFO}"
+                               Grid.Row="2" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.FFO,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c',
+                                                TargetNullValue=''}"
+                                 Grid.Row="2" Grid.Column="4" >
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.FFO, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.FFO}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="2" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="2" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.FFO}"
+                                 Grid.Row="2" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 3: AFFO-->
+                        <Border Grid.Row="3"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="FFO Ajustado (AFFO)"
+                               Grid.Row="3" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.AFFO}"
+                               Grid.Row="3" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.AFFO}"
+                               Grid.Row="3" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.AFFO,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c',
+                                                TargetNullValue=''}"
+                                 Grid.Row="3" Grid.Column="4" >
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.AFFO, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.AFFO}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="3" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="3" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.AFFO}"
+                                 Grid.Row="3" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                    </Grid>
+                </Expander>
+
+                <Expander Header="FLUJO DE EFECTIVO"
+                          IsExpanded="{Binding Source={x:Static p:Settings.Default}, Path=Exp_FEfec, Mode=TwoWay}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                            <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                            <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--#region ROW 0: Flujo De Operaciones-->
+                        <Border Grid.Row="0"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Flujo De Operaciones"
+                               Grid.Row="0" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.FlujoOperaciones}"
+                               Grid.Row="0" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.FlujoOperaciones}"
+                               Grid.Row="0" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.FlujoOperaciones,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="0" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.FlujoOperaciones, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.FlujoOperaciones}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="0" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="0" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.FlujoOperaciones}"
+                                 Grid.Row="0" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 1: Flujo de Inversiones-->
+                        <Border Grid.Row="1"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Flujo De Inversiones"
+                               Grid.Row="1" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.FlujoInversiones}"
+                               Grid.Row="1" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.FlujoInversiones}"
+                               Grid.Row="1" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.FlujoInversiones,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="1" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.FlujoInversiones, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.FlujoInversiones}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="1" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="1" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.FlujoInversiones}"
+                                 IsTabStop="False"
+                                 Grid.Row="1" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 2: Flujo De Financiamiento-->
+                        <Border Grid.Row="2"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Flujo De Financiamiento"
+                               Grid.Row="2" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.FlujoFinanciamiento}"
+                               Grid.Row="2" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.FlujoFinanciamiento}"
+                               Grid.Row="2" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.FlujoFinanciamiento,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="2" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.FlujoFinanciamiento, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.FlujoFinanciamiento}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="2" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="2" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.FlujoFinanciamiento}"
+                                 Grid.Row="2" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 3: Efectivo Al Inicio-->
+                        <Border Grid.Row="3"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Efectivo Al Inicio"
+                               Grid.Row="3" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}"/>
+                        <Label Content="{Binding ReporteAA.EfectivoAlInicio}"
+                               Grid.Row="3" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.EfectivoAlInicio}"
+                               Grid.Row="3" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.EfectivoAlInicio,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="3" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="TextBox"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Setter Property="IsEnabled" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ReporteActual.TrimestreReporte}"
+                                                     Value="1">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ReporteTA.EfectivoAlInicio}"
+                                                     Value="0">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.EfectivoAlInicio, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.EfectivoAlInicio}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="3" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="3" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.EfectivoAlInicio}"
+                                 IsTabStop="False"
+                                 Grid.Row="3" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+                        
+                        <!--#region ROW 4: Efectivo Al Final-->
+                        <Border Grid.Row="4"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Efectivo Al Final"
+                               Grid.Row="4" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.EfectivoAlFinal}"
+                               Grid.Row="4" Grid.Column="2"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.EfectivoAlFinal}"
+                               Grid.Row="4" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.EfectivoAlFinal,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="4" Grid.Column="4">
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.EfectivoAlFinal, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.EfectivoAlFinal}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="4" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="4" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.EfectivoAlFinal}"
+                                 IsTabStop="False"
+                                 Grid.Row="4" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+                    </Grid>
+                </Expander>
+
+                <Expander Header="ACCIONES"
+                          IsExpanded="{Binding Source={x:Static p:Settings.Default}, Path=Exp_Acciones, Mode=TwoWay}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Selector"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Concepto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TAA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TA"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="TActual"/>
+                            <ColumnDefinition Style="{StaticResource MilesColumnDefinition_App}"/>
+                            <ColumnDefinition Style="{StaticResource MillonesColumnDefinition_App}"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--#region ROW 0: Acciones en Circulación-->
+                        <Border Grid.Row="0"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Acciones en Circulación"
+                               Grid.Row="0" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}"/>
+                        <Label Content="{Binding ReporteAA.AccionesCir}"
+                               Grid.Row="0" Grid.Column="2"
+                               Style="{StaticResource UnidadLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.AccionesCir}"
+                               Grid.Row="0" Grid.Column="3"
+                               Style="{StaticResource UnidadLabel_App}"/>
+                        <TextBox Text="{Binding ReporteActual.AccionesCir,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='#,0.#####'}"
+                                 Grid.Row="0" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.AccionesCir}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <Label Grid.Row="0" Style="{StaticResource MilesLabel}"/>
+                        <Label Grid.Row="0" Style="{StaticResource MillonesLabel}"/>
+                        <TextBox Text="{Binding SelectedReferencia.AccionesCir}"
+                                 Grid.Row="0" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+
+                        <!--#region ROW 1: Dividendo-->
+                        <Border Grid.Row="1"
+                                Style="{StaticResource BorderRowOdd}"/>
+                        <Label Content="Dividendo"
+                               Grid.Row="1" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.Dividendo}"
+                               Grid.Row="1" Grid.Column="2" 
+                               Style="{StaticResource Moneda4Label_App}"/>
+                        <Label Content="{Binding ReporteTA.Dividendo}"
+                               Grid.Row="1" Grid.Column="3"
+                               Style="{StaticResource Moneda4Label_App}"/>
+                        <TextBox Text="{Binding ReporteActual.Dividendo,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c4',
+                                                TargetNullValue=''}"
+                                 Grid.Row="1" Grid.Column="4">
+                            <!--Style="{StaticResource TextBoxDigitTheme}"-->
+                            <TextBox.Style>
+                                <Style TargetType="{x:Type TextBox}"
+                                       BasedOn="{StaticResource TextBoxDigitTheme}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding SelectedReferencia.Dividendo, Converter={conv:IsReferenciaNAConverter}}"
+                                                     Value="True">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndNextCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindRefCommand}" CommandParameter="{Binding SelectedReferencia.Dividendo}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        <TextBox Text="{Binding SelectedReferencia.Dividendo}"
+                                 Grid.Row="1" Grid.Column="7"
+                                 Style="{StaticResource TextBoxRefTheme}"/>
+                        <!--#endregion-->
+                        
+                        <!--#region ROW 2: Precio de la Accion-->
+                        <Border Grid.Row="2"
+                                Style="{StaticResource BorderRowPair}"/>
+                        <Label Content="Precio de la Accion"
+                               Grid.Row="2" Grid.Column="1"
+                               Style="{StaticResource ConceptoLabel_App}" />
+                        <Label Content="{Binding ReporteAA.Precio}"
+                               Grid.Row="2" Grid.Column="2" 
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <Label Content="{Binding ReporteTA.Precio}"
+                               Grid.Row="2" Grid.Column="3"
+                               Style="{StaticResource MonedaLabel_App}"/>
+                        <TextBox x:Name="Precio_txt"
+                                 Text="{Binding ReporteActual.Precio,
+                                                Converter={conv:CalculatorConverter},
+                                                ConverterParameter='c'}"
+                                 Grid.Row="2" Grid.Column="4"
+                                 Style="{StaticResource TextBoxDigitTheme}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Key="B" Modifiers="Ctrl" Command="{Binding PasteAndCloseCommand}"/>
+                                <KeyBinding Key="F" Modifiers="Ctrl" Command="{Binding FindStockCommand}" CommandParameter="{Binding SelectedReferencia.Dividendo}"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                        
+                        <Label Grid.Row="2" Grid.Column="7"
+                               Margin="8,5,5,5"
+                               IsTabStop="False">
+                            <Hyperlink NavigateUri="{Binding SelectedEmpresa.YahooID}"
+                                       Tag="{Binding ReporteActual.Fecha}"
+                                       RequestNavigate="Hyperlink_RequestNavigate"
+                                       Foreground="#FF1699CB"
+                                       KeyboardNavigation.IsTabStop="False"
+                                       ToolTip="Abre Yahoo finance con el historial de la empresa seleccionada">
+                                Ir a Yahoo Finance
+                            </Hyperlink>
+                        </Label>
+                        <!--<TextBox Text="{Binding SelectedReferencia.Precio}"
+                                 IsTabStop="False"
+                                 Grid.Row="2" Grid.Column="7" 
+                                 Style="{StaticResource TextBoxRefTheme}"/>-->
+                        <!--#endregion-->
+                    </Grid>
+                </Expander>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBox Text="{Binding SelectedEmpresa.Comentarios}"
+                 Grid.Row="2"
+                 Tag="Comentarios"
+                 Style="{StaticResource TextBoxTheme}"
+                 Height="80"
+                 Margin="5"
+                 TextWrapping="Wrap"
+                 AutoWordSelection="True" 
+                 AcceptsReturn="True"
+                 AcceptsTab="True"
+                 VerticalScrollBarVisibility="Auto" 
+                 />
+
+        <StackPanel Grid.Row="3"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding AgregarCommand}"
+                    ToolTip="Agregar Nuevo Reporte {Ctrl+A}"
+                    be:FocusBehavior.ElementToFocus="{Binding ElementName=TrimestreFiscal_txt}">
+                <be:AutoDisableImage Source="Images/AddReport.png"/>
+            </Button>
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding ActualizarCommand}"
+                    ToolTip="Guardar Reporte {Ctrl+G}"
+                    
+                    be:FocusBehavior.ElementToFocus="{Binding  Mode=OneWay, RelativeSource={RelativeSource Self}}">
+                <be:AutoDisableImage Source="Images/UpdateReport.png"/>
+            </Button>
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding EliminarCommand}"
+                    ToolTip="Eliminar Reporte {Ctrl+E}"
+                    be:FocusBehavior.ElementToFocus="{Binding ElementName=TrimestreFiscal_txt}">
+                <be:AutoDisableImage Source="Images/DeleteReport.png"/>
+            </Button>
+            <Button Grid.Column="1"
+                    Height="50"
+                    Margin="5"
+                    HorizontalAlignment="Right"
+                    Command="{Binding LimpiarCommand}"
+                    ToolTip="Limpiar campos {Ctrl+L}"
+                    be:FocusBehavior.ElementToFocus="{Binding ElementName=TrimestreFiscal_txt}">
+                <be:AutoDisableImage Source="Images/Clean.png"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>
