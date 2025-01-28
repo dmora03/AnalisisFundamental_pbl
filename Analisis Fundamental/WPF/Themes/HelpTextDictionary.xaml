@@ -1,0 +1,693 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Style x:Key="PopupTextBlock" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="Regular"/>
+        <Setter Property="MaxWidth" Value="350"/>
+        <!--<Setter Property="TextTrimming" Value="WordEllipsis"/>-->
+        <Setter Property="TextWrapping" Value="Wrap"/>
+    </Style>
+
+    <Style x:Key="FormulaBorder" TargetType="Border">
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="Background" Value="AliceBlue"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="10,0"/>
+        <Setter Property="Margin" Value="0,5,0,0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+    <Style x:Key="RefBorder" TargetType="Border">
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="Background" Value="AntiqueWhite"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="10,0"/>
+        <Setter Property="Margin" Value="0,5"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+
+    <!--
+        <Bold>= xxx =</Bold><LineBreak/>
+        xxx<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">#UnidadesActual - #UnidadesAñoAnterior</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>
+    -->
+
+    <!--#region UNIDADES -->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUnidades">
+        <Bold>= Cantidad de tiendas o unidades que posee la empresa =</Bold><LineBreak/>
+        Indica el tamaño de la empresa, entre más grande sea la empresa, el potencial de crecimiento es menor.<LineBreak/>
+        [Este campo NO APLICA para algunas empresas]
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCrecimientoUnidades">
+        = Diferencia de unidades respecto al año anterior =<LineBreak/>
+        
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">#UnidadesActuales - #UnidadesAñoAnterior</TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCrecimientoPUnidades">
+        <Bold>= Diferencia de unidades respecto al año anterior en porcentaje =</Bold><LineBreak/>
+        Conviene invertir en empresas que puedan crecer más fácilmente, por lo que hay que ver que tan facilmente estas pueden aumentar sus unidades a partir de ahora<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">#UnidadesActuales / #UnidadesAñoAnterior - 1</TextBlock>
+        </Border>
+    </TextBlock>
+    <!--#endregion-->
+    
+    <!--#region ESTADO DE RESULTADOS -->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtIngresos">
+        Facturación (Ventas) de la empresa Total en un año
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtIngUnidad">
+        <Bold>= Ingresos recibidos por cada sucursal o unidad =</Bold><LineBreak/>
+        Esto es util para comparar negocios similares.<LineBreak/>
+        [Este campo NO APLICA para algunas empresas]<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">Ingresos / #Unidades</TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCrecIngP">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Conviene Invertir en empresas que crecen sus Ingresos<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">IngresosActuales / IngresosAñoAnterior - 1</TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCostoVentas">
+        Indica lo que le cuesta a la empresa producir o adquirir el producto.<LineBreak/>
+        [Este campo NO APLICA para empresas de servicio]
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUBruta">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Indica lo que se le saca al producto que se vende<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">Ingresos - CostosVentas</TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtMargenBruto">
+        <Bold>= Primera Metrica de Rentabilidad =</Bold><LineBreak/>
+        Indica lo que se le saca al producto que se vende<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadBruta / Ingresos</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtGastosOp">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Pueden ser Investigación y desarrollo, nómina, renta de inmuebles, publicidad, etc.
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUOperativa">
+        <!--<Bold>= Tambien conocido como Ingreso Operativo Neto (ION o NOI en ingles) =</Bold><LineBreak/>-->
+        Indica lo que se le saca al producto, tomando en cuenta los gastos incurridos para poder vender el producto.<LineBreak/>
+        Tambien conocido como "Ingreso Operativo Neto" ION o en ingles<Bold>=> NOI</Bold><LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadBruta - GastosOperativosYGenerales</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtMargenOp">
+        <Bold>= Segunda Metrica de Rentabilidad =</Bold><LineBreak/>
+        Indica lo que se le saca al producto, tomando en cuenta los gastos incurridos para poder vender el producto<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadOperativa / Ingresos </TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtGastosFin">
+        Son gastos relacionados con fluctuaciones de divisas (+/-), pago de intereses por créditos (-) y/o ingresos por intereses ganados (+).
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUAImpuestos">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Indica la utilidad de la empresa antes de quitarle los impuestos<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadOperativa + GastosIngresosFinancieros</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtImpuestos">
+        Impuestos pagados en el año<LineBreak/>
+        - Positivo (+): Para PAGO de impuestos<LineBreak/>
+        - Negativo (-): Para DEVOLICIÓN de impuestos
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUNeta">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Utilidad Neta despues de impuestos.<LineBreak/>
+        A estas utilidades le falta restar las Operaciones Discontinuas (si aplica) y la parte que le corresponde 
+        a los accionistas privados, que se encuentran en el acta constitutiva de la empresa original<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadAntesImpuestos - Impuestos</TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUAccionistas">
+        <Bold>= Utilidad correspondiente a los Accionistas =</Bold><LineBreak/>
+        Resultado de restar o agregar a la Utilidad Neta lo siguiente:<LineBreak/>
+        -><Underline>Operaciones discontinuas</Underline>: 
+        Existen cuando una empresa vende divisiones o parte de ella y se reportan utilidades.<LineBreak/>
+        -><Underline>Utilidad para Accionistas Privados</Underline>: 
+        O en ingles "Non-Controlling interests", Esta parte se resta a la Utilida Neta ya que le corresponde a los accionistas privados
+        que se encuentran en el acta constitutiva de la empresa original.
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadNeta - OperacionesDiscontinuas - UtilidadAccionistasPrivados</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCrecUtP">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Crecimiento de las Utilidades para los Accionistas de la Bolsa de Valores (Accionistas no privados)<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadParaAccionistas / UtilidadParaAccionistasAñoAnterior - 1</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtMargenNeto">
+        <Bold>= Metrica de Rentabilidad Total =</Bold><LineBreak/>
+        Indica la rentabilidad total del negocio, 
+        a mayor % es más rentable porque el accionista se lleva más dinero por cada venta<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadParaAccionistas / Ingresos</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    <!--#endregion-->
+
+    <!--#region FIBRAS -->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtIngresosProp">
+        Son las rentas que cobraron las propiedades
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtNOI">
+        NOI = Rentas - Gastos de Mantenimiento - Seguros - Predial
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtFFO">
+        <Bold>= Indicador Importante ya que es comparable a la Utilidad de una empresa convencional =</Bold><LineBreak/>
+        FFO = UAFIDA - Deuda<LineBreak/>
+        Deuda es el gasto por el servicio de un prestamo (intereses), aveces suman ganancias por intereses a favor.<LineBreak/>
+        <LineBreak/>
+        UAFIDA = NOI - Gastos Administrativos<LineBreak/>
+        Gatos Administrativos o Corporativos son Sueldos, Prestaciones, Viajes, Capacitaciones, etc.        
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtAFFO">
+        <Bold>= Representa la utilidad de la fibra para repartir entre los dueños de los CBFIs =</Bold><LineBreak/>
+        AFFO = FFO - CAPEX<LineBreak/>
+        CAPEX son las inversiones a capital, mejoras que ayudan a elevar el valor de la propiedad (NO son gatos de mantenimiento).
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtMargenNOI">
+        <!--<Bold>=  =</Bold><LineBreak/>-->
+        Indica el porcentaje de las rentas que quedan despues de descontar los gastos correspondientes<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">NOI / IngresosPropiedades</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtMargenFFO">
+        <!--<Bold>=  =</Bold><LineBreak/>-->
+        Indica el porcentaje de las rentas que quedan despues de descontar los gastos correspondientes<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">FFO / IngresosPropiedades</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtMargenAFFO">
+        <!--<Bold>=  =</Bold><LineBreak/>-->
+        Indica el porcentaje de las rentas que quedan despues de descontar los gastos correspondientes<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">AFFO / IngresosPropiedades</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtNOIAccion">
+        <!--<Bold>=  =</Bold><LineBreak/>-->
+        Es la cantidad de NOI que coresponde a un CBFI<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">NOI / #Acciones</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtFFOAccion">
+        <!--<Bold>=  =</Bold><LineBreak/>-->
+        Es la cantidad de FFO que coresponde a un CBFI<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">FFO / #Acciones</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtAFFOAccion">
+        <!--<Bold>=  =</Bold><LineBreak/>-->
+        Es la cantidad de AFFO que coresponde a un CBFI<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">AFFO / #Acciones</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    <!--#endregion-->
+
+    <!--#region SITUACION FINANCIERA -->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtEfectivo">
+        Dinero del que se puede disponer de forma inmediata.
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtDeuda">
+        Son todos los prestamos de instituciones financieras, de Pasivos Circulantes y Pasivos No Circulantes.
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtActivosC">
+        Es el dinero líquido o dinero que se puede obtener de forma fácil (en menos de 1 año).
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPasivosC">
+        Es la deuda a Corto Plazo que tiene la empresa (Deudas menores a un año).
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtActivosT">
+        Indica todo lo que la empresa tiene.
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPasivosT">
+        Indica todo lo que la empresa Debe (Corto y Largo Plazo).
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCapital">
+        <Bold>= Es el valor de la empresa o Valor en Libros (lo que tienes menos lo que debes) =</Bold><LineBreak/>
+        En algunas ocaciones la formula no aplica, 
+        porque la empresa tiene acciones (parte del capital) como acciones "Privadas" que no cotizan en la bolsa
+        y forman parte de capital privado.<LineBreak/>
+        Algunas empresas no están 100% bursatilizadas,
+        hay cierto capital que no se encuentra en bolsa,
+        es por eso que existen pequeñas variaciones con respecto a la formula<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">ActivosTotales - PasivosTotales</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => <LineBreak/>
+                Fibras  => NAV
+            </TextBlock>
+        </Border>
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCrecCapP">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Indica que tanto creció como negocio o empresa, NO en ventas o utilidades<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">CapitalContableActual / CapitalContableAñoAnterior - 1</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    <!--#endregion-->
+
+    <!--#region SITUACION FINANCIERA CALCULOS-->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtACPC">
+        <Bold>= INDICE DE SOLVENCIA =<LineBreak/>
+            Razón financiera que Indica cuantas veces puedes pagar lo que debes
+        </Bold><LineBreak/>
+        -> Valor menor a 1, la empresa no podrá cubrir sus deudas (a corto plazo) con los activos circulantes.<LineBreak/>
+        -> Valor mayor a 1, brinda mayor seguridad a la empresa y a los inversionistas.<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">ActivosCirculantes / PasivosCirculantes</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtATPT">
+        <Bold>= Indica que tan lejos esta la empresa de fracasar =</Bold><LineBreak/>
+        -> Valor = 1 significa que esta técnicamente quebrada y ya no vale.<LineBreak/>
+        -> Valor &lt; 1 significa que esta quebrada y debe más de lo que tiene.<LineBreak/>
+        Entre mas cercano este una empresa a 1 es peor.
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">ActivosTotales / PasivosTotales</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => <LineBreak/>
+                Fibras  => 1 / LTV(Loan to Value, Razón de Endeudamiento)
+            </TextBlock>
+        </Border>
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPTAT">
+        <Bold>= Apalancamiento o Razón de Endeudamiento (LTV) =</Bold><LineBreak/>
+        <Bold>Indica el % de Activos Totales que se deben</Bold><LineBreak/>
+        -> Valor = %100 significa que debe todo lo que tiene.<LineBreak/>
+        -> Valor > %100 significa que esta quebrada y debe más de lo que tiene.<LineBreak/>        
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">PasivosTotales / ActivosTotales</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => <LineBreak/>
+                Fibras  => LTV(Loan to Value, Razón de Endeudamiento)
+            </TextBlock>
+        </Border>
+    </TextBlock>
+
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPAcido">
+        <Bold>= PRUEBA DEL ACIDO =<LineBreak/>
+            Indica el % de Pasivos Circulantes que se pueden pagar usando solo el efectivo
+        </Bold><LineBreak/>
+        Cash Cow se les dice a las empresas que empiezan a juntar dinero pero no saben que hacer con tanto dinero en efectivo. 
+        Esto no es útil para el inversior ya que estas sólo lo tienen guardado en el banco, 
+        lo que pueden hacer es invertirlo para crecer o repartirlo pagando dividendos.<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">Efectivo / PasivoCirculante</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtEfDeuda">
+        <Bold>= Indica el nivel de endeudamiento con respecto al efectivo =</Bold><LineBreak/>
+        <Bold>= Indica el % de Deuda con intereses que se puede pagar usando solo el efectivo =</Bold><LineBreak/>
+        Sirve para ver en caso de crisis que tanto se puede pagar si no hay ingresos,
+        recuerda que la deuda es de corto y largo plazo, no todo se debe pagar de inmediato<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">Efectivo / DeudaIntereses</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtEfCapital">
+        <Bold>= Indica el % del valor de la empresa que se tiene en Efectivo =</Bold><LineBreak/>
+        Ejemplo: Si es 40%, significa que el 40% de lo que vale la empresa lo tiene en el banco
+        y el otro 60% esta invertido o trabajandose<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">Efectivo / CapitalContable</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtDeudaAT">
+        <Bold>= Indica el % de los Activos que se deben a Instituciones Financieras =</Bold><LineBreak/>
+        Ejemplo: Si es 30%, significa que el 30% de sus Activos los debe a instituciones financieras<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">DeudaIntereses / ActivosTotales</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtDeudaCapital">
+        <Bold>= Indica el % del Capital que se debe a Instituciones Financieras =</Bold><LineBreak/>
+        Se puede ver en que tiene deuda la empresa en el reporte trimestral
+        en el area de DEUDA (deuda con instituciones financieras).<LineBreak/>
+        Ejemplo: Si es 30%, significa que el 30% de lo que vale (su Capital) lo debe a Instituciones Financieras<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">DeudaIntereses / CapitalContable</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => Total Debt/Total Equity<LineBreak/>
+                Fibras  => 
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    <!--#endregion-->
+
+    <!--#region FLUJO DE EFECTIVO -->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtEfInicio">
+        Efectivo al inicio del año fiscal
+    </TextBlock>
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtFOperaciones">
+        Efectivo generado por las operaciones comerciales diarias
+    </TextBlock>
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtFInversiones">
+        Efectivo utilizado para invertir en activos, así como los ingresos de la venta de otros negocios, equipos o activos a largo plazo
+    </TextBlock>
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtFFinanciamiento">
+        Efectivo pagado o recibido de la emisión y préstamo de fondos
+    </TextBlock>
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtEfFinal">
+        Efectivo al final del año fiscal o hasta la fecha actual del reporte
+    </TextBlock>
+    <!--#endregion-->
+
+    <!--#region ACCIONES -->
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtAccCirc">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        - Se puede encontrar en la página de la empresa o en www.bmv.com.mx
+        [Empresas Listadas -> Buscar -> Seleccionas la Empresa -> Estadísticas de Operación -> Acciones en Circulación]<LineBreak/>
+        - Para empresas de Estados Unidos se puede encontrar en ThinkOrSwim
+        [Pestaña de Trade -> All Productos -> Simbolo de la Accion -> Underlying (Expandir esa Area) -> Shares]<LineBreak/>
+        - Tambien se puede encontrar en Yahoo Finance
+        [Buscas la Empresa -> Pestaña Statistics -> Share Statistics -> Shares Outstanding]
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPrecio">
+        Precio de la accion del último día hábil del trimestre
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtCapMerc">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Indica el valor de la empresa en la bolsa y nos ayuda a ver que tan grande es la empresa<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">#Acciones * PrecioAcción</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtUPA">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        <!--xxx<LineBreak/>-->
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">UtilidadParaAccionistas / #Acciones</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => EPS Incl. Extra Items<LineBreak/>
+                Fibras  => 
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPU">
+        <Bold>= RETORNO DE LA INVERSION =<LineBreak/>
+            Principal Indicador para determinar si una accion es cara o barata.
+        </Bold><LineBreak/>
+        Se puede interpretar como el número de años que tardaría en recuperar la inversión,
+        es como si fueran las rentas de una casa<LineBreak/>
+        ~> Se recomienda compararlo con el PU del indice del país de la empresa, 
+        si es Mayor al indice podria indicar que la accion esta cara y 
+        podría ser mejor invertir en el ETF del indice<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">$Acción / UPA</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => P/E Incl. Extra Items<LineBreak/>
+                Fibras  => 
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtValLibro">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Indica cuanto del capital contable es mío por tener una acción<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">CapitalContable / #Acciones</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => Book Value (Per Share)<LineBreak/>
+                Fibras  => NAV-CBFI
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtPVL">
+        <Bold>= Segundo Principal Indicador: Indica cuantas veces pagas la Acción a Valor en LIBROS al adquirir una Acción a Valor MERCADO =</Bold><LineBreak/>
+        Un P/VL bajo nos puede sugerir que la empresa cotiza por debajo de su valor real, 
+        sin embargo también puede indicar que algo esta mal. 
+        Siempre debe ser comparado contra otras acciones similares y en la misma industria.<LineBreak/>
+        Ejemplo: Es como la diferencia del valor de mercado de una casa y el valor catastral.<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">$Acción / LibrosPorAcción</TextBlock>
+        </Border><LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => <LineBreak/>
+                Reuters => Price To Book<LineBreak/>
+                Fibras  => 
+            </TextBlock>
+        </Border>
+    </TextBlock>
+    
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtDividendos">
+        Dividendo que ha pagado por todo un año (Ultimos 12 meses)
+    </TextBlock>
+    <TextBlock  Style="{StaticResource PopupTextBlock}" x:Key="txtRendDividendos">
+        <!--<Bold>= xxx =</Bold><LineBreak/>-->
+        Indica el rendimiento del dividendo en un año (Ultimos 12 meses)<LineBreak/>
+        <Border Style="{StaticResource FormulaBorder}">
+            <TextBlock FontStyle="Oblique">Dividendos / $Accion</TextBlock>
+        </Border><!--<LineBreak/>
+        <Border Style="{StaticResource RefBorder}">
+            <TextBlock>
+                Yahoo   => XXX<LineBreak/>
+                Reuters => YYY<LineBreak/>
+                Fibras  => YYY
+            </TextBlock>
+        </Border>-->
+    </TextBlock>
+    <!--#endregion-->
+</ResourceDictionary>
