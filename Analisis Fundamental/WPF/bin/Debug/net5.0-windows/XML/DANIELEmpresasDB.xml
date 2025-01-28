@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Empresas>
+  <Empresa ID="DIS" Nombre="The Walt Disney Company" Moneda="USD">
+    <Comentarios></Comentarios>
+    <Reportes>
+      <Reporte TrimestreNatural="4" Dia="31" Ano="2020" Mes="12" TrimestreReporte="1" ID="2020_4">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>16249000000</Ingresos>
+        <IngresosAA>20877000000</IngresosAA>
+        <UtilidadBruta>16249000000</UtilidadBruta>
+        <UtilidadOperativa>32352000000</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>46000000</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>18000000</UtilidadNeta>
+        <UtilidadParaAccionistas>17000000</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>2107000000</UtilidadParaAccionistasAA>
+        <Efectivo>17068000000</Efectivo>
+        <Deuda>58275000000</Deuda>
+        <ActivosCirculantes>34874000000</ActivosCirculantes>
+        <PasivosCirculantes>26546000000</PasivosCirculantes>
+        <ActivosTotales>201888000000</ActivosTotales>
+        <PasivosTotales>117817000000</PasivosTotales>
+        <Capital>84071000000</Capital>
+        <CapitalAA>83583000000</CapitalAA>
+        <EfectivoAlInicioDelAno>17954000000</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>75000000</FlujoDeOperaciones>
+        <FlujoDeInversiones>-732000000</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>-333000000</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>17112000000</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>1823000000</AccionesEnCirculacion>
+        <PrecioPorAccion>181.18</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+      <Reporte Dia="31" Ano="2021" Mes="3" TrimestreNatural="1" TrimestreReporte="2" ID="2021_1">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>0</Ingresos>
+        <IngresosAA>0</IngresosAA>
+        <UtilidadBruta>0</UtilidadBruta>
+        <UtilidadOperativa>0</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>0</UtilidadNeta>
+        <UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+        <Efectivo>0</Efectivo>
+        <Deuda>0</Deuda>
+        <ActivosCirculantes>0</ActivosCirculantes>
+        <PasivosCirculantes>0</PasivosCirculantes>
+        <ActivosTotales>0</ActivosTotales>
+        <PasivosTotales>0</PasivosTotales>
+        <Capital>0</Capital>
+        <CapitalAA>0</CapitalAA>
+        <EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>0</FlujoDeOperaciones>
+        <FlujoDeInversiones>0</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>0</AccionesEnCirculacion>
+        <PrecioPorAccion>0</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+      <Reporte Dia="30" Ano="2021" Mes="6" TrimestreNatural="2" TrimestreReporte="3" ID="2021_2">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>0</Ingresos>
+        <IngresosAA>0</IngresosAA>
+        <UtilidadBruta>0</UtilidadBruta>
+        <UtilidadOperativa>0</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>0</UtilidadNeta>
+        <UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+        <Efectivo>0</Efectivo>
+        <Deuda>0</Deuda>
+        <ActivosCirculantes>0</ActivosCirculantes>
+        <PasivosCirculantes>0</PasivosCirculantes>
+        <ActivosTotales>0</ActivosTotales>
+        <PasivosTotales>0</PasivosTotales>
+        <Capital>0</Capital>
+        <CapitalAA>0</CapitalAA>
+        <EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>0</FlujoDeOperaciones>
+        <FlujoDeInversiones>0</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>0</AccionesEnCirculacion>
+        <PrecioPorAccion>0</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+      <Reporte Dia="30" Ano="2021" Mes="9" TrimestreNatural="3" TrimestreReporte="4" ID="2021_3">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>0</Ingresos>
+        <IngresosAA>0</IngresosAA>
+        <UtilidadBruta>0</UtilidadBruta>
+        <UtilidadOperativa>0</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>0</UtilidadNeta>
+        <UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+        <Efectivo>0</Efectivo>
+        <Deuda>0</Deuda>
+        <ActivosCirculantes>0</ActivosCirculantes>
+        <PasivosCirculantes>0</PasivosCirculantes>
+        <ActivosTotales>0</ActivosTotales>
+        <PasivosTotales>0</PasivosTotales>
+        <Capital>0</Capital>
+        <CapitalAA>0</CapitalAA>
+        <EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>0</FlujoDeOperaciones>
+        <FlujoDeInversiones>0</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>0</AccionesEnCirculacion>
+        <PrecioPorAccion>0</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+    </Reportes>
+    <Referencias>
+      <Referencia ID="Regex">
+        <Ingresos>*revenue*</Ingresos>
+        <CostoDeVentasAutocalculado>false</CostoDeVentasAutocalculado>
+        <GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+        <UtilidadOperativa>Costs and expenses*,Restructuring and impairment charges*</UtilidadOperativa>
+        <GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+        <UtilidadAntesDeImpuestos>*taxes*</UtilidadAntesDeImpuestos>
+        <UtilidadParaAccionistas>Net*attributable to*</UtilidadParaAccionistas>
+        <Efectivo>Cash and cash equivalents*</Efectivo>
+        <Deuda>*Borrowing*</Deuda>
+        <ActivosCirculantes>Total current assets*</ActivosCirculantes>
+        <PasivosCirculantes>Total current liabilities*</PasivosCirculantes>
+        <ActivosTotales>TOTAL ASSETS*</ActivosTotales>
+        <Capital>Total*s*equity*</Capital>
+        <AccionesEnCirculacion>Basic*</AccionesEnCirculacion>
+      </Referencia>
+      <Referencia ID="10-Q">
+        <NumeroDeUnidades>~ NO APLICA ~</NumeroDeUnidades>
+        <Ingresos>Total revenues</Ingresos>
+        <CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+        <UtilidadBruta>~ NO APLICA, porque la empresa es de servicios ~</UtilidadBruta>
+        <GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+        <UtilidadOperativa>Costs and expenses + Restructuring and impairment charges</UtilidadOperativa>
+        <GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+        <UtilidadAntesDeImpuestos>Income from continuing operations before income taxes</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>Net income</UtilidadNeta>
+        <UtilidadParaAccionistas>Net income attributable to The Walt Disney Company (Disney)</UtilidadParaAccionistas>
+        <Efectivo>Cash and cash equivalents</Efectivo>
+        <Deuda>Current portion of borrowings + Borrowings</Deuda>
+        <ActivosCirculantes>Total current assets</ActivosCirculantes>
+        <PasivosCirculantes>Total current liabilities</PasivosCirculantes>
+        <ActivosTotales>Total assets </ActivosTotales>
+        <PasivosTotales>~ Calcularlo Manualmente (ActTotales-CapContable) ~</PasivosTotales>
+        <Capital>Total Disney Shareholders??? equity</Capital>
+        <EfectivoAlInicioDelAno>Cash, cash equivalents and restricted cash, beginning of period</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>Cash provided by operations - continuing operations</FlujoDeOperaciones>
+        <FlujoDeInversiones>Cash used in investing activities - continuing operations</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>Cash provided by (used in) financing activities - continuing operations</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>Cash, cash equivalents and restricted cash, end of period</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>Weighted average number of common and common equivalent shares outstanding: Basic</AccionesEnCirculacion>
+        <Dividendo>~ NO REPARTE ~</Dividendo>
+      </Referencia>
+    </Referencias>
+  </Empresa>
+  <Empresa ID="QWE" Nombre="qwe" Moneda="QWE">
+    <Comentarios></Comentarios>
+    <Reportes>
+      <Reporte TrimestreNatural="3" Ano="2022" Mes="8" TrimestreReporte="1" ID="2022_3" Dia="1">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>100</Ingresos>
+        <IngresosAA>0</IngresosAA>
+        <UtilidadBruta>100</UtilidadBruta>
+        <UtilidadOperativa>0</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>0</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>0</UtilidadNeta>
+        <UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+        <Efectivo>0</Efectivo>
+        <Deuda>0</Deuda>
+        <ActivosCirculantes>0</ActivosCirculantes>
+        <PasivosCirculantes>0</PasivosCirculantes>
+        <ActivosTotales>0</ActivosTotales>
+        <PasivosTotales>0</PasivosTotales>
+        <Capital>0</Capital>
+        <CapitalAA>0</CapitalAA>
+        <EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>0</FlujoDeOperaciones>
+        <FlujoDeInversiones>0</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>0</AccionesEnCirculacion>
+        <PrecioPorAccion>0</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+      <Reporte TrimestreNatural="4" Ano="2022" Mes="11" TrimestreReporte="1" ID="2022_4" Dia="1">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>500</Ingresos>
+        <IngresosAA>0</IngresosAA>
+        <UtilidadBruta>300</UtilidadBruta>
+        <UtilidadOperativa>200</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>150</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>0</UtilidadNeta>
+        <UtilidadParaAccionistas>0</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>0</UtilidadParaAccionistasAA>
+        <Efectivo>0</Efectivo>
+        <Deuda>0</Deuda>
+        <ActivosCirculantes>0</ActivosCirculantes>
+        <PasivosCirculantes>0</PasivosCirculantes>
+        <ActivosTotales>0</ActivosTotales>
+        <PasivosTotales>0</PasivosTotales>
+        <Capital>0</Capital>
+        <CapitalAA>0</CapitalAA>
+        <EfectivoAlInicioDelAno>0</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>0</FlujoDeOperaciones>
+        <FlujoDeInversiones>0</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>0</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>0</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>0</AccionesEnCirculacion>
+        <PrecioPorAccion>0</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+    </Reportes>
+    <Referencias>
+      <Referencia ID="Referencia">
+        <CostoDeVentasAutocalculado>false</CostoDeVentasAutocalculado>
+        <GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+        <GastosFinancierosAutocalculado>true</GastosFinancierosAutocalculado>
+      </Referencia>
+    </Referencias>
+  </Empresa>
+  <Empresa ID="BYND" Nombre="BEYOND MEAT" Moneda="USD">
+    <Comentarios></Comentarios>
+    <Reportes>
+      <Reporte Dia="31" Ano="2021" Mes="3" TrimestreNatural="1" TrimestreReporte="1" ID="2021_1">
+        <NumeroDeUnidades>0</NumeroDeUnidades>
+        <NumeroDeUnidadesAA>0</NumeroDeUnidadesAA>
+        <Ingresos>108164000</Ingresos>
+        <IngresosAA>97074000</IngresosAA>
+        <UtilidadBruta>32708000</UtilidadBruta>
+        <UtilidadOperativa>-24645000</UtilidadOperativa>
+        <UtilidadAntesDeImpuestos>-26844000</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>-27266000</UtilidadNeta>
+        <UtilidadParaAccionistas>62941748000</UtilidadParaAccionistas>
+        <UtilidadParaAccionistasAA>65927988000</UtilidadParaAccionistasAA>
+        <Efectivo>1125017000</Efectivo>
+        <Deuda>0</Deuda>
+        <ActivosCirculantes>1324982000</ActivosCirculantes>
+        <PasivosCirculantes>73109000</PasivosCirculantes>
+        <ActivosTotales>1475519000</ActivosTotales>
+        <PasivosTotales>1138363000</PasivosTotales>
+        <Capital>264047000</Capital>
+        <CapitalAA>367097000</CapitalAA>
+        <EfectivoAlInicioDelAno>159127000</EfectivoAlInicioDelAno>
+        <FlujoDeOperaciones>-30657000</FlujoDeOperaciones>
+        <FlujoDeInversiones>-23381000</FlujoDeInversiones>
+        <FlujoDeFinanciamiento>1019913000</FlujoDeFinanciamiento>
+        <EfectivoAlFinalDelAno>1125017000</EfectivoAlFinalDelAno>
+        <AccionesEnCirculacion>63540000</AccionesEnCirculacion>
+        <PrecioPorAccion>130.12</PrecioPorAccion>
+        <Dividendo>0</Dividendo>
+      </Reporte>
+    </Reportes>
+    <Referencias>
+      <Referencia ID="10-Q">
+        <Ingresos>Net revenues </Ingresos>
+        <CostoDeVentasAutocalculado>true</CostoDeVentasAutocalculado>
+        <UtilidadBruta>Cost of goods sold </UtilidadBruta>
+        <GastosOperativosAutocalculado>true</GastosOperativosAutocalculado>
+        <UtilidadOperativa>Total operating expenses</UtilidadOperativa>
+        <GastosFinancierosAutocalculado>false</GastosFinancierosAutocalculado>
+        <UtilidadAntesDeImpuestos>Total operating expenses</UtilidadAntesDeImpuestos>
+        <UtilidadNeta>Net (loss) income</UtilidadNeta>
+        <UtilidadParaAccionistas>Weighted average common shares outstanding—diluted </UtilidadParaAccionistas>
+        <Efectivo>Cash and cash equivalents</Efectivo>
+        <Deuda>Short-term borrowings under revolving credit facility</Deuda>
+        <ActivosCirculantes>Total current assets </ActivosCirculantes>
+        <PasivosCirculantes>Total current liabilities </PasivosCirculantes>
+        <ActivosTotales>Total assets </ActivosTotales>
+        <PasivosTotales>Total long-term liabilities</PasivosTotales>
+        <Capital>Total stockholders’ equity </Capital>
+        <FlujoDeOperaciones>Net cash used in operating activities </FlujoDeOperaciones>
+        <FlujoDeInversiones>Net cash used in investing activities </FlujoDeInversiones>
+        <FlujoDeFinanciamiento>Net cash provided by financing activities</FlujoDeFinanciamiento>
+        <EfectivoAlInicioDelAno>Cash and cash equivalents at the beginning of the period </EfectivoAlInicioDelAno>
+        <EfectivoAlFinalDelAno>Cash and cash equivalents at the end of the period</EfectivoAlFinalDelAno>
+      </Referencia>
+    </Referencias>
+  </Empresa>
+</Empresas>
